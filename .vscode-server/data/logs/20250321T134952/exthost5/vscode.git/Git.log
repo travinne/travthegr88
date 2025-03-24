@@ -1,0 +1,41 @@
+2025-03-21 22:49:50.116 [info] [main] Log level: Info
+2025-03-21 22:49:50.116 [info] [main] Validating found git in: "git"
+2025-03-21 22:49:50.116 [info] [main] Using git "2.43.0" from "git"
+2025-03-21 22:49:50.116 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-21 22:49:50.116 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-21 22:49:50.116 [info] > git rev-parse --git-dir --git-common-dir [51ms]
+2025-03-21 22:49:50.116 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-1/phase-0-the-dom-editing-lab
+2025-03-21 22:49:50.116 [info] > git rev-parse --show-toplevel [4ms]
+2025-03-21 22:49:50.116 [info] > git config --get commit.template [8ms]
+2025-03-21 22:49:50.122 [info] > git rev-parse --show-toplevel [6ms]
+2025-03-21 22:49:50.125 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-21 22:49:50.231 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [112ms]
+2025-03-21 22:49:50.280 [info] > git status -z -uall [9ms]
+2025-03-21 22:49:50.312 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+2025-03-21 22:49:50.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-03-21 22:49:50.372 [info] > git config --get --local branch.master.vscode-merge-base [43ms]
+2025-03-21 22:49:50.376 [info] > git config --get commit.template [49ms]
+2025-03-21 22:49:50.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2025-03-21 22:49:50.389 [info] > git merge-base refs/heads/master refs/remotes/origin/master [8ms]
+2025-03-21 22:49:50.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-03-21 22:49:50.443 [info] > git diff --name-status -z --diff-filter=ADMR 0447e974573876171ab4f870de08069eef78924d...refs/remotes/origin/master [52ms]
+2025-03-21 22:49:50.474 [info] > git status -z -uall [5ms]
+2025-03-21 22:49:50.475 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-03-21 22:49:50.539 [info] > git show --textconv :index.html [53ms]
+2025-03-21 22:49:50.539 [info] > git ls-files --stage -- index.html [49ms]
+2025-03-21 22:49:50.545 [info] > git cat-file -s 43eecdac9a61bfc6ea25d0cce4fb54cc62bdf290 [3ms]
+2025-03-21 22:49:50.615 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-21 22:49:50.628 [info] > git blame --root --incremental 0447e974573876171ab4f870de08069eef78924d -- index.html [4ms]
+2025-03-21 22:49:50.805 [info] > git config --get --local branch.master.github-pr-owner-number [1ms]
+2025-03-21 22:49:50.805 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-21 22:49:51.347 [info] > git ls-files --stage -- index.html [1ms]
+2025-03-21 22:49:51.349 [info] > git cat-file -s 43eecdac9a61bfc6ea25d0cce4fb54cc62bdf290 [1ms]
+2025-03-21 22:49:51.397 [info] > git show --textconv :index.html [2ms]
+2025-03-21 22:49:57.375 [info] > git fetch [7281ms]
+2025-03-21 22:49:57.384 [info] > git config --get commit.template [4ms]
+2025-03-21 22:49:57.385 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-21 22:49:57.392 [info] > git status -z -uall [3ms]
+2025-03-21 22:49:57.392 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-21 22:49:58.008 [info] > git ls-files --stage -- index.html [1ms]
+2025-03-21 22:49:58.010 [info] > git cat-file -s 43eecdac9a61bfc6ea25d0cce4fb54cc62bdf290 [0ms]
+2025-03-21 22:49:58.020 [info] > git show --textconv :index.html [2ms]

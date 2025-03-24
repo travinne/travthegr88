@@ -1,0 +1,49 @@
+2025-03-19 22:32:24.540 [info] [main] Log level: Info
+2025-03-19 22:32:24.540 [info] [main] Validating found git in: "git"
+2025-03-19 22:32:24.540 [info] [main] Using git "2.43.0" from "git"
+2025-03-19 22:32:24.540 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-19 22:32:24.540 [info] > git rev-parse --show-toplevel [7ms]
+2025-03-19 22:32:24.540 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2025-03-19 22:32:24.540 [info] [Model][openRepository] Opened repository: /home/travthegr88/mkadi/test/interactive_shopping_list
+2025-03-19 22:32:24.613 [info] > git rev-parse --show-toplevel [240ms]
+2025-03-19 22:32:24.614 [info] > git config --get commit.template [245ms]
+2025-03-19 22:32:24.639 [info] > git rev-parse --show-toplevel [9ms]
+2025-03-19 22:32:24.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-03-19 22:32:24.650 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/mkadi/test/interactive_shopping_list/.git/refs/remotes/origin/main'
+2025-03-19 22:32:24.655 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-03-19 22:32:24.665 [info] > git rev-parse --show-toplevel [20ms]
+2025-03-19 22:32:24.673 [info] > git status -z -uall [12ms]
+2025-03-19 22:32:24.681 [info] > git rev-parse --show-toplevel [10ms]
+2025-03-19 22:32:24.683 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-19 22:32:24.698 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [32ms]
+2025-03-19 22:32:24.747 [info] > git show --textconv :script/app.js [59ms]
+2025-03-19 22:32:24.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2025-03-19 22:32:24.752 [info] > git ls-files --stage -- script/app.js [58ms]
+2025-03-19 22:32:24.783 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [27ms]
+2025-03-19 22:32:24.783 [info] > git config --get --local branch.main.vscode-merge-base [31ms]
+2025-03-19 22:32:24.787 [info] > git config --get commit.template [59ms]
+2025-03-19 22:32:24.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-03-19 22:32:24.796 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-03-19 22:32:24.811 [info] > git diff --name-status -z --diff-filter=ADMR 355b7df09972c51e0f21145158cb469a1945309c...refs/remotes/origin/main [6ms]
+2025-03-19 22:32:24.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-03-19 22:32:24.815 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/mkadi/test/interactive_shopping_list/.git/refs/remotes/origin/main'
+2025-03-19 22:32:24.819 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-03-19 22:32:24.868 [info] > git status -z -uall [46ms]
+2025-03-19 22:32:24.933 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [106ms]
+2025-03-19 22:32:25.095 [info] > git check-ignore -v -z --stdin [10ms]
+2025-03-19 22:32:25.110 [info] > git blame --root --incremental 355b7df09972c51e0f21145158cb469a1945309c -- script/app.js [8ms]
+2025-03-19 22:32:25.348 [info] > git config --get --local branch.main.github-pr-owner-number [0ms]
+2025-03-19 22:32:25.348 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-19 22:32:25.675 [info] > git ls-files --stage -- script/app.js [1ms]
+2025-03-19 22:32:25.678 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2025-03-19 22:32:25.711 [info] > git show --textconv :script/app.js [1ms]
+2025-03-19 22:32:31.390 [info] > git fetch [7028ms]
+2025-03-19 22:32:31.395 [info] > git config --get commit.template [1ms]
+2025-03-19 22:32:31.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-03-19 22:32:31.401 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/mkadi/test/interactive_shopping_list/.git/refs/remotes/origin/main'
+2025-03-19 22:32:31.402 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-03-19 22:32:31.407 [info] > git status -z -uall [3ms]
+2025-03-19 22:32:31.407 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-19 22:32:32.016 [info] > git ls-files --stage -- script/app.js [1ms]
+2025-03-19 22:32:32.019 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [0ms]
+2025-03-19 22:32:32.029 [info] > git show --textconv :script/app.js [1ms]

@@ -1,0 +1,134 @@
+2025-03-21 13:49:52.976 [info] 
+
+
+
+
+2025-03-21 13:49:53.010 [info] Extension host agent started.
+2025-03-21 13:49:53.485 [info] [127.0.0.1][03acf427][ManagementConnection] New connection established.
+2025-03-21 13:49:53.489 [info] [127.0.0.1][0714f6b6][ExtensionHostConnection] New connection established.
+2025-03-21 13:49:54.106 [info] [127.0.0.1][0714f6b6][ExtensionHostConnection] <563495> Launched Extension Host Process.
+2025-03-21 13:49:55.356 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-21 13:49:58.669 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-21 13:50:24.341 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/travthegr88/.vscode-server/data/logs/20250310T125227/exthost2/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/travthegr88)
+2025-03-21 13:50:24.343 [error] [File Watcher (universal)] inotify_add_watch on '/home/travthegr88/.vscode-server/data/logs/20250310T125227/exthost2/vscode.github' failed: No such file or directory
+2025-03-21 13:51:01.170 [info] [127.0.0.1][0714f6b6][ExtensionHostConnection] <563495> [0mGET /favicon.ico [33m404[0m 3.015 ms - 150[0m
+
+2025-03-21 15:55:16.194 [info] [127.0.0.1][03acf427][ManagementConnection] The client has reconnected.
+2025-03-21 15:55:16.202 [info] [127.0.0.1][0714f6b6][ExtensionHostConnection] The client has reconnected.
+2025-03-21 16:05:57.504 [info] [127.0.0.1][b1e8d9e1][ManagementConnection] New connection established.
+2025-03-21 16:05:57.794 [info] [127.0.0.1][b55117f2][ExtensionHostConnection] New connection established.
+2025-03-21 16:05:57.799 [info] [127.0.0.1][b55117f2][ExtensionHostConnection] <576117> Launched Extension Host Process.
+2025-03-21 16:17:44.276 [info] [127.0.0.1][0714f6b6][ExtensionHostConnection] The client has reconnected.
+2025-03-21 16:17:44.446 [info] [127.0.0.1][03acf427][ManagementConnection] The client has reconnected.
+2025-03-21 17:56:38.979 [info] [127.0.0.1][b55117f2][ExtensionHostConnection] The client has reconnected.
+2025-03-21 17:56:39.128 [info] [127.0.0.1][b1e8d9e1][ManagementConnection] The client has reconnected.
+2025-03-21 19:19:18.852 [info] [127.0.0.1][7532f87a][ManagementConnection] New connection established.
+2025-03-21 19:19:19.293 [info] [127.0.0.1][96cfcbe6][ExtensionHostConnection] New connection established.
+2025-03-21 19:19:19.296 [info] [127.0.0.1][96cfcbe6][ExtensionHostConnection] <611148> Launched Extension Host Process.
+2025-03-21 19:19:25.888 [info] [127.0.0.1][b1e8d9e1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-21 19:19:26.221 [info] [127.0.0.1][b55117f2][ExtensionHostConnection] <576117> Extension Host Process exited with code: 0, signal: null.
+2025-03-21 19:19:54.652 [info] [127.0.0.1][03acf427][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-21 19:19:54.940 [info] [127.0.0.1][0714f6b6][ExtensionHostConnection] <563495> Extension Host Process exited with code: 0, signal: null.
+2025-03-21 19:45:31.381 [info] [127.0.0.1][96cfcbe6][ExtensionHostConnection] <611148> [0mGET /ind [33m404[0m 4.152 ms - 142[0m
+
+2025-03-21 20:22:36.237 [info] [127.0.0.1][7532f87a][ManagementConnection] The client has reconnected.
+2025-03-21 20:26:56.343 [info] [127.0.0.1][96cfcbe6][ExtensionHostConnection] The client has reconnected.
+2025-03-21 20:50:24.643 [info] [127.0.0.1][7532f87a][ManagementConnection] The client has reconnected.
+2025-03-21 21:08:17.900 [info] [127.0.0.1][96cfcbe6][ExtensionHostConnection] The client has reconnected.
+2025-03-21 21:09:51.052 [info] [127.0.0.1][7532f87a][ManagementConnection] The client has reconnected.
+2025-03-21 21:15:05.172 [info] [127.0.0.1][96cfcbe6][ExtensionHostConnection] The client has reconnected.
+2025-03-21 21:15:10.387 [info] [127.0.0.1][7532f87a][ManagementConnection] The client has reconnected.
+2025-03-21 22:46:06.924 [info] [127.0.0.1][96cfcbe6][ExtensionHostConnection] The client has reconnected.
+2025-03-21 22:49:40.983 [info] [127.0.0.1][7532f87a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-21 22:49:41.249 [info] [127.0.0.1][96cfcbe6][ExtensionHostConnection] <611148> Extension Host Process exited with code: 0, signal: null.
+2025-03-21 22:49:42.861 [info] [127.0.0.1][3438a9fb][ManagementConnection] New connection established.
+2025-03-21 22:49:43.072 [info] [127.0.0.1][ee98d299][ExtensionHostConnection] New connection established.
+2025-03-21 22:49:43.086 [info] [127.0.0.1][ee98d299][ExtensionHostConnection] <629783> Launched Extension Host Process.
+2025-03-21 22:49:44.045 [error] #6: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-03-21 22:49:46.477 [info] [127.0.0.1][3438a9fb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-21 22:49:48.016 [info] [127.0.0.1][1442d39c][ManagementConnection] New connection established.
+2025-03-21 22:49:48.238 [info] [127.0.0.1][9034d2fa][ExtensionHostConnection] New connection established.
+2025-03-21 22:49:48.242 [info] [127.0.0.1][9034d2fa][ExtensionHostConnection] <630216> Launched Extension Host Process.
+2025-03-21 22:50:00.785 [info] [127.0.0.1][1442d39c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-21 22:50:00.951 [info] [127.0.0.1][9034d2fa][ExtensionHostConnection] <630216> Extension Host Process exited with code: 0, signal: null.
+2025-03-21 22:50:01.600 [info] [127.0.0.1][55f4f844][ManagementConnection] New connection established.
+2025-03-21 22:50:01.797 [info] [127.0.0.1][ed79a6e5][ExtensionHostConnection] New connection established.
+2025-03-21 22:50:01.800 [info] [127.0.0.1][ed79a6e5][ExtensionHostConnection] <630649> Launched Extension Host Process.
+2025-03-21 22:54:44.754 [info] [127.0.0.1][ee98d299][ExtensionHostConnection] <629783> Extension Host Process exited with code: 0, signal: null.
+2025-03-21 23:50:54.209 [info] [127.0.0.1][55f4f844][ManagementConnection] The client has reconnected.
+2025-03-22 00:00:46.328 [info] [127.0.0.1][ed79a6e5][ExtensionHostConnection] The client has reconnected.
+2025-03-22 00:03:43.287 [info] [127.0.0.1][ed79a6e5][ExtensionHostConnection] The client has reconnected.
+2025-03-22 00:03:43.439 [info] [127.0.0.1][55f4f844][ManagementConnection] The client has reconnected.
+2025-03-22 11:29:25.647 [info] [127.0.0.1][55f4f844][ManagementConnection] The client has reconnected.
+2025-03-22 11:29:25.893 [info] [127.0.0.1][ed79a6e5][ExtensionHostConnection] The client has reconnected.
+2025-03-22 11:44:06.749 [info] [127.0.0.1][55f4f844][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-22 11:44:07.062 [info] [127.0.0.1][ed79a6e5][ExtensionHostConnection] <630649> Extension Host Process exited with code: 0, signal: null.
+2025-03-22 11:44:08.733 [info] [127.0.0.1][980089a0][ManagementConnection] New connection established.
+2025-03-22 11:44:08.936 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] New connection established.
+2025-03-22 11:44:08.943 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] <646335> Launched Extension Host Process.
+2025-03-22 12:29:47.379 [info] Getting Manifest... github.classroom
+2025-03-22 12:29:47.622 [info] Installing extension: github.classroom {"context":{"extensionInstallSource":"command","clientTargetPlatform":"win32-x64"},"justification":{"reason":"This extension wants to open a URI:\nvscode://github.classroom/assignment?id%3D952975764","action":"Open URI"},"enable":true,"isMachineScoped":false,"pinned":false,"donotVerifySignature":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/travthegr88/.vscode-server/extensions/extensions.json","external":"file:///home/travthegr88/.vscode-server/extensions/extensions.json","path":"/home/travthegr88/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-22 12:29:49.670 [info] Getting Manifest... github.vscode-pull-request-github
+2025-03-22 12:29:50.132 [info] Getting Manifest... ms-vsliveshare.vsliveshare
+2025-03-22 12:29:50.506 [info] Installing extension: ms-vsliveshare.vsliveshare {"context":{"extensionInstallSource":"command","clientTargetPlatform":"win32-x64","dependecyOrPackExtensionInstall":true},"justification":{"reason":"This extension wants to open a URI:\nvscode://github.classroom/assignment?id%3D952975764","action":"Open URI"},"enable":true,"isMachineScoped":false,"pinned":false,"donotVerifySignature":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/travthegr88/.vscode-server/extensions/extensions.json","external":"file:///home/travthegr88/.vscode-server/extensions/extensions.json","path":"/home/travthegr88/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-22 12:29:52.583 [error] #18: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-22 12:29:54.450 [info] Extension signature verification result for github.classroom: Success. Internal Code: 0. Executed: true. Duration: 1025ms.
+2025-03-22 12:29:54.724 [info] Extracted extension to file:///home/travthegr88/.vscode-server/extensions/github.classroom-0.0.4: github.classroom
+2025-03-22 12:29:54.737 [info] Renamed to /home/travthegr88/.vscode-server/extensions/github.classroom-0.0.4
+2025-03-22 12:29:55.476 [error] #19: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-22 12:30:03.765 [info] Extension signature verification result for ms-vsliveshare.vsliveshare: Success. Internal Code: 0. Executed: true. Duration: 1816ms.
+2025-03-22 12:30:05.128 [info] Extracted extension to file:///home/travthegr88/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948: ms-vsliveshare.vsliveshare
+2025-03-22 12:30:05.191 [info] Renamed to /home/travthegr88/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5948
+2025-03-22 12:30:05.225 [info] Extension installed successfully: github.classroom file:///home/travthegr88/.vscode-server/extensions/extensions.json
+2025-03-22 12:30:05.226 [info] Extension installed successfully: ms-vsliveshare.vsliveshare file:///home/travthegr88/.vscode-server/extensions/extensions.json
+2025-03-22 12:30:06.936 [error] #21: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-22 12:30:10.638 [error] #22: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-22 12:33:53.288 [info] [127.0.0.1][975ed892][ManagementConnection] New connection established.
+2025-03-22 12:33:53.632 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] New connection established.
+2025-03-22 12:33:53.648 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] <655907> Launched Extension Host Process.
+2025-03-22 13:00:15.484 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-22 13:00:15.795 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-22 13:00:16.067 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-22 13:00:16.406 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-22 19:52:14.618 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-22 19:52:15.636 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-22 19:52:15.847 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-22 22:09:08.516 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-22 23:28:06.896 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-22 23:28:07.134 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-22 23:28:07.314 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-22 23:28:11.658 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 01:04:44.760 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 01:04:45.018 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 13:11:06.827 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 13:11:07.001 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-23 13:36:17.602 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 13:36:17.813 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 14:06:26.091 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 14:06:26.416 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 14:06:29.455 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-23 14:06:29.629 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 14:12:40.761 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 14:12:40.970 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 14:12:45.110 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-23 14:12:45.208 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 14:15:40.929 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 14:15:41.014 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 14:15:44.787 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-23 14:15:44.896 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 14:16:50.541 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 16:07:46.225 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 16:07:46.342 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-23 16:07:46.464 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 16:10:32.498 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 20:18:02.997 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-23 20:18:03.199 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 20:18:03.362 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 20:53:24.779 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 20:53:24.971 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.
+2025-03-23 20:53:25.155 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 20:53:25.383 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 21:02:40.712 [info] [127.0.0.1][975ed892][ManagementConnection] The client has reconnected.
+2025-03-23 21:02:40.939 [info] [127.0.0.1][980089a0][ManagementConnection] The client has reconnected.
+2025-03-23 21:02:41.209 [info] [127.0.0.1][970d7e35][ExtensionHostConnection] The client has reconnected.
+2025-03-23 21:02:41.377 [info] [127.0.0.1][42422fdf][ExtensionHostConnection] The client has reconnected.

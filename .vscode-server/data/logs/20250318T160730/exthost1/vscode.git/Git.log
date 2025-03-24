@@ -1,0 +1,37 @@
+2025-03-18 16:07:33.737 [info] [main] Log level: Info
+2025-03-18 16:07:33.737 [info] [main] Validating found git in: "git"
+2025-03-18 16:07:33.737 [info] [main] Using git "2.43.0" from "git"
+2025-03-18 16:07:33.737 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-18 16:07:33.737 [info] > git rev-parse --show-toplevel [136ms]
+2025-03-18 16:07:33.957 [info] > git rev-parse --git-dir --git-common-dir [216ms]
+2025-03-18 16:07:33.965 [info] [Model][openRepository] Opened repository: /home/travthegr88
+2025-03-18 16:07:33.983 [info] > git rev-parse --show-toplevel [6ms]
+2025-03-18 16:07:33.990 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-18 16:07:33.991 [info] > git config --get commit.template [18ms]
+2025-03-18 16:07:34.063 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-18 16:07:34.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2025-03-18 16:07:34.093 [warning] [Git][getBranch] No such branch: master
+2025-03-18 16:07:34.110 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-03-18 16:07:34.416 [info] > git show --textconv :development/code/phase-1/json-server/db.json [10ms]
+2025-03-18 16:07:34.416 [info] > git ls-files --stage -- development/code/phase-1/json-server/db.json [2ms]
+2025-03-18 16:07:34.461 [info] > git hash-object -t tree /dev/null [37ms]
+2025-03-18 16:07:34.462 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/development/code/phase-1/json-server/db.json.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fdevelopment%2Fcode%2Fphase-1%2Fjson-server%2Fdb.json%22%2C%22ref%22%3A%22%22%7D
+2025-03-18 16:07:34.470 [info] > git config --get --local branch.master.github-pr-owner-number [9ms]
+2025-03-18 16:07:34.470 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-18 16:07:34.477 [info] > git hash-object -t tree /dev/null [47ms]
+2025-03-18 16:07:34.477 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/development/code/phase-1/json-server/db.json.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fdevelopment%2Fcode%2Fphase-1%2Fjson-server%2Fdb.json%22%2C%22ref%22%3A%22%22%7D
+2025-03-18 16:07:34.480 [info] > git config --get --local branch.master.remote [3ms]
+2025-03-18 16:07:34.481 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-18 16:07:34.498 [info] > git config --get --local branch.master.merge [8ms]
+2025-03-18 16:07:34.498 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-18 16:07:34.583 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-18 16:07:37.552 [info] > git status -z -uall [3455ms] (cancelled)
+2025-03-18 16:07:37.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-03-18 16:07:37.556 [warning] [Git][getBranch] No such branch: master
+2025-03-18 16:07:37.557 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-03-18 16:07:37.558 [info] > git config --get commit.template [4ms]
+2025-03-18 16:07:37.558 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-18 16:07:37.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-18 16:07:37.562 [warning] [Git][getBranch] No such branch: master
+2025-03-18 16:07:37.571 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-18 16:07:38.511 [info] > git status -z -uall [945ms] (cancelled)

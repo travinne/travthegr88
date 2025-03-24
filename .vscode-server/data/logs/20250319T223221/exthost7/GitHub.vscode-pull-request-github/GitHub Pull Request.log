@@ -1,0 +1,35 @@
+2025-03-21 13:32:07.241 [warning] /home/travthegr88/.ssh/config: ENOENT: no such file or directory, open '/home/travthegr88/.ssh/config'
+2025-03-21 13:32:07.241 [info] [Activation] Extension version: 0.106.0
+2025-03-21 13:32:07.371 [info] [Activation] Looking for git repository
+2025-03-21 13:32:07.371 [info] [Activation] Found 0 repositories during activation
+2025-03-21 13:32:07.371 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-03-21 13:32:07.375 [info] [GitAPI] Registering git provider
+2025-03-21 13:32:07.375 [info] [Review+0] Validate state in progress
+2025-03-21 13:32:07.375 [info] [Review+0] Validating state...
+2025-03-21 13:32:07.407 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/development/code/phase-1/phase-0-the-dom-editing-lab
+2025-03-21 13:32:07.471 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-1/phase-0-the-dom-editing-lab changed.
+2025-03-21 13:32:07.471 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-1/phase-0-the-dom-editing-lab has already been setup.
+2025-03-21 13:32:08.124 [info] [Review+0] Queuing additional validate state
+2025-03-21 13:32:08.128 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-21 13:32:08.128 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-03-21 13:32:08.130 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/development/code/phase-1/phase-0-the-dom-editing-lab
+2025-03-21 13:32:08.276 [info] [Review+0] Validating state...
+2025-03-21 13:32:08.885 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-03-21 13:32:09.015 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/development/code/phase-1/phase-0-the-dom-editing-lab
+2025-03-21 13:32:09.016 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-03-21 13:32:09.019 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-21 13:32:09.052 [info] [FolderRepositoryManager+0] No globalState for assignableUsers.
+2025-03-21 13:32:09.101 [info] [FolderRepositoryManager+0] No globalState for assignableUsers.
+2025-03-21 13:32:09.982 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-03-21 13:44:54.489 [info] [Review+0] Validate state in progress
+2025-03-21 13:44:54.490 [info] [Review+0] Validating state...
+2025-03-21 13:44:54.619 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/development/code/phase-1/phase-0-the-dom-editing-lab
+2025-03-21 13:44:54.620 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-03-21 13:44:54.626 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-21 13:44:54.842 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-03-21 13:45:04.403 [info] [Review+0] Validate state in progress
+2025-03-21 13:45:04.403 [info] [Review+0] Validating state...
+2025-03-21 13:45:04.411 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/development/code/phase-1/phase-0-the-dom-editing-lab
+2025-03-21 13:45:04.411 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-03-21 13:45:04.416 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-21 13:45:05.308 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master

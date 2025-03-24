@@ -1,0 +1,43 @@
+2025-03-12 13:00:24.728 [info] Extension host with pid 1123 started
+2025-03-12 13:00:24.728 [error] Error: EEXIST: file already exists, open '/home/travthegr88/.vscode-server/data/User/workspaceStorage/d9ff839e857013c8178981361c5ae186/vscode.lock'
+2025-03-12 13:00:24.744 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/d9ff839e857013c8178981361c5ae186/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-03-12 13:00:24.768 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/d9ff839e857013c8178981361c5ae186/vscode.lock': The lock looks stale, waiting for 2s.
+2025-03-12 13:00:25.501 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-12 13:00:26.506 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-12 13:00:26.524 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-03-12 13:00:26.770 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/d9ff839e857013c8178981361c5ae186/vscode.lock': The lock looks stale even after waiting for 2s.
+2025-03-12 13:00:26.770 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/d9ff839e857013c8178981361c5ae186/vscode.lock': Deleting a stale lock.
+2025-03-12 13:00:26.777 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/d9ff839e857013c8178981361c5ae186/vscode.lock': Lock acquired.
+2025-03-12 13:00:26.811 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-12 13:00:26.812 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-12 13:00:27.144 [info] Eager extensions activated
+2025-03-12 13:00:27.145 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:27.145 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:27.146 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:27.146 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:27.146 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:27.613 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:29.667 [error] HttpError: request to https://api.github.com/repos/travinne/phase-1-destructuring-assignment failed, reason: 
+	at /home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2188:6563
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kg.execute (/home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2135:18777)
+2025-03-12 13:00:30.672 [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+	at JSON.stringify (<anonymous>)
+	at dE (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:29:155568)
+	at ti.serializeRequestArguments (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:29:163551)
+	at qy.U (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:29:159791)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:29:157133)
+	at file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:117:679
+	at file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:7:96
+	at Array.forEach (<anonymous>)
+	at MP.c (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:7:84)
+	at MP.onUnexpectedError (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:7:259)
+	at mt (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:7:546)
+	at file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:190:14329
+2025-03-12 13:00:32.308 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-03-12 13:00:32.308 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-03-12 13:00:32.309 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-03-12 15:18:55.225 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'

@@ -1,0 +1,56 @@
+
+.gains{
+
+}
+
+
+
+
+nav{
+    background-color: gray;
+    padding: 8px 15px;
+    display: flex;
+}
+header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+}
+nav:hover{color: red;}
+
+ 
+ 
+ 
+ .me{
+    background-image: url(../images/Screenshots/myimage.png);
+    height:540px;
+    font-family: "Montse?rrat", sans-serif;
+    padding: 50PX;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+*{background-color:blanchedalmond;}
+
+.container{
+    display: flex;
+    padding: 30px 0px;
+    gap: 32px;
+    width: 85%;
+    margin: 
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+.box{  display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+
+}

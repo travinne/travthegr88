@@ -1,0 +1,28 @@
+const person ={
+    firstNAme : 'john',
+    Gender :'male',
+    ocupation : 'software engineer',
+    address : {
+        city : 'Nairobi',
+        zipcode :'00100'
+    },
+    age : 40,
+    language: function(){console.log('I speak french')},
+    friends : ['Alice','Benson','Phillip']
+
+}
+//console.log(person.address.city)
+//console.log(person.friends)
+//console.log(person.language())
+
+//const {firstNAme,Gender,age,language,friends:[a,b,c]} = person
+//console.log(Gender,age,language(),friends,c)
+
+const {address:[zipcode]} = person
+console.log()
+
+
+
+    
+
+

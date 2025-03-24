@@ -1,0 +1,600 @@
+2025-03-20 08:38:55.358 [info] [main] Log level: Info
+2025-03-20 08:38:55.358 [info] [main] Validating found git in: "git"
+2025-03-20 08:38:55.358 [info] [main] Using git "2.43.0" from "git"
+2025-03-20 08:38:55.358 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-20 08:38:55.358 [info] > git rev-parse --show-toplevel [16ms]
+2025-03-20 08:38:55.358 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-03-20 08:38:55.358 [info] [Model][openRepository] Opened repository: /home/travthegr88
+2025-03-20 08:38:55.358 [info] > git fetch [72ms]
+2025-03-20 08:38:55.358 [info] > git rev-parse --show-toplevel [73ms]
+2025-03-20 08:38:55.358 [info] > git config --get commit.template [76ms]
+2025-03-20 08:38:55.358 [info] > git config --get commit.template [11ms]
+2025-03-20 08:38:55.364 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:38:55.368 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:38:55.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-03-20 08:38:55.369 [warning] [Git][getBranch] No such branch: master
+2025-03-20 08:38:55.383 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-03-20 08:38:55.383 [warning] [Git][getBranch] No such branch: master
+2025-03-20 08:38:55.384 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-03-20 08:38:55.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-03-20 08:38:55.384 [warning] [Git][getBranch] No such branch: master
+2025-03-20 08:38:55.390 [info] > git config --get commit.template [9ms]
+2025-03-20 08:38:55.392 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:38:55.398 [info] > git rev-parse --show-toplevel [4ms]
+2025-03-20 08:38:55.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 08:38:55.402 [warning] [Git][getBranch] No such branch: master
+2025-03-20 08:38:55.414 [info] > git rev-parse --show-toplevel [12ms]
+2025-03-20 08:38:55.414 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 08:38:55.417 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-20 08:38:55.422 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-03-20 08:38:55.431 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/javascript
+2025-03-20 08:38:55.442 [info] > git config --get commit.template [6ms]
+2025-03-20 08:38:55.443 [info] > git fetch [13ms]
+2025-03-20 08:38:55.448 [info] > git rev-parse --show-toplevel [8ms]
+2025-03-20 08:38:55.449 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:38:55.453 [info] > git config --get commit.template [5ms]
+2025-03-20 08:38:55.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-03-20 08:38:55.458 [warning] [Git][getBranch] No such branch: main
+2025-03-20 08:38:55.469 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:38:55.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-03-20 08:38:55.473 [warning] [Git][getBranch] No such branch: main
+2025-03-20 08:38:55.473 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-03-20 08:38:55.474 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2025-03-20 08:38:55.480 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/phase-0-completing-assignments-codegrade
+2025-03-20 08:38:55.514 [info] > git config --get commit.template [42ms]
+2025-03-20 08:38:55.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [46ms]
+2025-03-20 08:38:55.514 [warning] [Git][getBranch] No such branch: main
+2025-03-20 08:38:55.515 [info] > git rev-parse --show-toplevel [25ms]
+2025-03-20 08:38:55.515 [info] > git config --get commit.template [29ms]
+2025-03-20 08:38:55.518 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:38:55.524 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-03-20 08:38:55.529 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/phase-0-css-issue-bot-9000
+2025-03-20 08:38:55.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-03-20 08:38:55.531 [warning] [Git][getBranch] No such branch: main
+2025-03-20 08:38:55.546 [info] > git status -z -uall [13ms]
+2025-03-20 08:38:55.546 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-03-20 08:38:55.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2025-03-20 08:38:55.553 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2025-03-20 08:38:55.556 [info] > git rev-parse --show-toplevel [12ms]
+2025-03-20 08:38:55.556 [info] > git config --get commit.template [15ms]
+2025-03-20 08:38:55.742 [info] > git status -z -uall [178ms]
+2025-03-20 08:38:55.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [181ms]
+2025-03-20 08:38:55.742 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:55.743 [info] > git rev-parse --git-dir --git-common-dir [185ms]
+2025-03-20 08:38:55.749 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab
+2025-03-20 08:38:55.789 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [222ms]
+2025-03-20 08:38:55.789 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/main:Zone.Identifier
+2025-03-20 08:38:55.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [60ms]
+2025-03-20 08:38:55.865 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2025-03-20 08:38:55.868 [info] > git rev-parse --show-toplevel [108ms]
+2025-03-20 08:38:55.869 [info] > git config --get commit.template [112ms]
+2025-03-20 08:38:55.878 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2025-03-20 08:38:55.883 [info] > git config --get commit.template [73ms]
+2025-03-20 08:38:55.904 [info] > git rev-parse --show-toplevel [29ms]
+2025-03-20 08:38:55.917 [info] > git status -z -uall [31ms]
+2025-03-20 08:38:55.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2025-03-20 08:38:55.918 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:55.918 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2025-03-20 08:38:55.918 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:55.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [48ms]
+2025-03-20 08:38:55.930 [info] warning: ignoring ref with broken name refs/remotes/origin/main:Zone.Identifier
+2025-03-20 08:38:55.966 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab/.git/refs/remotes/origin/master'
+2025-03-20 08:38:55.987 [info] > git merge-base refs/heads/main refs/remotes/origin/main [54ms]
+2025-03-20 08:38:55.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [64ms]
+2025-03-20 08:38:55.991 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:55.995 [info] > git rev-parse --git-dir --git-common-dir [82ms]
+2025-03-20 08:38:56.001 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/phase-0-html-album-cover-lab
+2025-03-20 08:38:56.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [93ms]
+2025-03-20 08:38:56.002 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2025-03-20 08:38:56.026 [info] > git status -z -uall [619ms] (cancelled)
+2025-03-20 08:38:56.026 [info] > git config --get --local branch.master.vscode-merge-base [32ms]
+2025-03-20 08:38:56.030 [info] > git diff --name-status -z --diff-filter=ADMR 0da15898d7e26c15af413e60a7d7030428027f7f...refs/remotes/origin/main [40ms]
+2025-03-20 08:38:56.032 [info] > git config --get commit.template [63ms]
+2025-03-20 08:38:56.032 [info] > git rev-parse refs/remotes/origin/master [66ms]
+2025-03-20 08:38:56.334 [info] > git status -z -uall [299ms]
+2025-03-20 08:38:56.334 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [295ms]
+2025-03-20 08:38:56.334 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:38:56.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [305ms]
+2025-03-20 08:38:56.334 [info] warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:56.337 [info] > git rev-parse --show-toplevel [327ms]
+2025-03-20 08:38:56.337 [info] > git config --get commit.template [331ms]
+2025-03-20 08:38:57.226 [info] > git merge-base refs/heads/master refs/remotes/origin/master [890ms]
+2025-03-20 08:38:57.391 [info] > git check-ignore -v -z --stdin [107ms]
+2025-03-20 08:38:57.391 [info] > git check-ignore -v -z --stdin [35ms]
+2025-03-20 08:38:57.392 [info] > git check-ignore -v -z --stdin [33ms]
+2025-03-20 08:38:57.392 [info] > git check-ignore -v -z --stdin [29ms]
+2025-03-20 08:38:57.392 [info] > git check-ignore -v -z --stdin [25ms]
+2025-03-20 08:38:57.393 [info] > git status -z -uall [17ms]
+2025-03-20 08:38:57.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [153ms]
+2025-03-20 08:38:57.393 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.396 [info] > git diff --name-status -z --diff-filter=ADMR e6d1347ef22cf9db41f96a8bca3cfde5d90061fa...refs/remotes/origin/master [167ms]
+2025-03-20 08:38:57.397 [info] > git rev-parse --git-dir --git-common-dir [232ms]
+2025-03-20 08:38:57.403 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/phase-0-html-document-structure-lab
+2025-03-20 08:38:57.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [244ms]
+2025-03-20 08:38:57.405 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.421 [info] > git config --get --local branch.master.vscode-merge-base [25ms]
+2025-03-20 08:38:57.425 [info] > git config --get commit.template [40ms]
+2025-03-20 08:38:57.425 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [45ms]
+2025-03-20 08:38:57.425 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/main:Zone.Identifier
+2025-03-20 08:38:57.427 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [55ms]
+2025-03-20 08:38:57.427 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.428 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2025-03-20 08:38:57.431 [info] > git rev-parse --show-toplevel [12ms]
+2025-03-20 08:38:57.432 [info] > git config --get commit.template [16ms]
+2025-03-20 08:38:57.439 [info] > git merge-base refs/heads/master refs/remotes/origin/master [8ms]
+2025-03-20 08:38:57.453 [info] > git status -z -uall [6ms]
+2025-03-20 08:38:57.454 [info] > git diff --name-status -z --diff-filter=ADMR fe41cf1254f36511f166bbefdbe0aaec2c6986f5...refs/remotes/origin/master [11ms]
+2025-03-20 08:38:57.454 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2025-03-20 08:38:57.462 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab
+2025-03-20 08:38:57.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2025-03-20 08:38:57.463 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.478 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab/.git/refs/remotes/origin/master'
+2025-03-20 08:38:57.479 [info] > git status -z -uall [12ms]
+2025-03-20 08:38:57.480 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2025-03-20 08:38:57.480 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:57.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [38ms]
+2025-03-20 08:38:57.482 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.484 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2025-03-20 08:38:57.492 [info] > git rev-parse --show-toplevel [17ms]
+2025-03-20 08:38:57.493 [info] > git config --get commit.template [20ms]
+2025-03-20 08:38:57.493 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2025-03-20 08:38:57.493 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:38:57.530 [info] > git status -z -uall [43ms]
+2025-03-20 08:38:57.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2025-03-20 08:38:57.531 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.534 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [43ms]
+2025-03-20 08:38:57.534 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:38:57.660 [info] > git config --get --local branch.master.vscode-merge-base [126ms]
+2025-03-20 08:38:57.663 [info] > git config --get commit.template [154ms]
+2025-03-20 08:38:57.663 [info] > git rev-parse --git-dir --git-common-dir [156ms]
+2025-03-20 08:38:57.668 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab
+2025-03-20 08:38:57.719 [info] > git status -z -uall [35ms]
+2025-03-20 08:38:57.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [56ms]
+2025-03-20 08:38:57.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [180ms]
+2025-03-20 08:38:57.723 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.727 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2025-03-20 08:38:57.730 [info] > git rev-parse --show-toplevel [31ms]
+2025-03-20 08:38:57.730 [info] > git config --get commit.template [34ms]
+2025-03-20 08:38:57.730 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [38ms]
+2025-03-20 08:38:57.730 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:57.755 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2025-03-20 08:38:57.755 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.759 [info] > git diff --name-status -z --diff-filter=ADMR b6626363669ae97958f97490ca8f2dcfbeed257e...refs/remotes/origin/master [29ms]
+2025-03-20 08:38:57.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2025-03-20 08:38:57.759 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:57.765 [info] > git config --get --local branch.master.vscode-merge-base [7ms]
+2025-03-20 08:38:57.769 [info] > git config --get commit.template [23ms]
+2025-03-20 08:38:57.769 [info] > git rev-parse --git-dir --git-common-dir [26ms]
+2025-03-20 08:38:57.778 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href
+2025-03-20 08:38:57.781 [info] [Model][doInitialScan] Initial repository scan completed - repositories (10), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-20 08:38:57.816 [info] > git status -z -uall [12ms]
+2025-03-20 08:38:57.816 [info] > git config --get --local branch.master.github-pr-owner-number [18ms]
+2025-03-20 08:38:57.816 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:57.820 [info] > git config --get --local branch.main.github-pr-owner-number [26ms]
+2025-03-20 08:38:57.820 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:57.824 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [56ms]
+2025-03-20 08:38:57.824 [info] warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:57.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [66ms]
+2025-03-20 08:38:57.828 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:58.192 [info] > git merge-base refs/heads/master refs/remotes/origin/master [365ms]
+2025-03-20 08:38:58.194 [info] > git config --get --local branch.main.remote [371ms]
+2025-03-20 08:38:58.194 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:58.196 [info] > git config --get --local branch.master.remote [377ms]
+2025-03-20 08:38:58.196 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:58.198 [info] > git config --get commit.template [388ms]
+2025-03-20 08:38:58.198 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [391ms]
+2025-03-20 08:38:58.198 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:58.253 [info] > git check-ignore -v -z --stdin [45ms]
+2025-03-20 08:38:58.254 [info] > git check-ignore -v -z --stdin [44ms]
+2025-03-20 08:38:58.254 [info] > git check-ignore -v -z --stdin [42ms]
+2025-03-20 08:38:58.254 [info] > git check-ignore -v -z --stdin [39ms]
+2025-03-20 08:38:58.254 [info] > git check-ignore -v -z --stdin [35ms]
+2025-03-20 08:38:58.254 [info] > git status -z -uall [32ms]
+2025-03-20 08:38:58.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [51ms]
+2025-03-20 08:38:58.255 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:58.259 [info] > git config --get --local branch.master.merge [60ms]
+2025-03-20 08:38:58.259 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:58.260 [info] > git config --get --local branch.main.merge [64ms]
+2025-03-20 08:38:58.260 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:58.260 [info] > git diff --name-status -z --diff-filter=ADMR 252d41bb7940780a47cac9fcea1ff79d7551ce62...refs/remotes/origin/master [66ms]
+2025-03-20 08:38:58.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [431ms]
+2025-03-20 08:38:58.262 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:58.576 [info] > git config --get --local branch.master.vscode-merge-base [318ms]
+2025-03-20 08:38:58.579 [info] > git config --get commit.template [346ms]
+2025-03-20 08:38:58.579 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [354ms]
+2025-03-20 08:38:58.579 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:38:59.281 [info] > git status -z -uall [210ms]
+2025-03-20 08:38:59.282 [info] > git config --get --local branch.master.github-pr-owner-number [217ms]
+2025-03-20 08:38:59.282 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:59.282 [info] > git config --get --local branch.master.github-pr-owner-number [220ms]
+2025-03-20 08:38:59.283 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:59.283 [info] > git config --get --local branch.master.github-pr-owner-number [225ms]
+2025-03-20 08:38:59.283 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:59.283 [info] > git config --get --local branch.main.github-pr-owner-number [229ms]
+2025-03-20 08:38:59.283 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:59.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [705ms]
+2025-03-20 08:38:59.283 [info] warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:59.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1022ms]
+2025-03-20 08:38:59.287 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:59.301 [info] > git merge-base refs/heads/master refs/remotes/origin/master [15ms]
+2025-03-20 08:38:59.305 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [230ms]
+2025-03-20 08:38:59.305 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:38:59.314 [info] > git fetch [3566ms]
+2025-03-20 08:38:59.314 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-css-kitten-lab.git did not send all necessary objects
+2025-03-20 08:38:59.314 [info] > git fetch [3786ms]
+2025-03-20 08:38:59.314 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-css-issue-bot-9000.git did not send all necessary objects
+2025-03-20 08:38:59.315 [info] > git fetch [3836ms]
+2025-03-20 08:38:59.315 [info] fatal: bad object refs/heads/main:Zone.Identifier
+error: github.com:travinne/phase-0-completing-assignments-codegrade.git did not send all necessary objects
+2025-03-20 08:38:59.316 [info] > git config --get --local branch.master.github-pr-owner-number [246ms]
+2025-03-20 08:38:59.316 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:59.494 [info] > git status -z -uall [175ms]
+2025-03-20 08:38:59.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [183ms]
+2025-03-20 08:38:59.494 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:59.497 [info] > git diff --name-status -z --diff-filter=ADMR 04a8abc75111896aea293170295914ea36e2a23f...refs/remotes/origin/master [192ms]
+2025-03-20 08:38:59.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [204ms]
+2025-03-20 08:38:59.497 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:59.563 [info] > git config --get --local branch.master.vscode-merge-base [66ms]
+2025-03-20 08:38:59.566 [info] > git config --get commit.template [230ms]
+2025-03-20 08:38:59.567 [info] > git config --get commit.template [233ms]
+2025-03-20 08:38:59.567 [info] > git config --get commit.template [238ms]
+2025-03-20 08:38:59.567 [info] > git config --get commit.template [241ms]
+2025-03-20 08:38:59.567 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [244ms]
+2025-03-20 08:38:59.567 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:59.826 [info] > git status -z -uall [253ms]
+2025-03-20 08:38:59.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [260ms]
+2025-03-20 08:38:59.866 [info] > git config --get --local branch.master.github-pr-owner-number [30ms]
+2025-03-20 08:38:59.866 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:38:59.866 [info] > git merge-base refs/heads/master refs/remotes/origin/master [37ms]
+2025-03-20 08:38:59.870 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [294ms]
+2025-03-20 08:38:59.870 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:38:59.879 [info] > git fetch [3879ms]
+2025-03-20 08:38:59.879 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-album-cover-lab.git did not send all necessary objects
+2025-03-20 08:38:59.895 [info] > git status -z -uall [10ms]
+2025-03-20 08:38:59.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2025-03-20 08:38:59.895 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:59.898 [info] > git diff --name-status -z --diff-filter=ADMR e2796738e74061d7efbf3a5f7d793f738312f340...refs/remotes/origin/master [29ms]
+2025-03-20 08:38:59.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2025-03-20 08:38:59.899 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2025-03-20 08:38:59.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [53ms]
+2025-03-20 08:38:59.899 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:59.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [56ms]
+2025-03-20 08:38:59.899 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:59.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [59ms]
+2025-03-20 08:38:59.899 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:38:59.903 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab/.git/refs/remotes/origin/master'
+2025-03-20 08:38:59.968 [info] > git config --get --local branch.master.vscode-merge-base [70ms]
+2025-03-20 08:38:59.972 [info] > git config --get commit.template [78ms]
+2025-03-20 08:38:59.972 [info] > git config --get commit.template [81ms]
+2025-03-20 08:38:59.972 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [84ms]
+2025-03-20 08:38:59.972 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:39:00.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [381ms]
+2025-03-20 08:39:00.353 [info] warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:39:00.357 [info] > git rev-parse refs/remotes/origin/master [454ms]
+2025-03-20 08:39:00.457 [info] > git status -z -uall [97ms]
+2025-03-20 08:39:00.458 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [94ms]
+2025-03-20 08:39:00.458 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:39:00.461 [info] > git merge-base refs/heads/master refs/remotes/origin/master [104ms]
+2025-03-20 08:39:00.506 [info] > git status -z -uall [38ms]
+2025-03-20 08:39:00.506 [info] > git status -z -uall [31ms]
+2025-03-20 08:39:00.506 [info] > git status -z -uall [25ms]
+2025-03-20 08:39:00.506 [info] > git diff --name-status -z --diff-filter=ADMR 4f8f7e800fd0ba82476724a8d84b960a36c5ac86...refs/remotes/origin/master [42ms]
+2025-03-20 08:39:00.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [125ms]
+2025-03-20 08:39:00.507 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:39:00.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [128ms]
+2025-03-20 08:39:00.507 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:39:00.729 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [245ms]
+2025-03-20 08:39:00.729 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:39:00.731 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [253ms]
+2025-03-20 08:39:00.731 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/main:Zone.Identifier
+2025-03-20 08:39:00.847 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [374ms]
+2025-03-20 08:39:00.847 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:39:01.478 [info] > git fetch [3810ms]
+2025-03-20 08:39:01.478 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-issue-bot-9000-lab.git did not send all necessary objects
+2025-03-20 08:39:01.479 [info] > git fetch [4017ms]
+2025-03-20 08:39:01.479 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-experiencing-html-lab.git did not send all necessary objects
+2025-03-20 08:39:01.480 [info] > git fetch [4078ms]
+2025-03-20 08:39:01.480 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-document-structure-lab.git did not send all necessary objects
+2025-03-20 08:39:01.506 [info] > git status -z -uall [23ms]
+2025-03-20 08:39:01.506 [info] > git status -z -uall [16ms]
+2025-03-20 08:39:01.506 [info] > git config --get commit.template [3ms]
+2025-03-20 08:39:01.506 [info] > git config --get commit.template [6ms]
+2025-03-20 08:39:01.506 [info] > git config --get commit.template [9ms]
+2025-03-20 08:39:01.506 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-03-20 08:39:01.506 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:39:01.508 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+2025-03-20 08:39:01.508 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:39:01.527 [info] > git config --get --local branch.master.github-pr-owner-number [12ms]
+2025-03-20 08:39:01.527 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:39:01.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [238ms]
+2025-03-20 08:39:01.764 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:39:01.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [241ms]
+2025-03-20 08:39:01.765 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:39:01.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [244ms]
+2025-03-20 08:39:01.765 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:39:01.806 [info] > git status -z -uall [22ms]
+2025-03-20 08:39:01.806 [info] > git status -z -uall [15ms]
+2025-03-20 08:39:01.806 [info] > git status -z -uall [8ms]
+2025-03-20 08:39:01.806 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-03-20 08:39:01.806 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:39:01.808 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-03-20 08:39:01.808 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:39:01.809 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2025-03-20 08:39:01.809 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:39:01.929 [info] > git fetch [4152ms]
+2025-03-20 08:39:01.929 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-link-tag-with-href.git did not send all necessary objects
+2025-03-20 08:39:01.937 [info] > git config --get commit.template [2ms]
+2025-03-20 08:39:02.138 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-03-20 08:39:02.138 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:39:02.138 [info] > git config --get --local branch.master.github-pr-owner-number [193ms]
+2025-03-20 08:39:02.138 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 08:39:02.194 [info] > git status -z -uall [5ms]
+2025-03-20 08:39:02.264 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [72ms]
+2025-03-20 08:39:02.264 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:41:55.404 [info] > git fetch [8ms]
+2025-03-20 08:41:55.418 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:41:55.419 [info] > git config --get commit.template [7ms]
+2025-03-20 08:41:55.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 08:41:55.420 [warning] [Git][getBranch] No such branch: master
+2025-03-20 08:41:55.434 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 08:41:55.525 [info] > git fetch [6ms]
+2025-03-20 08:41:55.533 [info] > git config --get commit.template [2ms]
+2025-03-20 08:41:55.536 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:41:55.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-03-20 08:41:55.536 [warning] [Git][getBranch] No such branch: main
+2025-03-20 08:41:55.544 [info] > git status -z -uall [5ms]
+2025-03-20 08:41:55.545 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 08:41:55.820 [info] > git status -z -uall [395ms] (cancelled)
+2025-03-20 08:41:56.767 [info] > git config --get commit.template [15ms]
+2025-03-20 08:41:56.775 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 08:41:56.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-20 08:41:56.778 [warning] [Git][getBranch] No such branch: main
+2025-03-20 08:41:56.792 [info] > git status -z -uall [8ms]
+2025-03-20 08:41:56.792 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 08:42:04.079 [info] > git fetch [3610ms]
+2025-03-20 08:42:04.079 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-css-kitten-lab.git did not send all necessary objects
+2025-03-20 08:42:04.088 [info] > git config --get commit.template [2ms]
+2025-03-20 08:42:04.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 08:42:04.095 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:42:04.101 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab/.git/refs/remotes/origin/master'
+2025-03-20 08:42:04.101 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-03-20 08:42:04.111 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 08:42:04.111 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:42:04.115 [info] > git status -z -uall [9ms]
+2025-03-20 08:42:04.385 [info] > git fetch [3531ms]
+2025-03-20 08:42:04.385 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-css-issue-bot-9000.git did not send all necessary objects
+2025-03-20 08:42:04.398 [info] > git config --get commit.template [6ms]
+2025-03-20 08:42:04.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 08:42:04.399 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:42:04.411 [info] > git status -z -uall [6ms]
+2025-03-20 08:42:04.412 [info] > git fetch [3674ms]
+2025-03-20 08:42:04.412 [info] fatal: bad object refs/heads/main:Zone.Identifier
+error: github.com:travinne/phase-0-completing-assignments-codegrade.git did not send all necessary objects
+2025-03-20 08:42:04.418 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-03-20 08:42:04.419 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:42:04.422 [info] > git config --get commit.template [4ms]
+2025-03-20 08:42:04.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-03-20 08:42:04.430 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2025-03-20 08:42:04.438 [info] > git status -z -uall [4ms]
+2025-03-20 08:42:04.438 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 08:42:04.438 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/main:Zone.Identifier
+2025-03-20 08:42:05.086 [info] > git fetch [3570ms]
+2025-03-20 08:42:05.086 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-album-cover-lab.git did not send all necessary objects
+2025-03-20 08:42:05.097 [info] > git config --get commit.template [6ms]
+2025-03-20 08:42:05.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 08:42:05.097 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:42:05.118 [info] > git status -z -uall [14ms]
+2025-03-20 08:42:05.118 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-03-20 08:42:05.118 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:42:05.451 [info] > git fetch [3635ms]
+2025-03-20 08:42:05.451 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-issue-bot-9000-lab.git did not send all necessary objects
+2025-03-20 08:42:05.464 [info] > git config --get commit.template [7ms]
+2025-03-20 08:42:05.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 08:42:05.466 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:42:05.478 [info] > git status -z -uall [6ms]
+2025-03-20 08:42:05.479 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 08:42:05.479 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-20 08:42:05.488 [info] > git fetch [3659ms]
+2025-03-20 08:42:05.488 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-document-structure-lab.git did not send all necessary objects
+2025-03-20 08:42:05.495 [info] > git config --get commit.template [1ms]
+2025-03-20 08:42:05.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 08:42:05.499 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:42:05.509 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 08:42:05.509 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:42:05.511 [info] > git status -z -uall [7ms]
+2025-03-20 08:42:05.526 [info] > git fetch [3704ms]
+2025-03-20 08:42:05.526 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-experiencing-html-lab.git did not send all necessary objects
+2025-03-20 08:42:05.535 [info] > git config --get commit.template [4ms]
+2025-03-20 08:42:05.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 08:42:05.536 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:42:05.545 [info] > git status -z -uall [5ms]
+2025-03-20 08:42:05.547 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 08:42:05.547 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:42:06.372 [info] > git fetch [4098ms]
+2025-03-20 08:42:06.372 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-link-tag-with-href.git did not send all necessary objects
+2025-03-20 08:42:06.384 [info] > git config --get commit.template [6ms]
+2025-03-20 08:42:06.385 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 08:42:06.385 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-20 08:42:06.395 [info] > git status -z -uall [5ms]
+2025-03-20 08:42:06.395 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 08:42:06.395 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-20 08:44:22.929 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-21 13:48:57.951 [info] > git fetch [74ms]
+2025-03-21 13:48:57.963 [info] > git config --get commit.template [1ms]
+2025-03-21 13:48:57.966 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-21 13:48:57.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-03-21 13:48:57.967 [warning] [Git][getBranch] No such branch: main
+2025-03-21 13:48:57.973 [info] > git status -z -uall [4ms]
+2025-03-21 13:48:57.973 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-21 13:48:59.039 [info] > git fetch [1157ms]
+2025-03-21 13:48:59.039 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2025-03-21 13:48:59.045 [info] > git config --get commit.template [0ms]
+2025-03-21 13:48:59.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-21 13:48:59.052 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-21 13:48:59.053 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-03-21 13:48:59.061 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-21 13:48:59.147 [info] > git config --get commit.template [1ms]
+2025-03-21 13:48:59.150 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-21 13:48:59.150 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-03-21 13:48:59.150 [warning] [Git][getBranch] No such branch: main
+2025-03-21 13:48:59.158 [info] > git status -z -uall [4ms]
+2025-03-21 13:48:59.158 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-21 13:49:01.665 [info] > git fetch [3755ms]
+2025-03-21 13:49:01.665 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-album-cover-lab.git did not send all necessary objects
+2025-03-21 13:49:01.668 [info] > git config --get commit.template [0ms]
+2025-03-21 13:49:01.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-03-21 13:49:01.671 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-21 13:49:01.678 [info] > git status -z -uall [3ms]
+2025-03-21 13:49:01.679 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-21 13:49:01.679 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-21 13:49:01.685 [info] > git fetch [3767ms]
+2025-03-21 13:49:01.685 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-issue-bot-9000-lab.git did not send all necessary objects
+2025-03-21 13:49:01.692 [info] > git config --get commit.template [3ms]
+2025-03-21 13:49:01.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-21 13:49:01.694 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-21 13:49:01.699 [info] > git fetch [3802ms]
+2025-03-21 13:49:01.700 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-css-issue-bot-9000.git did not send all necessary objects
+2025-03-21 13:49:01.705 [info] > git status -z -uall [8ms]
+2025-03-21 13:49:01.705 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-03-21 13:49:01.705 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-21 13:49:01.708 [info] > git config --get commit.template [3ms]
+2025-03-21 13:49:01.708 [info] > git fetch [3820ms]
+2025-03-21 13:49:01.708 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-css-kitten-lab.git did not send all necessary objects
+2025-03-21 13:49:01.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-21 13:49:01.716 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-21 13:49:01.717 [info] > git fetch [3779ms]
+2025-03-21 13:49:01.717 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-experiencing-html-lab.git did not send all necessary objects
+2025-03-21 13:49:01.717 [info] > git config --get commit.template [5ms]
+2025-03-21 13:49:01.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-21 13:49:01.723 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-21 13:49:01.723 [info] > git config --get commit.template [1ms]
+2025-03-21 13:49:01.725 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab/.git/refs/remotes/origin/master'
+2025-03-21 13:49:01.735 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-21 13:49:01.735 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-21 13:49:01.735 [info] > git rev-parse refs/remotes/origin/master [10ms]
+2025-03-21 13:49:01.745 [info] > git status -z -uall [17ms]
+2025-03-21 13:49:01.746 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-03-21 13:49:01.746 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+2025-03-21 13:49:01.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-03-21 13:49:01.748 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-21 13:49:01.748 [info] > git fetch [3846ms]
+2025-03-21 13:49:01.748 [info] fatal: bad object refs/heads/main:Zone.Identifier
+error: github.com:travinne/phase-0-completing-assignments-codegrade.git did not send all necessary objects
+2025-03-21 13:49:01.752 [info] > git fetch [3826ms]
+2025-03-21 13:49:01.752 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-document-structure-lab.git did not send all necessary objects
+2025-03-21 13:49:01.757 [info] > git config --get commit.template [4ms]
+2025-03-21 13:49:01.757 [info] > git config --get commit.template [2ms]
+2025-03-21 13:49:01.768 [info] > git status -z -uall [29ms]
+2025-03-21 13:49:01.769 [info] > git status -z -uall [10ms]
+2025-03-21 13:49:01.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-03-21 13:49:01.769 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2025-03-21 13:49:01.769 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-03-21 13:49:01.769 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-21 13:49:01.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-21 13:49:01.772 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-21 13:49:01.787 [info] > git status -z -uall [11ms]
+2025-03-21 13:49:01.787 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-03-21 13:49:01.787 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/main:Zone.Identifier
+2025-03-21 13:49:01.788 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-21 13:49:01.788 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-21 13:49:01.805 [info] > git status -z -uall [21ms]
+2025-03-21 13:49:02.056 [info] > git fetch [4112ms]
+2025-03-21 13:49:02.056 [info] fatal: bad object refs/heads/master:Zone.Identifier
+error: github.com:travinne/phase-0-html-link-tag-with-href.git did not send all necessary objects
+2025-03-21 13:49:02.062 [info] > git config --get commit.template [2ms]
+2025-03-21 13:49:02.062 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-21 13:49:02.062 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+2025-03-21 13:49:02.072 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-21 13:49:02.073 [info] warning: ignoring ref with broken name refs/heads/master:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/HEAD:Zone.Identifier
+warning: ignoring ref with broken name refs/remotes/origin/master:Zone.Identifier
+2025-03-21 13:49:02.076 [info] > git status -z -uall [11ms]
+2025-03-21 13:49:02.339 [info] > git status -z -uall [3283ms] (cancelled)
+2025-03-21 13:49:02.339 [info] > git merge-base refs/heads/master refs/remotes/origin/master [2ms]
+2025-03-21 13:49:02.345 [info] > git diff --name-status -z --diff-filter=ADMR d553ea76a47c68a60b1f5a3798d6024f19c8bbc4...refs/remotes/origin/master [2ms]
+2025-03-21 13:49:03.759 [info] > git config --get --local branch.master.github-pr-owner-number [97ms]
+2025-03-21 13:49:03.759 [warning] [Git][config] git config failed: Failed to execute git

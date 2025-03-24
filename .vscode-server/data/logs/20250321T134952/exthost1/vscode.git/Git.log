@@ -1,0 +1,83 @@
+2025-03-21 13:49:55.746 [info] [main] Log level: Info
+2025-03-21 13:49:55.746 [info] [main] Validating found git in: "git"
+2025-03-21 13:49:55.746 [info] [main] Using git "2.43.0" from "git"
+2025-03-21 13:49:55.746 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-21 13:49:55.746 [info] > git rev-parse --show-toplevel [8ms]
+2025-03-21 13:49:55.750 [info] > git rev-parse --git-dir --git-common-dir [87ms]
+2025-03-21 13:49:55.760 [info] [Model][openRepository] Opened repository: /home/travthegr88
+2025-03-21 13:49:55.888 [info] > git rev-parse --show-toplevel [118ms]
+2025-03-21 13:49:55.888 [info] > git config --get commit.template [122ms]
+2025-03-21 13:49:55.925 [info] > git rev-parse --show-toplevel [33ms]
+2025-03-21 13:49:55.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-03-21 13:49:55.934 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-21 13:49:55.936 [info] > git rev-parse --show-toplevel [7ms]
+2025-03-21 13:49:55.961 [info] > git rev-parse refs/remotes/origin/master [28ms]
+2025-03-21 13:49:55.969 [info] > git rev-parse --show-toplevel [10ms]
+2025-03-21 13:49:55.972 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-21 13:49:55.980 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-03-21 13:49:56.039 [info] > git rev-parse --show-toplevel [61ms]
+2025-03-21 13:49:56.044 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-21 13:49:56.225 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [38ms]
+2025-03-21 13:49:56.225 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [35ms]
+2025-03-21 13:49:56.233 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [6ms]
+2025-03-21 13:49:56.399 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-21 13:49:56.409 [info] > git blame --root --incremental d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-21 13:49:56.945 [info] > git fetch [1185ms]
+2025-03-21 13:49:56.945 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-03-21 13:49:56.956 [info] > git status -z -uall [991ms] (cancelled)
+2025-03-21 13:49:56.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-03-21 13:49:56.960 [info] > git config --get --local branch.master.vscode-merge-base [2ms]
+2025-03-21 13:49:56.960 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-21 13:49:56.963 [info] > git config --get commit.template [8ms]
+2025-03-21 13:49:56.963 [info] > git config --get commit.template [10ms]
+2025-03-21 13:49:56.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-03-21 13:49:56.977 [info] > git reflog master --grep-reflog=branch: Created from *. [13ms]
+2025-03-21 13:49:57.030 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-21 13:49:57.031 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [52ms]
+2025-03-21 13:49:57.031 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-21 13:49:57.031 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-21 13:49:57.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [63ms]
+2025-03-21 13:49:57.037 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-21 13:49:57.039 [info] > git merge-base refs/heads/master refs/remotes/origin/master [6ms]
+2025-03-21 13:49:57.042 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2025-03-21 13:49:57.048 [info] > git merge-base refs/heads/master refs/remotes/origin/master [2ms]
+2025-03-21 13:49:57.051 [info] > git diff --name-status -z --diff-filter=ADMR d553ea76a47c68a60b1f5a3798d6024f19c8bbc4...refs/remotes/origin/master [10ms]
+2025-03-21 13:49:57.052 [info] > git rev-parse refs/remotes/origin/master [15ms]
+2025-03-21 13:49:57.058 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-21 13:49:57.059 [info] > git diff --name-status -z --diff-filter=ADMR d553ea76a47c68a60b1f5a3798d6024f19c8bbc4...refs/remotes/origin/master [8ms]
+2025-03-21 13:49:57.186 [info] > git config --get --local branch.master.github-pr-owner-number [119ms]
+2025-03-21 13:49:57.186 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-21 13:49:58.146 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-21 13:49:58.149 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [0ms]
+2025-03-21 13:49:58.199 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-21 13:49:59.516 [info] > git status -z -uall [2462ms] (cancelled)
+2025-03-21 13:50:00.902 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [132ms]
+2025-03-21 13:50:00.902 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [127ms]
+2025-03-21 13:50:00.906 [info] > git cat-file -s 759b45bc9c8d4d7aabd1efe3c09f2e56f002f0a3 [1ms]
+2025-03-21 13:50:00.957 [info] > git blame --root --incremental d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [4ms]
+2025-03-21 19:19:35.697 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-21 19:19:35.710 [info] > git cat-file -s 759b45bc9c8d4d7aabd1efe3c09f2e56f002f0a3 [2ms]
+2025-03-21 19:19:35.723 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-21 19:19:35.739 [info] > git fetch [1272ms]
+2025-03-21 19:19:35.739 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-03-21 19:19:35.748 [info] > git config --get commit.template [5ms]
+2025-03-21 19:19:35.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-21 19:19:35.751 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-21 19:19:35.752 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-03-21 19:19:35.761 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-21 19:19:36.931 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [1ms]
+2025-03-21 19:19:36.939 [info] > git cat-file -s 759b45bc9c8d4d7aabd1efe3c09f2e56f002f0a3 [2ms]
+2025-03-21 19:19:36.952 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [1ms]
+2025-03-21 19:19:42.071 [info] > git status -z -uall [6317ms] (cancelled)

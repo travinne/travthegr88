@@ -1,0 +1,207 @@
+2025-03-20 08:38:57.157 [warning] /home/travthegr88/.ssh/config: ENOENT: no such file or directory, open '/home/travthegr88/.ssh/config'
+2025-03-20 08:38:57.158 [info] [Activation] Extension version: 0.106.0
+2025-03-20 08:38:57.709 [info] [Activation] Looking for git repository
+2025-03-20 08:38:57.709 [info] [Activation] Found 0 repositories during activation
+2025-03-20 08:38:57.709 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-03-20 08:38:57.714 [info] [GitAPI] Registering git provider
+2025-03-20 08:38:57.733 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-document-structure-lab changed.
+2025-03-20 08:38:57.733 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-document-structure-lab has already been setup.
+2025-03-20 08:38:57.778 [info] [GitAPI] Repository file:///home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href has been opened
+2025-03-20 08:38:57.784 [info] [Activation] Git initialization state changed: state=initialized
+2025-03-20 08:38:57.784 [info] [Review+0] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+0] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+1] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+1] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+2] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+2] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+3] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+3] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+4] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+4] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+5] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+5] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+6] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+6] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+7] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+7] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+8] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+8] Validating state...
+2025-03-20 08:38:57.784 [info] [Review+9] Validate state in progress
+2025-03-20 08:38:57.784 [info] [Review+9] Validating state...
+2025-03-20 08:38:57.785 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-20 08:38:57.785 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-20 08:38:57.785 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-20 08:38:57.785 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-20 08:38:57.785 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-20 08:38:57.785 [info] [FolderRepositoryManager+2] No GitHub remotes found for folder /home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab
+2025-03-20 08:38:57.786 [info] [FolderRepositoryManager+3] No GitHub remotes found for folder /home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab
+2025-03-20 08:38:57.786 [info] [FolderRepositoryManager+7] No GitHub remotes found for folder /home/travthegr88/development/code/phase-0/javascript
+2025-03-20 08:38:57.786 [info] [FolderRepositoryManager+8] No GitHub remotes found for folder /home/travthegr88
+2025-03-20 08:38:57.786 [info] [FolderRepositoryManager+9] No GitHub remotes found for folder /home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href
+2025-03-20 08:38:57.819 [info] [Review+8] No matching pull request metadata found locally for current branch master
+2025-03-20 08:38:57.824 [info] [Review+7] No matching pull request metadata found locally for current branch main
+2025-03-20 08:38:57.834 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-completing-assignments-codegrade
+2025-03-20 08:38:57.835 [info] [FolderRepositoryManager+1] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-document-structure-lab
+2025-03-20 08:38:57.835 [info] [FolderRepositoryManager+4] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-album-cover-lab
+2025-03-20 08:38:57.835 [info] [FolderRepositoryManager+5] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-css-issue-bot-9000
+2025-03-20 08:38:57.835 [info] [FolderRepositoryManager+6] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab
+2025-03-20 08:38:58.201 [info] [Review+2] Queuing additional validate state
+2025-03-20 08:38:58.201 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab changed.
+2025-03-20 08:38:58.201 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab has already been setup.
+2025-03-20 08:38:58.260 [info] [Review+8] No matching pull request metadata found on GitHub for current branch master
+2025-03-20 08:38:58.260 [info] [Review+7] No matching pull request metadata found on GitHub for current branch main
+2025-03-20 08:38:58.580 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-album-cover-lab changed.
+2025-03-20 08:38:58.580 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-album-cover-lab has already been setup.
+2025-03-20 08:38:58.595 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:38:58.595 [warning] [GitHubRepository+0] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:38:58.595 [warning] [GitHubRepository+0] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:38:58.595 [warning] [GitHubRepository+0] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:38:58.686 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:58.686 [warning] [GitHubRepository+1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:58.686 [warning] [GitHubRepository+1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:58.686 [warning] [GitHubRepository+1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:58.781 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:58.781 [warning] [GitHubRepository+4] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:58.781 [warning] [GitHubRepository+4] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:58.781 [warning] [GitHubRepository+4] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:58.781 [warning] [GitHubRepository+4] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:58.781 [warning] [GitHubRepository+4] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:58.781 [warning] [GitHubRepository+4] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:58.877 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:38:58.877 [warning] [GitHubRepository+5] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:38:58.877 [warning] [GitHubRepository+5] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:38:58.877 [warning] [GitHubRepository+5] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:38:58.956 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:38:58.956 [warning] [GitHubRepository+6] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:38:58.956 [warning] [GitHubRepository+6] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:38:58.956 [warning] [GitHubRepository+6] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:38:59.045 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:38:59.045 [info] [FolderRepositoryManager+0] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:38:59.051 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-03-20 08:38:59.055 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:59.055 [info] [FolderRepositoryManager+1] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:59.055 [info] [FolderRepositoryManager+1] Trying to use globalState for assignableUsers.
+2025-03-20 08:38:59.059 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:59.059 [info] [FolderRepositoryManager+4] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:38:59.059 [info] [FolderRepositoryManager+4] Trying to use globalState for assignableUsers.
+2025-03-20 08:38:59.062 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:38:59.063 [info] [FolderRepositoryManager+5] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:38:59.063 [info] [FolderRepositoryManager+5] Trying to use globalState for assignableUsers.
+2025-03-20 08:38:59.066 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:38:59.066 [info] [FolderRepositoryManager+6] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:38:59.066 [info] [FolderRepositoryManager+6] Trying to use globalState for assignableUsers.
+2025-03-20 08:38:59.282 [info] [Review+5] No matching pull request metadata found locally for current branch master
+2025-03-20 08:38:59.283 [info] [Review+4] No matching pull request metadata found locally for current branch master
+2025-03-20 08:38:59.283 [info] [Review+1] No matching pull request metadata found locally for current branch master
+2025-03-20 08:38:59.283 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-03-20 08:38:59.308 [info] [Review+3] Validate state in progress
+2025-03-20 08:38:59.308 [info] [Review+3] Validating state...
+2025-03-20 08:38:59.308 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab changed.
+2025-03-20 08:38:59.308 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab has already been setup.
+2025-03-20 08:38:59.316 [info] [Review+6] No matching pull request metadata found locally for current branch master
+2025-03-20 08:38:59.425 [info] [FolderRepositoryManager+3] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab
+2025-03-20 08:38:59.426 [info] [Review+2] Validating state...
+2025-03-20 08:38:59.569 [warning] [GitHubRepository+1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:59.569 [warning] [GitHubRepository+1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:59.569 [warning] [GitHubRepository+1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:38:59.580 [info] [FolderRepositoryManager+2] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab
+2025-03-20 08:38:59.833 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-issue-bot-9000-lab failed, reason: 
+2025-03-20 08:38:59.833 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-issue-bot-9000-lab failed, reason: 
+2025-03-20 08:38:59.833 [info] [FolderRepositoryManager+3] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-issue-bot-9000-lab failed, reason: 
+2025-03-20 08:38:59.834 [info] [FolderRepositoryManager+3] Trying to use globalState for assignableUsers.
+2025-03-20 08:38:59.866 [info] [Review+3] No matching pull request metadata found locally for current branch master
+2025-03-20 08:38:59.873 [info] [Review+9] Validate state in progress
+2025-03-20 08:38:59.873 [info] [Review+9] Validating state...
+2025-03-20 08:38:59.873 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href changed.
+2025-03-20 08:38:59.873 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href has already been setup.
+2025-03-20 08:38:59.905 [info] [FolderRepositoryManager+9] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href
+2025-03-20 08:38:59.978 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 2.
+2025-03-20 08:39:00.048 [info] [FolderRepositoryManager+1] Using globalState assignableUsers for 2.
+2025-03-20 08:39:00.122 [info] [FolderRepositoryManager+4] Using globalState assignableUsers for 2.
+2025-03-20 08:39:00.194 [info] [FolderRepositoryManager+5] Using globalState assignableUsers for 2.
+2025-03-20 08:39:00.258 [info] [FolderRepositoryManager+6] Using globalState assignableUsers for 2.
+2025-03-20 08:39:00.460 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab changed.
+2025-03-20 08:39:00.460 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab has already been setup.
+2025-03-20 08:39:00.461 [warning] [GitHubRepository+6] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:00.461 [warning] [GitHubRepository+6] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:00.461 [warning] [GitHubRepository+6] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:00.510 [warning] [GitHubRepository+1.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:39:00.510 [warning] [GitHubRepository+1.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:39:00.549 [warning] [GitHubRepository+1.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:39:00.549 [warning] [GitHubRepository+1.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:39:00.589 [warning] [GitHubRepository+1.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:39:00.589 [warning] [GitHubRepository+1.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-document-structure-lab failed, reason: 
+2025-03-20 08:39:00.621 [warning] [GitHubRepository+0.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:00.654 [warning] [GitHubRepository+5.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:39:00.689 [warning] [GitHubRepository+0.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:00.732 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-completing-assignments-codegrade changed.
+2025-03-20 08:39:00.732 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-completing-assignments-codegrade has already been setup.
+2025-03-20 08:39:00.733 [warning] [GitHubRepository+0] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:00.734 [warning] [GitHubRepository+0] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:00.734 [warning] [GitHubRepository+0] Fetching default branch failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:00.848 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-css-issue-bot-9000 changed.
+2025-03-20 08:39:00.848 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-css-issue-bot-9000 has already been setup.
+2025-03-20 08:39:00.863 [warning] [GitHubRepository+4.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:39:00.863 [warning] [GitHubRepository+4.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:39:00.899 [warning] [GitHubRepository+6.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:00.899 [warning] [GitHubRepository+6.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:00.936 [warning] [GitHubRepository+6.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:00.936 [warning] [GitHubRepository+6.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:00.970 [warning] [GitHubRepository+4.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:39:00.970 [warning] [GitHubRepository+4.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:39:01.004 [warning] [GitHubRepository+6.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:01.005 [warning] [GitHubRepository+6.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-kitten-lab failed, reason: 
+2025-03-20 08:39:01.034 [warning] [GitHubRepository+5.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:39:01.072 [warning] [GitHubRepository+5.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-20 08:39:01.110 [warning] [GitHubRepository+4.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:39:01.110 [warning] [GitHubRepository+4.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-album-cover-lab failed, reason: 
+2025-03-20 08:39:01.145 [warning] [GitHubRepository+0.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:01.145 [warning] [GitHubRepository+0.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:01.397 [error] [GitHubRepository+1.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.397 [error] [GitHubRepository+1.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.397 [error] [GitHubRepository+1.1] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:01.397 [error] [GitHubRepository+1.1] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:01.398 [error] [GitHubRepository+1.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.398 [error] [GitHubRepository+1.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.398 [error] [GitHubRepository+1.1] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:01.398 [error] [GitHubRepository+1.1] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:01.398 [error] [GitHubRepository+1.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.398 [error] [GitHubRepository+1.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.399 [error] [GitHubRepository+1.1] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:01.399 [error] [GitHubRepository+1.1] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:01.399 [error] [GitHubRepository+0.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.399 [error] [GitHubRepository+0.1] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:01.399 [error] [GitHubRepository+5.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.399 [error] [GitHubRepository+5.1] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:01.400 [info] [FolderRepositoryManager+3] Using globalState assignableUsers for 2.
+2025-03-20 08:39:01.511 [info] [FolderRepositoryManager+2] Trying to use globalState for assignableUsers.
+2025-03-20 08:39:01.528 [info] [Review+2] No matching pull request metadata found locally for current branch master
+2025-03-20 08:39:01.767 [error] [GitHubRepository+3] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.768 [error] [GitHubRepository+3.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:01.821 [info] [FolderRepositoryManager+2] Using globalState assignableUsers for 2.
+2025-03-20 08:39:01.942 [info] [FolderRepositoryManager+9] Trying to use globalState for assignableUsers.
+2025-03-20 08:39:02.132 [error] [GitHubRepository+2.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-20 08:39:02.132 [error] [GitHubRepository+2.1] Fetching pull request for branch failed: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-20 08:39:02.133 [info] [Review+2] No matching pull request metadata found on GitHub for current branch master
+2025-03-20 08:39:02.139 [info] [Review+9] No matching pull request metadata found locally for current branch master
+2025-03-20 08:39:02.195 [info] [FolderRepositoryManager+9] Using globalState assignableUsers for 2.
+2025-03-20 08:39:02.280 [warning] [GitHubRepository+0.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:02.323 [warning] [GitHubRepository+0.1] Fetching default branch failed: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-20 08:39:03.293 [info] [Review+9] No matching pull request metadata found on GitHub for current branch master
+2025-03-20 08:40:57.784 [error] [Review+0] Timeout occurred while validating state.
+2025-03-20 08:40:57.785 [error] [Review+1] Timeout occurred while validating state.
+2025-03-20 08:40:57.786 [error] [Review+4] Timeout occurred while validating state.
+2025-03-20 08:40:57.786 [error] [Review+5] Timeout occurred while validating state.
+2025-03-20 08:40:57.786 [error] [Review+6] Timeout occurred while validating state.
+2025-03-20 08:40:59.309 [error] [Review+3] Timeout occurred while validating state.
+2025-03-20 08:41:55.548 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/javascript changed.
+2025-03-20 08:41:55.548 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/javascript has already been setup.
+2025-03-20 08:41:55.819 [info] [Activation] Repo state for file:///home/travthegr88 changed.
+2025-03-20 08:41:55.819 [info] [Activation] Repo file:///home/travthegr88 has already been setup.
+2025-03-21 13:49:02.333 [info] [Review+8] Validate state in progress
+2025-03-21 13:49:02.334 [info] [Review+8] Validating state...
+2025-03-21 13:49:02.351 [info] [FolderRepositoryManager+8] Found GitHub remote for folder /home/travthegr88
+2025-03-21 13:49:03.657 [info] [FolderRepositoryManager+8] Trying to use globalState for assignableUsers.
+2025-03-21 13:49:03.760 [info] [Review+8] No matching pull request metadata found locally for current branch master
+2025-03-21 13:49:03.790 [info] [FolderRepositoryManager+8] Using globalState assignableUsers for 1.
+2025-03-21 13:49:04.432 [info] [Review+8] No matching pull request metadata found on GitHub for current branch master

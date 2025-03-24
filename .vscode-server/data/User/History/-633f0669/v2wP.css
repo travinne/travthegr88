@@ -1,0 +1,76 @@
+*{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0%;
+    
+}
+
+h1{background-color: black;
+color: bisque;
+padding: 20px 0;}
+
+
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    max-width: 100$;
+    
+    
+    
+}
+
+#image-ramen{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+form{
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 80px;
+    max-width: 100%;
+    align-items: center;
+    border-radius:40px;
+    gap: px;
+    justify-content: center;
+    margin-left: 300px;
+    
+    
+
+    
+}
+
+input{
+    width:70%;
+    padding:15px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+button {
+    background-color:black;
+    color: red;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 50%;}
+
+ button:hover{
+    color: burlywood;
+ }
+  

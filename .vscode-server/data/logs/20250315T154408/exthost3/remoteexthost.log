@@ -1,0 +1,19 @@
+2025-03-15 23:38:18.986 [info] Extension host with pid 36447 started
+2025-03-15 23:38:18.995 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/ddf7bd56f314a0579ef3ad744026a14f/vscode.lock': Lock acquired.
+2025-03-15 23:38:19.019 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-15 23:38:19.020 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-15 23:38:19.020 [info] ExtensionService#_doActivateExtension leizongmin.node-module-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-15 23:38:19.276 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-15 23:38:19.356 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-15 23:38:19.356 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-15 23:38:19.714 [info] Eager extensions activated
+2025-03-15 23:38:19.714 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 23:38:19.715 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 23:38:19.715 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 23:38:19.715 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 23:38:19.950 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-15 23:38:45.866 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-03-15 23:41:24.821 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-03-16 00:16:54.089 [info] Extension host terminating: received terminate message from renderer
+2025-03-16 00:16:54.092 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/ddf7bd56f314a0579ef3ad744026a14f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-03-16 00:16:54.255 [info] Extension host with pid 36447 exiting with code 0

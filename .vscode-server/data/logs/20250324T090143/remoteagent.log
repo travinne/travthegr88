@@ -1,0 +1,29 @@
+2025-03-24 09:01:43.179 [info] 
+
+
+
+
+2025-03-24 09:01:43.194 [info] Extension host agent started.
+2025-03-24 09:01:43.326 [info] [127.0.0.1][702e067e][ManagementConnection] New connection established.
+2025-03-24 09:01:43.625 [info] [127.0.0.1][2a0d78bd][ExtensionHostConnection] New connection established.
+2025-03-24 09:01:43.760 [info] [127.0.0.1][08f8f7c9][ManagementConnection] New connection established.
+2025-03-24 09:01:44.013 [info] [127.0.0.1][2a0d78bd][ExtensionHostConnection] <1018> Launched Extension Host Process.
+2025-03-24 09:01:44.475 [info] [127.0.0.1][7b29b82c][ExtensionHostConnection] New connection established.
+2025-03-24 09:01:44.479 [info] [127.0.0.1][7b29b82c][ExtensionHostConnection] <1050> Launched Extension Host Process.
+2025-03-24 10:59:18.482 [info] Uninstalling extension from the profile: rangav.vscode-thunder-client@2.34.2 file:///home/travthegr88/.vscode-server/extensions/extensions.json
+2025-03-24 10:59:18.544 [info] Marked extension as removed rangav.vscode-thunder-client-2.34.2
+2025-03-24 10:59:19.104 [info] Successfully uninstalled extension from the profile rangav.vscode-thunder-client@2.34.2 file:///home/travthegr88/.vscode-server/extensions/extensions.json
+2025-03-24 10:59:28.463 [info] [127.0.0.1][702e067e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-24 10:59:28.700 [info] [127.0.0.1][2a0d78bd][ExtensionHostConnection] <1018> Extension Host Process exited with code: 0, signal: null.
+2025-03-24 10:59:30.300 [info] [127.0.0.1][22bbabe3][ManagementConnection] New connection established.
+2025-03-24 10:59:30.589 [info] [127.0.0.1][4af54e2f][ExtensionHostConnection] New connection established.
+2025-03-24 10:59:30.598 [info] [127.0.0.1][4af54e2f][ExtensionHostConnection] <42706> Launched Extension Host Process.
+2025-03-24 11:00:28.066 [info] Getting Manifest... rangav.vscode-thunder-client
+2025-03-24 11:00:28.216 [info] Installing extension: rangav.vscode-thunder-client {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/travthegr88/.vscode-server/extensions/extensions.json","external":"file:///home/travthegr88/.vscode-server/extensions/extensions.json","path":"/home/travthegr88/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-24 11:00:28.258 [info] Removed the extension from removed list: rangav.vscode-thunder-client
+2025-03-24 11:00:28.296 [info] Extension installed successfully: rangav.vscode-thunder-client file:///home/travthegr88/.vscode-server/extensions/extensions.json
+2025-03-24 11:20:20.895 [info] [127.0.0.1][4af54e2f][ExtensionHostConnection] <42706> [0mGET /favicon.ico [33m404[0m 4.749 ms - 150[0m
+
+2025-03-24 11:34:15.039 [info] [127.0.0.1][8b24c50c][ManagementConnection] New connection established.
+2025-03-24 11:34:15.434 [info] [127.0.0.1][9efb49e7][ExtensionHostConnection] New connection established.
+2025-03-24 11:34:15.439 [info] [127.0.0.1][9efb49e7][ExtensionHostConnection] <55646> Launched Extension Host Process.

@@ -1,0 +1,141 @@
+2025-03-21 22:49:44.908 [warning] /home/travthegr88/.ssh/config: ENOENT: no such file or directory, open '/home/travthegr88/.ssh/config'
+2025-03-21 22:49:44.908 [info] [Activation] Extension version: 0.106.0
+2025-03-21 22:49:45.154 [info] [Activation] Looking for git repository
+2025-03-21 22:49:45.154 [info] [Activation] Found 0 repositories during activation
+2025-03-21 22:49:45.154 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-03-21 22:49:45.158 [info] [GitAPI] Registering git provider
+2025-03-21 22:49:45.165 [info] [GitAPI] Repository file:///home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab has been opened
+2025-03-21 22:49:45.191 [info] [Review+0] Validate state in progress
+2025-03-21 22:49:45.191 [info] [Review+0] Validating state...
+2025-03-21 22:49:45.191 [info] [FolderRepositoryManager+0] Cannot updates repositories as git is uninitialized
+2025-03-21 22:49:45.191 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-completing-assignments-codegrade changed.
+2025-03-21 22:49:45.191 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-completing-assignments-codegrade has already been setup.
+2025-03-21 22:49:45.271 [info] [GitAPI] Repository file:///home/travthegr88/development/code/phase-0/phase-0-html-album-cover-lab has been opened
+2025-03-21 22:49:45.276 [info] [Review+1] Validate state in progress
+2025-03-21 22:49:45.276 [info] [Review+1] Validating state...
+2025-03-21 22:49:45.276 [info] [FolderRepositoryManager+1] Cannot updates repositories as git is uninitialized
+2025-03-21 22:49:45.276 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-css-issue-bot-9000 changed.
+2025-03-21 22:49:45.276 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-css-issue-bot-9000 has already been setup.
+2025-03-21 22:49:45.513 [info] [Review+4] Validate state in progress
+2025-03-21 22:49:45.513 [info] [Review+4] Validating state...
+2025-03-21 22:49:45.513 [info] [FolderRepositoryManager+4] Cannot updates repositories as git is uninitialized
+2025-03-21 22:49:45.513 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab changed.
+2025-03-21 22:49:45.513 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab has already been setup.
+2025-03-21 22:49:45.553 [info] [GitAPI] Repository file:///home/travthegr88/development/code/phase-0/phase-0-html-document-structure-lab has been opened
+2025-03-21 22:49:45.655 [info] [GitAPI] Repository file:///home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab has been opened
+2025-03-21 22:49:45.693 [info] [Review+5] Validate state in progress
+2025-03-21 22:49:45.693 [info] [Review+5] Validating state...
+2025-03-21 22:49:45.693 [info] [FolderRepositoryManager+5] Cannot updates repositories as git is uninitialized
+2025-03-21 22:49:45.693 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-album-cover-lab changed.
+2025-03-21 22:49:45.693 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-album-cover-lab has already been setup.
+2025-03-21 22:49:45.725 [info] [GitAPI] Repository file:///home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab has been opened
+2025-03-21 22:49:45.823 [info] [Review+6] Validate state in progress
+2025-03-21 22:49:45.823 [info] [Review+6] Validating state...
+2025-03-21 22:49:45.823 [info] [FolderRepositoryManager+6] Cannot updates repositories as git is uninitialized
+2025-03-21 22:49:45.823 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-document-structure-lab changed.
+2025-03-21 22:49:45.823 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-document-structure-lab has already been setup.
+2025-03-21 22:49:45.845 [info] [GitAPI] Repository file:///home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href has been opened
+2025-03-21 22:49:45.850 [info] [Activation] Git initialization state changed: state=initialized
+2025-03-21 22:49:45.850 [info] [Review+0] Validate state in progress
+2025-03-21 22:49:45.850 [info] [Review+0] Validating state...
+2025-03-21 22:49:45.850 [info] [Review+1] Validate state in progress
+2025-03-21 22:49:45.850 [info] [Review+1] Validating state...
+2025-03-21 22:49:45.850 [info] [Review+2] Validate state in progress
+2025-03-21 22:49:45.850 [info] [Review+2] Validating state...
+2025-03-21 22:49:45.850 [info] [Review+3] Validate state in progress
+2025-03-21 22:49:45.850 [info] [Review+3] Validating state...
+2025-03-21 22:49:45.850 [info] [Review+4] Validate state in progress
+2025-03-21 22:49:45.850 [info] [Review+4] Validating state...
+2025-03-21 22:49:45.850 [info] [Review+5] Validate state in progress
+2025-03-21 22:49:45.850 [info] [Review+5] Validating state...
+2025-03-21 22:49:45.851 [info] [Review+6] Validate state in progress
+2025-03-21 22:49:45.851 [info] [Review+6] Validating state...
+2025-03-21 22:49:45.851 [info] [Review+7] Validate state in progress
+2025-03-21 22:49:45.851 [info] [Review+7] Validating state...
+2025-03-21 22:49:45.851 [info] [Review+8] Validate state in progress
+2025-03-21 22:49:45.851 [info] [Review+8] Validating state...
+2025-03-21 22:49:45.851 [info] [Review+9] Validate state in progress
+2025-03-21 22:49:45.851 [info] [Review+9] Validating state...
+2025-03-21 22:49:45.851 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-21 22:49:45.851 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-21 22:49:45.851 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-21 22:49:45.851 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-21 22:49:45.851 [info] [FolderRepositoryManager+2] No GitHub remotes found for folder /home/travthegr88/development/code/phase-0/javascript
+2025-03-21 22:49:45.851 [info] [FolderRepositoryManager+7] No GitHub remotes found for folder /home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab
+2025-03-21 22:49:45.851 [info] [FolderRepositoryManager+8] No GitHub remotes found for folder /home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab
+2025-03-21 22:49:45.851 [info] [FolderRepositoryManager+9] No GitHub remotes found for folder /home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href
+2025-03-21 22:49:45.876 [info] [Review+2] No matching pull request metadata found locally for current branch main
+2025-03-21 22:49:45.902 [info] [FolderRepositoryManager+3] Found GitHub remote for folder /home/travthegr88
+2025-03-21 22:49:45.903 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-completing-assignments-codegrade
+2025-03-21 22:49:45.903 [info] [FolderRepositoryManager+1] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-css-issue-bot-9000
+2025-03-21 22:49:45.903 [info] [FolderRepositoryManager+4] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-css-kitten-lab
+2025-03-21 22:49:45.903 [info] [FolderRepositoryManager+5] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-album-cover-lab
+2025-03-21 22:49:45.903 [info] [FolderRepositoryManager+6] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-document-structure-lab
+2025-03-21 22:49:46.259 [info] [Review+7] Queuing additional validate state
+2025-03-21 22:49:46.259 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab changed.
+2025-03-21 22:49:46.259 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab has already been setup.
+2025-03-21 22:49:46.300 [info] [Review+2] No matching pull request metadata found on GitHub for current branch main
+2025-03-21 22:49:46.374 [info] [Review+8] Validate state in progress
+2025-03-21 22:49:46.374 [info] [Review+8] Validating state...
+2025-03-21 22:49:46.374 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab changed.
+2025-03-21 22:49:46.374 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab has already been setup.
+2025-03-21 22:49:46.382 [info] [Review+7] Validating state...
+2025-03-21 22:49:46.408 [info] [FolderRepositoryManager+8] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-issue-bot-9000-lab
+2025-03-21 22:49:46.408 [info] [FolderRepositoryManager+7] Found GitHub remote for folder /home/travthegr88/development/code/phase-0/phase-0-html-experiencing-html-lab
+2025-03-21 22:49:46.574 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/travthegr88 failed, reason: 
+2025-03-21 22:49:46.575 [info] [FolderRepositoryManager+3] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/travthegr88 failed, reason: 
+2025-03-21 22:49:46.581 [info] [FolderRepositoryManager+3] Trying to use globalState for assignableUsers.
+2025-03-21 22:49:46.586 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-21 22:49:46.587 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-21 22:49:46.588 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-21 22:49:46.589 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-21 22:49:46.589 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-21 22:49:46.589 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-21 22:49:46.590 [info] [FolderRepositoryManager+0] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-completing-assignments-codegrade failed, reason: 
+2025-03-21 22:49:46.590 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-03-21 22:49:46.594 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-21 22:49:46.594 [info] [FolderRepositoryManager+1] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-issue-bot-9000 failed, reason: 
+2025-03-21 22:49:46.594 [info] [FolderRepositoryManager+1] Trying to use globalState for assignableUsers.
+2025-03-21 22:49:46.603 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-css-kitten-lab failed, reason: 
+2025-03-21 22:49:46.603 [info] [FolderRepositoryManager+4] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-css-kitten-lab failed, reason: 
+2025-03-21 22:49:46.603 [info] [FolderRepositoryManager+4] Trying to use globalState for assignableUsers.
+2025-03-21 22:49:46.606 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-album-cover-lab failed, reason: 
+2025-03-21 22:49:46.607 [info] [FolderRepositoryManager+5] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-album-cover-lab failed, reason: 
+2025-03-21 22:49:46.607 [info] [FolderRepositoryManager+5] Trying to use globalState for assignableUsers.
+2025-03-21 22:49:46.611 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-document-structure-lab failed, reason: 
+2025-03-21 22:49:46.611 [info] [FolderRepositoryManager+6] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-document-structure-lab failed, reason: 
+2025-03-21 22:49:46.611 [info] [FolderRepositoryManager+6] Trying to use globalState for assignableUsers.
+2025-03-21 22:49:46.625 [info] [Review+6] No matching pull request metadata found locally for current branch master
+2025-03-21 22:49:46.626 [info] [Review+5] No matching pull request metadata found locally for current branch master
+2025-03-21 22:49:46.627 [info] [Review+4] No matching pull request metadata found locally for current branch master
+2025-03-21 22:49:46.628 [info] [Review+1] No matching pull request metadata found locally for current branch master
+2025-03-21 22:49:46.628 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-03-21 22:49:46.628 [info] [Review+3] No matching pull request metadata found locally for current branch master
+2025-03-21 22:49:46.635 [info] [Review+9] Validate state in progress
+2025-03-21 22:49:46.635 [info] [Review+9] Validating state...
+2025-03-21 22:49:46.635 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href changed.
+2025-03-21 22:49:46.635 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/phase-0-html-link-tag-with-href has already been setup.
+2025-03-21 22:49:46.872 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-issue-bot-9000-lab failed, reason: 
+2025-03-21 22:49:46.872 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-experiencing-html-lab failed, reason: 
+2025-03-21 22:49:46.873 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-issue-bot-9000-lab failed, reason: 
+2025-03-21 22:49:46.873 [info] [FolderRepositoryManager+8] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-issue-bot-9000-lab failed, reason: 
+2025-03-21 22:49:46.874 [info] [FolderRepositoryManager+8] Trying to use globalState for assignableUsers.
+2025-03-21 22:49:46.878 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/learn-co-curriculum/phase-0-html-experiencing-html-lab failed, reason: 
+2025-03-21 22:49:46.878 [info] [FolderRepositoryManager+7] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/phase-0-html-experiencing-html-lab failed, reason: 
+2025-03-21 22:49:46.879 [info] [FolderRepositoryManager+7] Trying to use globalState for assignableUsers.
+2025-03-21 22:49:46.885 [info] [Review+8] No matching pull request metadata found locally for current branch master
+2025-03-21 22:49:46.887 [info] [Review+7] No matching pull request metadata found locally for current branch master
+2025-03-21 22:49:49.394 [info] [Activation] Repo state for file:///home/travthegr88 changed.
+2025-03-21 22:49:49.394 [info] [Activation] Repo file:///home/travthegr88 has already been setup.
+2025-03-21 22:51:43.566 [error] [Review+0] Timeout occurred while validating state.
+2025-03-21 22:51:43.568 [error] [Review+1] Timeout occurred while validating state.
+2025-03-21 22:51:43.568 [error] [Review+2] Timeout occurred while validating state.
+2025-03-21 22:51:43.568 [error] [Review+3] Timeout occurred while validating state.
+2025-03-21 22:51:43.568 [error] [Review+4] Timeout occurred while validating state.
+2025-03-21 22:51:43.568 [error] [Review+5] Timeout occurred while validating state.
+2025-03-21 22:51:43.569 [error] [Review+6] Timeout occurred while validating state.
+2025-03-21 22:51:44.089 [error] [Review+8] Timeout occurred while validating state.
+2025-03-21 22:51:44.097 [error] [Review+7] Timeout occurred while validating state.
+2025-03-21 22:51:44.356 [error] [Review+9] Timeout occurred while validating state.
+2025-03-21 22:52:41.677 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-0/javascript changed.
+2025-03-21 22:52:41.677 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-0/javascript has already been setup.

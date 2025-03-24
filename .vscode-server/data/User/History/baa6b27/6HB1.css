@@ -1,0 +1,44 @@
+.general-link{
+        border-width: 2px;
+        border-style: solid;
+        padding: 16px;
+        width: fit-content;
+}
+nav{
+    background-color: #111;
+    padding: 24px;
+    display: flex;
+}
+header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+}
+
+ 
+ 
+ 
+ .me{
+    background-image: url(../images/Screenshots/myimage.png);
+    height:540px;
+    font-family: "Montse?rrat", sans-serif;
+    padding: 50PX;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+        text-transform: uppercase;
+        font-size: 30px;
+        fo;
+}
+*{background-color:blanchedalmond;}
+.container{display: flex;
+           width: 100px;
+           height:  ;
+           flex-direction:column ;
+           padding: 48px;
+           gap: 16px;
+        }
+.box{display: flex;
+     margin: 10px;
+     padding: 20px;
+}

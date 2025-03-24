@@ -1,0 +1,72 @@
+* {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   
+   
+}
+
+h1 {
+   background:wheat;
+   color: white;
+   padding: 70px;
+}
+
+#ramen-menu {
+   display: flex;
+   justify-content: baseline;
+   gap: 15px;
+   padding: 10px;
+   border-bottom: 2px ;
+   color: burlywood;
+}
+
+#ramen-menu img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: 2px ;
+    
+}
+
+#ramen-menu img:hover {
+    
+    border: 2px solid red;
+}
+
+form {
+       background: goldenrod;
+       padding: 60px;
+       width: 50%;
+       margin: 20px ;
+       border-radius: 30px;
+    
+   }
+   
+input {
+       width: 50%;
+       padding: 15px;
+       margin: 5px;
+       border: 1px solid #ddd;
+       border-radius: 5px;
+      }
+      
+button {
+          background-color:black;
+          color: wheat;
+          padding: 20px;
+          cursor: pointer;
+          border-radius: 30px;
+          width: 50%;
+}
+
+#new-ramen-form{
+    background-color: goldenrod;
+    
+}         
+          
+          
+      
+      
+button:hover {
+          background-color: red;
+      }   

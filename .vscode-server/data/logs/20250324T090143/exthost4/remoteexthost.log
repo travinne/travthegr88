@@ -1,0 +1,31 @@
+2025-03-24 11:34:16.416 [info] Extension host with pid 55646 started
+2025-03-24 11:34:16.470 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-24 11:34:16.482 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/06c3231b1b124ed71f9888def94dd88e/vscode.lock': Lock acquired.
+2025-03-24 11:34:16.566 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-24 11:34:16.566 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-24 11:34:16.806 [info] Eager extensions activated
+2025-03-24 11:34:16.807 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-24 11:34:16.807 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-24 11:34:16.807 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-24 11:34:16.807 [info] ExtensionService#_doActivateExtension github.classroom, startup: false, activationEvent: 'onStartupFinished'
+2025-03-24 11:34:16.808 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-03-24 11:34:17.146 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2025-03-24 11:34:17.664 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-24 11:34:17.896 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-24 11:34:23.992 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-03-24 11:34:37.990 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-24 11:34:37.990 [info] ExtensionService#_doActivateExtension leizongmin.node-module-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-24 12:07:27.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10010
+2025-03-24 12:22:54.899 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-03-24 12:23:02.138 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10003
+2025-03-24 12:26:12.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2025-03-24 12:29:23.217 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2025-03-24 12:32:33.799 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2025-03-24 12:35:35.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10003
+2025-03-24 12:38:42.600 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2025-03-24 12:39:54.865 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-03-24 12:42:55.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10005
+2025-03-24 12:43:42.523 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-24 12:43:42.526 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-24 12:43:42.610 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-03-24 12:45:19.959 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

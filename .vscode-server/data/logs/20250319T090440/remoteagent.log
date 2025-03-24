@@ -1,0 +1,722 @@
+2025-03-19 09:04:40.797 [info] 
+
+
+
+
+2025-03-19 09:04:40.811 [info] Extension host agent started.
+2025-03-19 09:04:41.048 [info] [127.0.0.1][d3c88c5d][ManagementConnection] New connection established.
+2025-03-19 09:04:41.341 [info] [127.0.0.1][db9a3a06][ExtensionHostConnection] New connection established.
+2025-03-19 09:04:41.494 [info] [127.0.0.1][c539da83][ManagementConnection] New connection established.
+2025-03-19 09:04:41.782 [info] [127.0.0.1][db9a3a06][ExtensionHostConnection] <981> Launched Extension Host Process.
+2025-03-19 09:04:42.387 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] New connection established.
+2025-03-19 09:04:42.403 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> Launched Extension Host Process.
+2025-03-19 09:04:43.307 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-19 09:04:46.310 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-19 09:10:57.003 [info] [127.0.0.1][52c24593][ManagementConnection] New connection established.
+2025-03-19 09:10:57.228 [info] [127.0.0.1][a64736ee][ExtensionHostConnection] New connection established.
+2025-03-19 09:10:57.232 [info] [127.0.0.1][a64736ee][ExtensionHostConnection] <3547> Launched Extension Host Process.
+2025-03-19 11:16:10.153 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] The client has reconnected.
+2025-03-19 11:16:10.258 [info] [127.0.0.1][db9a3a06][ExtensionHostConnection] The client has reconnected.
+2025-03-19 11:16:10.355 [info] [127.0.0.1][52c24593][ManagementConnection] The client has reconnected.
+2025-03-19 11:16:10.490 [info] [127.0.0.1][d3c88c5d][ManagementConnection] The client has reconnected.
+2025-03-19 11:16:10.589 [info] [127.0.0.1][a64736ee][ExtensionHostConnection] The client has reconnected.
+2025-03-19 11:16:10.685 [info] [127.0.0.1][c539da83][ManagementConnection] The client has reconnected.
+2025-03-19 11:17:14.915 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-03-19 11:17:14.996 [info] [127.0.0.1][d3c88c5d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-03-19 11:17:17.317 [info] [127.0.0.1][d3c88c5d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-03-19 11:17:17.318 [info] [127.0.0.1][d3c88c5d][ManagementConnection] The client has reconnected.
+2025-03-19 11:17:17.637 [info] [127.0.0.1][c539da83][ManagementConnection] The client has reconnected.
+2025-03-19 11:17:17.909 [info] [127.0.0.1][db9a3a06][ExtensionHostConnection] The client has reconnected.
+2025-03-19 11:17:18.126 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] The client has reconnected.
+2025-03-19 11:17:18.302 [info] [127.0.0.1][52c24593][ManagementConnection] The client has reconnected.
+2025-03-19 13:10:02.473 [info] [127.0.0.1][a64736ee][ExtensionHostConnection] The client has reconnected.
+2025-03-19 13:11:08.630 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 6.043 ms - 150[0m
+
+2025-03-19 13:11:08.725 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /favicon.ico [33m404[0m 1.639 ms - 150[0m
+
+2025-03-19 13:13:53.843 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.475 ms - 150[0m
+
+2025-03-19 13:13:57.669 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.667 ms - 150[0m
+
+2025-03-19 13:14:26.951 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.537 ms - 150[0m
+
+2025-03-19 13:14:29.919 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.078 ms - 150[0m
+
+2025-03-19 13:14:48.885 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.640 ms - 150[0m
+
+2025-03-19 13:14:57.381 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.759 ms - 150[0m
+
+2025-03-19 13:31:13.700 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 10.729 ms - 150[0m
+
+2025-03-19 13:31:16.499 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.104 ms - 150[0m
+
+2025-03-19 13:31:56.901 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.678 ms - 150[0m
+
+2025-03-19 13:32:09.450 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.518 ms - 150[0m
+
+2025-03-19 13:32:35.076 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.466 ms - 150[0m
+
+2025-03-19 13:33:29.751 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.341 ms - 150[0m
+
+2025-03-19 13:33:43.558 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.990 ms - 150[0m
+
+2025-03-19 13:33:45.267 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.223 ms - 150[0m
+
+2025-03-19 13:34:18.662 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.090 ms - 150[0m
+
+2025-03-19 13:34:23.977 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.643 ms - 150[0m
+
+2025-03-19 13:34:41.149 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.482 ms - 150[0m
+
+2025-03-19 13:34:49.812 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.533 ms - 150[0m
+
+2025-03-19 13:35:18.894 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.767 ms - 150[0m
+
+2025-03-19 13:36:42.442 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.291 ms - 150[0m
+
+2025-03-19 13:37:48.653 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.148 ms - 150[0m
+
+2025-03-19 13:39:10.788 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.464 ms - 150[0m
+
+2025-03-19 13:39:13.062 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.877 ms - 150[0m
+
+2025-03-19 13:39:15.885 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.804 ms - 150[0m
+
+2025-03-19 13:41:02.579 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.957 ms - 150[0m
+
+2025-03-19 13:52:46.413 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.832 ms - 150[0m
+
+2025-03-19 13:52:50.181 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.914 ms - 150[0m
+
+2025-03-19 13:52:57.492 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.753 ms - 150[0m
+
+2025-03-19 13:53:00.693 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.946 ms - 150[0m
+
+2025-03-19 13:53:12.320 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.402 ms - 150[0m
+
+2025-03-19 13:53:15.366 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.233 ms - 150[0m
+
+2025-03-19 13:53:18.418 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.096 ms - 150[0m
+
+2025-03-19 13:53:35.696 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.754 ms - 150[0m
+
+2025-03-19 14:05:50.764 [info] [127.0.0.1][304a3bdd][ManagementConnection] New connection established.
+2025-03-19 14:05:51.086 [info] [127.0.0.1][01552265][ExtensionHostConnection] New connection established.
+2025-03-19 14:05:51.107 [info] [127.0.0.1][01552265][ExtensionHostConnection] <98383> Launched Extension Host Process.
+2025-03-19 14:39:15.847 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 4.817 ms - 150[0m
+
+2025-03-19 14:41:40.174 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.307 ms - 150[0m
+
+2025-03-19 15:13:58.866 [info] [127.0.0.1][01552265][ExtensionHostConnection] <98383> [0mGET /favicon.ico [33m404[0m 2.257 ms - 150[0m
+
+2025-03-19 16:25:59.947 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.568 ms - 150[0m
+
+2025-03-19 16:26:02.898 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.748 ms - 150[0m
+
+2025-03-19 16:26:15.191 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.219 ms - 150[0m
+
+2025-03-19 16:27:15.891 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.804 ms - 150[0m
+
+2025-03-19 16:27:20.415 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.710 ms - 150[0m
+
+2025-03-19 16:29:56.709 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.568 ms - 150[0m
+
+2025-03-19 16:30:25.597 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.160 ms - 150[0m
+
+2025-03-19 16:31:22.859 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.961 ms - 150[0m
+
+2025-03-19 16:31:25.725 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.451 ms - 150[0m
+
+2025-03-19 16:31:26.903 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.731 ms - 150[0m
+
+2025-03-19 16:31:28.408 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.296 ms - 150[0m
+
+2025-03-19 16:33:14.678 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.910 ms - 150[0m
+
+2025-03-19 16:33:16.396 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.099 ms - 150[0m
+
+2025-03-19 16:33:17.826 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.747 ms - 150[0m
+
+2025-03-19 16:33:45.870 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.631 ms - 150[0m
+
+2025-03-19 16:33:48.638 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.179 ms - 150[0m
+
+2025-03-19 16:33:53.950 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.604 ms - 150[0m
+
+2025-03-19 16:33:57.710 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.712 ms - 150[0m
+
+2025-03-19 16:34:00.433 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.083 ms - 150[0m
+
+2025-03-19 16:38:55.815 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.939 ms - 150[0m
+
+2025-03-19 16:39:19.479 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.131 ms - 150[0m
+
+2025-03-19 16:39:24.509 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.596 ms - 150[0m
+
+2025-03-19 16:39:30.583 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.991 ms - 150[0m
+
+2025-03-19 16:39:43.684 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.789 ms - 150[0m
+
+2025-03-19 16:39:46.008 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.968 ms - 150[0m
+
+2025-03-19 16:39:50.297 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.137 ms - 150[0m
+
+2025-03-19 16:45:10.153 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 4.993 ms - 150[0m
+
+2025-03-19 16:45:12.175 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.444 ms - 150[0m
+
+2025-03-19 16:45:15.435 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.429 ms - 150[0m
+
+2025-03-19 16:45:19.712 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.132 ms - 150[0m
+
+2025-03-19 16:45:27.143 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.388 ms - 150[0m
+
+2025-03-19 16:45:58.424 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.488 ms - 150[0m
+
+2025-03-19 16:46:00.477 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.918 ms - 150[0m
+
+2025-03-19 16:46:01.580 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.953 ms - 150[0m
+
+2025-03-19 16:46:06.272 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.468 ms - 150[0m
+
+2025-03-19 16:46:09.309 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.645 ms - 150[0m
+
+2025-03-19 16:46:12.817 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.760 ms - 150[0m
+
+2025-03-19 16:46:27.351 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.008 ms - 150[0m
+
+2025-03-19 16:46:30.450 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.004 ms - 150[0m
+
+2025-03-19 16:46:41.050 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.134 ms - 150[0m
+
+2025-03-19 16:46:42.131 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.554 ms - 150[0m
+
+2025-03-19 16:46:46.952 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.760 ms - 150[0m
+
+2025-03-19 16:46:50.725 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.304 ms - 150[0m
+
+2025-03-19 16:47:00.410 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.036 ms - 150[0m
+
+2025-03-19 16:47:02.923 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.554 ms - 150[0m
+
+2025-03-19 16:47:05.000 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.952 ms - 150[0m
+
+2025-03-19 16:47:12.180 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.183 ms - 150[0m
+
+2025-03-19 16:47:15.123 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.648 ms - 150[0m
+
+2025-03-19 16:47:24.192 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.642 ms - 150[0m
+
+2025-03-19 16:47:25.435 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.872 ms - 150[0m
+
+2025-03-19 16:48:28.390 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.579 ms - 150[0m
+
+2025-03-19 16:48:29.617 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.970 ms - 150[0m
+
+2025-03-19 16:48:38.314 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.626 ms - 150[0m
+
+2025-03-19 16:48:40.724 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.559 ms - 150[0m
+
+2025-03-19 16:49:11.234 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.911 ms - 150[0m
+
+2025-03-19 17:30:12.363 [info] [127.0.0.1][a64736ee][ExtensionHostConnection] The client has reconnected.
+2025-03-19 17:30:12.627 [info] [127.0.0.1][c539da83][ManagementConnection] The client has reconnected.
+2025-03-19 17:30:12.808 [info] [127.0.0.1][d3c88c5d][ManagementConnection] The client has reconnected.
+2025-03-19 17:30:12.922 [info] [127.0.0.1][52c24593][ManagementConnection] The client has reconnected.
+2025-03-19 17:30:13.041 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] The client has reconnected.
+2025-03-19 17:30:15.488 [info] [127.0.0.1][db9a3a06][ExtensionHostConnection] The client has reconnected.
+2025-03-19 17:30:15.656 [info] [127.0.0.1][01552265][ExtensionHostConnection] The client has reconnected.
+2025-03-19 17:30:15.777 [info] [127.0.0.1][304a3bdd][ManagementConnection] The client has reconnected.
+2025-03-19 17:33:42.295 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.379 ms - 150[0m
+
+2025-03-19 17:34:20.189 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.804 ms - 150[0m
+
+2025-03-19 17:34:22.901 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.766 ms - 150[0m
+
+2025-03-19 17:34:24.450 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.610 ms - 150[0m
+
+2025-03-19 17:34:37.821 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.410 ms - 150[0m
+
+2025-03-19 17:35:57.815 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.905 ms - 150[0m
+
+2025-03-19 17:35:58.688 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.407 ms - 150[0m
+
+2025-03-19 17:36:10.897 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.532 ms - 150[0m
+
+2025-03-19 17:36:24.601 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.276 ms - 150[0m
+
+2025-03-19 17:36:54.820 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.026 ms - 150[0m
+
+2025-03-19 17:36:57.504 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.089 ms - 150[0m
+
+2025-03-19 17:36:58.623 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.242 ms - 150[0m
+
+2025-03-19 17:38:12.417 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.831 ms - 150[0m
+
+2025-03-19 17:38:17.502 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.659 ms - 150[0m
+
+2025-03-19 17:38:18.769 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.124 ms - 150[0m
+
+2025-03-19 17:38:26.867 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 5.097 ms - 150[0m
+
+2025-03-19 17:38:29.033 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.047 ms - 150[0m
+
+2025-03-19 17:45:08.113 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.339 ms - 150[0m
+
+2025-03-19 17:45:13.028 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.294 ms - 150[0m
+
+2025-03-19 17:45:14.060 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.604 ms - 150[0m
+
+2025-03-19 17:45:15.945 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.991 ms - 150[0m
+
+2025-03-19 17:45:18.550 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.875 ms - 150[0m
+
+2025-03-19 17:45:19.993 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.910 ms - 150[0m
+
+2025-03-19 17:45:29.326 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.749 ms - 150[0m
+
+2025-03-19 17:45:30.402 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.822 ms - 150[0m
+
+2025-03-19 17:45:46.823 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.526 ms - 150[0m
+
+2025-03-19 17:45:53.462 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.840 ms - 150[0m
+
+2025-03-19 17:45:56.267 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.436 ms - 150[0m
+
+2025-03-19 17:46:23.511 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.410 ms - 150[0m
+
+2025-03-19 17:46:27.216 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.133 ms - 150[0m
+
+2025-03-19 17:46:38.900 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.094 ms - 150[0m
+
+2025-03-19 17:46:52.936 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.118 ms - 150[0m
+
+2025-03-19 17:46:55.695 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.825 ms - 150[0m
+
+2025-03-19 17:48:12.329 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.746 ms - 150[0m
+
+2025-03-19 17:48:15.403 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.663 ms - 150[0m
+
+2025-03-19 17:48:29.114 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.617 ms - 150[0m
+
+2025-03-19 17:48:34.664 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.042 ms - 150[0m
+
+2025-03-19 17:48:40.381 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.205 ms - 150[0m
+
+2025-03-19 17:48:48.189 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.428 ms - 150[0m
+
+2025-03-19 17:48:52.602 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.789 ms - 150[0m
+
+2025-03-19 17:49:12.809 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.484 ms - 150[0m
+
+2025-03-19 17:49:29.514 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.643 ms - 150[0m
+
+2025-03-19 17:49:34.959 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.117 ms - 150[0m
+
+2025-03-19 17:49:36.742 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.927 ms - 150[0m
+
+2025-03-19 17:49:42.381 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.873 ms - 150[0m
+
+2025-03-19 17:49:43.504 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.992 ms - 150[0m
+
+2025-03-19 17:52:25.287 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.344 ms - 150[0m
+
+2025-03-19 17:52:26.305 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.475 ms - 150[0m
+
+2025-03-19 17:52:28.049 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.279 ms - 150[0m
+
+2025-03-19 17:52:29.947 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.320 ms - 150[0m
+
+2025-03-19 17:52:32.983 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.920 ms - 150[0m
+
+2025-03-19 17:52:35.427 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.794 ms - 150[0m
+
+2025-03-19 17:52:44.697 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.383 ms - 150[0m
+
+2025-03-19 17:52:50.530 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.609 ms - 150[0m
+
+2025-03-19 17:52:57.026 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.198 ms - 150[0m
+
+2025-03-19 17:53:05.162 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.348 ms - 150[0m
+
+2025-03-19 17:53:06.467 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.413 ms - 150[0m
+
+2025-03-19 17:53:14.342 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.232 ms - 150[0m
+
+2025-03-19 17:57:17.263 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.588 ms - 150[0m
+
+2025-03-19 17:57:19.673 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.251 ms - 150[0m
+
+2025-03-19 17:57:31.697 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.944 ms - 150[0m
+
+2025-03-19 17:58:26.030 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.689 ms - 150[0m
+
+2025-03-19 17:58:29.712 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.921 ms - 150[0m
+
+2025-03-19 17:58:30.898 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.295 ms - 150[0m
+
+2025-03-19 17:58:35.339 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.533 ms - 150[0m
+
+2025-03-19 17:59:09.649 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.197 ms - 150[0m
+
+2025-03-19 17:59:12.813 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.201 ms - 150[0m
+
+2025-03-19 17:59:16.296 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.697 ms - 150[0m
+
+2025-03-19 17:59:20.441 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.719 ms - 150[0m
+
+2025-03-19 17:59:22.918 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.990 ms - 150[0m
+
+2025-03-19 17:59:25.215 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.459 ms - 150[0m
+
+2025-03-19 17:59:27.564 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.189 ms - 150[0m
+
+2025-03-19 17:59:31.404 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.373 ms - 150[0m
+
+2025-03-19 17:59:41.743 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.999 ms - 150[0m
+
+2025-03-19 17:59:42.717 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.885 ms - 150[0m
+
+2025-03-19 17:59:46.931 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.746 ms - 150[0m
+
+2025-03-19 17:59:50.265 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.442 ms - 150[0m
+
+2025-03-19 18:00:01.328 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.872 ms - 150[0m
+
+2025-03-19 18:00:18.533 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.166 ms - 150[0m
+
+2025-03-19 18:00:23.848 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.384 ms - 150[0m
+
+2025-03-19 18:00:25.407 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.302 ms - 150[0m
+
+2025-03-19 18:00:29.189 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.601 ms - 150[0m
+
+2025-03-19 18:00:30.301 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.769 ms - 150[0m
+
+2025-03-19 18:00:38.316 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.511 ms - 150[0m
+
+2025-03-19 18:00:45.095 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.063 ms - 150[0m
+
+2025-03-19 18:02:17.919 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 4.160 ms - 150[0m
+
+2025-03-19 18:03:42.362 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.730 ms - 150[0m
+
+2025-03-19 18:03:44.631 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.911 ms - 150[0m
+
+2025-03-19 18:03:46.333 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.915 ms - 150[0m
+
+2025-03-19 18:03:47.896 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.781 ms - 150[0m
+
+2025-03-19 18:03:51.047 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.796 ms - 150[0m
+
+2025-03-19 18:03:55.312 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.279 ms - 150[0m
+
+2025-03-19 18:03:57.662 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.626 ms - 150[0m
+
+2025-03-19 18:04:06.062 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.340 ms - 150[0m
+
+2025-03-19 18:04:08.383 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.823 ms - 150[0m
+
+2025-03-19 18:04:29.697 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.285 ms - 150[0m
+
+2025-03-19 18:04:30.706 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.843 ms - 150[0m
+
+2025-03-19 18:04:33.594 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.084 ms - 150[0m
+
+2025-03-19 18:04:42.338 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.537 ms - 150[0m
+
+2025-03-19 18:04:51.984 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.533 ms - 150[0m
+
+2025-03-19 18:04:58.743 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.722 ms - 150[0m
+
+2025-03-19 18:05:00.438 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.721 ms - 150[0m
+
+2025-03-19 18:05:09.784 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.577 ms - 150[0m
+
+2025-03-19 18:05:14.506 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.788 ms - 150[0m
+
+2025-03-19 18:05:38.323 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.796 ms - 150[0m
+
+2025-03-19 18:06:10.221 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.091 ms - 150[0m
+
+2025-03-19 18:06:26.004 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.371 ms - 150[0m
+
+2025-03-19 18:06:27.902 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.184 ms - 150[0m
+
+2025-03-19 18:06:35.257 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.549 ms - 150[0m
+
+2025-03-19 18:06:39.424 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.403 ms - 150[0m
+
+2025-03-19 18:06:51.774 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.671 ms - 150[0m
+
+2025-03-19 18:06:53.888 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.074 ms - 150[0m
+
+2025-03-19 18:08:00.089 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.967 ms - 150[0m
+
+2025-03-19 18:08:35.724 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.149 ms - 150[0m
+
+2025-03-19 20:00:50.470 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] The client has reconnected.
+2025-03-19 20:00:50.873 [info] [127.0.0.1][db9a3a06][ExtensionHostConnection] The client has reconnected.
+2025-03-19 20:00:51.174 [info] [127.0.0.1][52c24593][ManagementConnection] The client has reconnected.
+2025-03-19 20:00:51.403 [info] [127.0.0.1][c539da83][ManagementConnection] The client has reconnected.
+2025-03-19 20:00:51.598 [info] [127.0.0.1][01552265][ExtensionHostConnection] The client has reconnected.
+2025-03-19 20:00:51.715 [info] [127.0.0.1][d3c88c5d][ManagementConnection] The client has reconnected.
+2025-03-19 20:00:51.838 [info] [127.0.0.1][a64736ee][ExtensionHostConnection] The client has reconnected.
+2025-03-19 20:00:54.538 [info] [127.0.0.1][304a3bdd][ManagementConnection] The client has reconnected.
+2025-03-19 20:08:26.898 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.986 ms - 150[0m
+
+2025-03-19 20:10:04.821 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.740 ms - 150[0m
+
+2025-03-19 20:10:42.563 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.827 ms - 150[0m
+
+2025-03-19 20:10:51.042 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.864 ms - 150[0m
+
+2025-03-19 20:10:52.256 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.291 ms - 150[0m
+
+2025-03-19 20:10:52.468 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.787 ms - 150[0m
+
+2025-03-19 20:10:52.674 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.915 ms - 150[0m
+
+2025-03-19 20:10:52.855 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.114 ms - 150[0m
+
+2025-03-19 20:10:53.089 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.905 ms - 150[0m
+
+2025-03-19 20:11:36.685 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.364 ms - 150[0m
+
+2025-03-19 20:14:33.172 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.189 ms - 150[0m
+
+2025-03-19 20:16:29.632 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.665 ms - 150[0m
+
+2025-03-19 20:16:32.510 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.653 ms - 150[0m
+
+2025-03-19 20:16:51.306 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.875 ms - 150[0m
+
+2025-03-19 20:18:39.343 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.233 ms - 150[0m
+
+2025-03-19 20:19:04.098 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.423 ms - 150[0m
+
+2025-03-19 20:19:06.085 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.475 ms - 150[0m
+
+2025-03-19 20:19:07.283 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.024 ms - 150[0m
+
+2025-03-19 20:19:11.518 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.115 ms - 150[0m
+
+2025-03-19 20:19:16.070 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.626 ms - 150[0m
+
+2025-03-19 20:19:21.150 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.415 ms - 150[0m
+
+2025-03-19 20:19:23.459 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.002 ms - 150[0m
+
+2025-03-19 20:19:26.318 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.183 ms - 150[0m
+
+2025-03-19 20:19:33.245 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.552 ms - 150[0m
+
+2025-03-19 20:19:36.730 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.423 ms - 150[0m
+
+2025-03-19 20:19:37.868 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.239 ms - 150[0m
+
+2025-03-19 20:19:41.047 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.819 ms - 150[0m
+
+2025-03-19 20:19:43.315 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.298 ms - 150[0m
+
+2025-03-19 20:19:50.225 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.600 ms - 150[0m
+
+2025-03-19 20:19:58.402 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.286 ms - 150[0m
+
+2025-03-19 20:20:12.540 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.660 ms - 150[0m
+
+2025-03-19 20:20:16.298 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.720 ms - 150[0m
+
+2025-03-19 20:20:17.696 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.939 ms - 150[0m
+
+2025-03-19 20:20:23.329 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.685 ms - 150[0m
+
+2025-03-19 20:20:25.323 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.531 ms - 150[0m
+
+2025-03-19 20:20:44.214 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.914 ms - 150[0m
+
+2025-03-19 20:20:48.550 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.519 ms - 150[0m
+
+2025-03-19 20:20:49.779 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.230 ms - 150[0m
+
+2025-03-19 20:20:54.794 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.319 ms - 150[0m
+
+2025-03-19 20:20:55.959 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.170 ms - 150[0m
+
+2025-03-19 20:20:58.796 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.332 ms - 150[0m
+
+2025-03-19 20:21:01.285 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.817 ms - 150[0m
+
+2025-03-19 20:21:45.869 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.816 ms - 150[0m
+
+2025-03-19 20:21:47.005 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.419 ms - 150[0m
+
+2025-03-19 20:21:47.227 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.668 ms - 150[0m
+
+2025-03-19 20:21:47.465 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.197 ms - 150[0m
+
+2025-03-19 20:23:53.865 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.394 ms - 150[0m
+
+2025-03-19 20:24:00.056 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.819 ms - 150[0m
+
+2025-03-19 20:24:02.105 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 3.065 ms - 150[0m
+
+2025-03-19 20:24:44.092 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.983 ms - 150[0m
+
+2025-03-19 20:24:45.511 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.223 ms - 150[0m
+
+2025-03-19 20:24:48.472 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.836 ms - 150[0m
+
+2025-03-19 20:24:52.028 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.006 ms - 150[0m
+
+2025-03-19 20:24:55.167 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.612 ms - 150[0m
+
+2025-03-19 20:26:24.405 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.546 ms - 150[0m
+
+2025-03-19 20:27:02.212 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.532 ms - 150[0m
+
+2025-03-19 20:28:09.714 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.545 ms - 150[0m
+
+2025-03-19 20:28:12.825 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.983 ms - 150[0m
+
+2025-03-19 20:29:35.782 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.405 ms - 150[0m
+
+2025-03-19 20:37:08.863 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.157 ms - 150[0m
+
+2025-03-19 20:37:10.694 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.399 ms - 150[0m
+
+2025-03-19 20:38:13.603 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.889 ms - 150[0m
+
+2025-03-19 20:41:08.327 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.479 ms - 150[0m
+
+2025-03-19 21:50:14.569 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.274 ms - 150[0m
+
+2025-03-19 21:50:41.566 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.938 ms - 150[0m
+
+2025-03-19 21:50:50.034 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.249 ms - 150[0m
+
+2025-03-19 21:51:12.683 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.617 ms - 150[0m
+
+2025-03-19 21:52:26.667 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.523 ms - 150[0m
+
+2025-03-19 21:55:15.720 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.287 ms - 150[0m
+
+2025-03-19 21:55:19.271 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.898 ms - 150[0m
+
+2025-03-19 21:55:21.549 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.160 ms - 150[0m
+
+2025-03-19 21:55:23.906 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.558 ms - 150[0m
+
+2025-03-19 21:55:26.247 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.146 ms - 150[0m
+
+2025-03-19 21:56:00.484 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.002 ms - 150[0m
+
+2025-03-19 21:56:16.026 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.200 ms - 150[0m
+
+2025-03-19 21:56:21.080 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.672 ms - 150[0m
+
+2025-03-19 21:56:22.490 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.623 ms - 150[0m
+
+2025-03-19 21:56:46.515 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.637 ms - 150[0m
+
+2025-03-19 21:56:48.718 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.602 ms - 150[0m
+
+2025-03-19 21:57:03.371 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.661 ms - 150[0m
+
+2025-03-19 21:57:06.623 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.429 ms - 150[0m
+
+2025-03-19 21:57:10.247 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.075 ms - 150[0m
+
+2025-03-19 21:57:18.433 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.793 ms - 150[0m
+
+2025-03-19 21:57:26.539 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.399 ms - 150[0m
+
+2025-03-19 21:57:53.341 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.298 ms - 150[0m
+
+2025-03-19 21:57:59.226 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.345 ms - 150[0m
+
+2025-03-19 21:58:11.646 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.787 ms - 150[0m
+
+2025-03-19 21:58:15.092 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.688 ms - 150[0m
+
+2025-03-19 21:58:19.153 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.843 ms - 150[0m
+
+2025-03-19 21:58:21.366 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.355 ms - 150[0m
+
+2025-03-19 21:58:43.721 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.651 ms - 150[0m
+
+2025-03-19 21:58:48.477 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.788 ms - 150[0m
+
+2025-03-19 21:58:57.933 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.293 ms - 150[0m
+
+2025-03-19 21:59:01.763 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.519 ms - 150[0m
+
+2025-03-19 21:59:43.755 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.166 ms - 150[0m
+
+2025-03-19 21:59:45.658 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.654 ms - 150[0m
+
+2025-03-19 21:59:51.963 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.038 ms - 150[0m
+
+2025-03-19 21:59:54.004 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.883 ms - 150[0m
+
+2025-03-19 22:00:06.397 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.177 ms - 150[0m
+
+2025-03-19 22:00:10.500 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.720 ms - 150[0m
+
+2025-03-19 22:00:12.906 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.620 ms - 150[0m
+
+2025-03-19 22:00:22.512 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.772 ms - 150[0m
+
+2025-03-19 22:00:23.463 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.707 ms - 150[0m
+
+2025-03-19 22:00:23.964 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.542 ms - 150[0m
+
+2025-03-19 22:00:24.226 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.512 ms - 150[0m
+
+2025-03-19 22:01:37.406 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.199 ms - 150[0m
+
+2025-03-19 22:01:43.090 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.057 ms - 150[0m
+
+2025-03-19 22:01:46.499 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.156 ms - 150[0m
+
+2025-03-19 22:01:49.594 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.314 ms - 150[0m
+
+2025-03-19 22:02:23.403 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.644 ms - 150[0m
+
+2025-03-19 22:02:24.938 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.480 ms - 150[0m
+
+2025-03-19 22:19:55.624 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.608 ms - 150[0m
+
+2025-03-19 22:19:57.022 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.079 ms - 150[0m
+
+2025-03-19 22:20:37.418 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.850 ms - 150[0m
+
+2025-03-19 22:20:41.418 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.758 ms - 150[0m
+
+2025-03-19 22:20:43.315 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.528 ms - 150[0m
+
+2025-03-19 22:20:46.464 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.077 ms - 150[0m
+
+2025-03-19 22:21:03.527 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.629 ms - 150[0m
+
+2025-03-19 22:21:05.996 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.871 ms - 150[0m
+
+2025-03-19 22:21:09.369 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.340 ms - 150[0m
+
+2025-03-19 22:21:11.025 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 2.198 ms - 150[0m
+
+2025-03-19 22:21:14.140 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 0.950 ms - 150[0m
+
+2025-03-19 22:21:18.216 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.282 ms - 150[0m
+
+2025-03-19 22:21:19.943 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> [0mGET /js/index.js [33m404[0m 1.154 ms - 150[0m
+
+2025-03-19 22:31:19.286 [info] [127.0.0.1][c539da83][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-19 22:31:19.589 [info] [127.0.0.1][d8aed243][ExtensionHostConnection] <1004> Extension Host Process exited with code: 0, signal: null.
+2025-03-19 22:31:39.300 [info] [127.0.0.1][52c24593][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-19 22:31:39.580 [info] [127.0.0.1][a64736ee][ExtensionHostConnection] <3547> Extension Host Process exited with code: 0, signal: null.
+2025-03-19 22:31:43.695 [info] [127.0.0.1][d3c88c5d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-19 22:31:43.881 [info] [127.0.0.1][db9a3a06][ExtensionHostConnection] <981> Extension Host Process exited with code: 0, signal: null.
+2025-03-19 22:32:16.309 [info] [127.0.0.1][304a3bdd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-19 22:32:16.556 [info] [127.0.0.1][01552265][ExtensionHostConnection] <98383> Extension Host Process exited with code: 0, signal: null.

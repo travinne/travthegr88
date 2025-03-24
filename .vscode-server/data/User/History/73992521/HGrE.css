@@ -1,0 +1,94 @@
+
+
+.portfolio{
+    background-image: url(../images/image2.jpeg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{ 
+    text-transform:uppercase;
+    font-size: 56px;
+}
+
+nav{
+    background-color: #111;
+    padding: 24px;
+    display: flex;
+}
+nav a{
+    color:whitesmoke;
+    font-weight: 700;
+    padding: 8px 15px;
+}
+
+nav a:hover{color:red}
+
+.about{
+    display: flex;
+    gap: 2px;
+    width: 85%;
+    font-size: 40px;
+}
+
+
+
+
+.aboutgoal div{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.call{
+    display: flex;
+    gap: 2px;
+    width: 85%;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.footer{
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+
+}
+h4{
+    color: orange;
+}
+h2{
+    color:blueviolet;
+}
+p{color:grey ;
+font-weight: 400;
+font-style: ;}
+
+.link{
+    border-width: 2px;
+    border-style: solid;
+    padding: 16px;
+    width: fit-content;
+    font-size: 40px;
+    text-align: center;
+    justify-content: baseline;
+    background-color: orange;
+    font-style: italic;
+    font-display: ;
+
+
+}

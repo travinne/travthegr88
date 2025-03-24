@@ -1,0 +1,1369 @@
+2025-03-20 13:21:54.446 [info] [main] Log level: Info
+2025-03-20 13:21:54.446 [info] [main] Validating found git in: "git"
+2025-03-20 13:21:54.446 [info] [main] Using git "2.43.0" from "git"
+2025-03-20 13:21:54.446 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-20 13:21:54.446 [info] > git rev-parse --show-toplevel [95ms]
+2025-03-20 13:21:54.446 [info] > git rev-parse --git-dir --git-common-dir [249ms]
+2025-03-20 13:21:54.446 [info] [Model][openRepository] Opened repository: /home/travthegr88
+2025-03-20 13:21:54.446 [info] > git fetch [18ms]
+2025-03-20 13:21:54.446 [info] > git rev-parse --show-toplevel [15ms]
+2025-03-20 13:21:54.446 [info] > git config --get commit.template [19ms]
+2025-03-20 13:21:54.455 [info] > git config --get commit.template [14ms]
+2025-03-20 13:21:54.461 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:21:54.470 [info] > git rev-parse --show-toplevel [17ms]
+2025-03-20 13:21:54.474 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:21:54.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2025-03-20 13:21:54.484 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:21:54.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-03-20 13:21:54.502 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:21:54.503 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-03-20 13:21:54.504 [info] > git rev-parse --show-toplevel [23ms]
+2025-03-20 13:21:54.507 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-20 13:21:54.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2025-03-20 13:21:54.507 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:21:54.512 [info] > git config --get commit.template [15ms]
+2025-03-20 13:21:54.518 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:21:54.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 13:21:54.522 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:21:54.533 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 13:21:54.756 [info] > git config --get --local branch.master.github-pr-owner-number [24ms]
+2025-03-20 13:21:54.756 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 13:21:54.774 [info] > git config --get --local branch.master.remote [15ms]
+2025-03-20 13:21:54.774 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 13:21:54.793 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [6ms]
+2025-03-20 13:21:54.794 [info] > git config --get --local branch.master.merge [16ms]
+2025-03-20 13:21:54.794 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 13:21:54.802 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [11ms]
+2025-03-20 13:21:54.820 [info] > git hash-object -t tree /dev/null [10ms]
+2025-03-20 13:21:54.821 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:21:54.829 [info] > git hash-object -t tree /dev/null [14ms]
+2025-03-20 13:21:54.830 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:21:55.134 [info] > git status -z -uall [608ms] (cancelled)
+2025-03-20 13:21:55.134 [info] > git check-ignore -v -z --stdin [160ms]
+2025-03-20 13:23:32.947 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [8ms]
+2025-03-20 13:23:32.948 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [5ms]
+2025-03-20 13:23:32.949 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:23:32.952 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:23:44.405 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 13:23:44.406 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:23:44.407 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [1ms]
+2025-03-20 13:23:44.407 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:24:22.994 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css [76ms]
+2025-03-20 13:24:23.001 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css [11ms]
+2025-03-20 13:24:23.001 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2F.vscode%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:24:23.002 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2F.vscode%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:24:24.468 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [7ms]
+2025-03-20 13:24:24.468 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 13:24:24.471 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:24:24.473 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:24:54.521 [info] > git fetch [4ms]
+2025-03-20 13:24:54.532 [info] > git config --get commit.template [2ms]
+2025-03-20 13:24:54.535 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:24:54.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 13:24:54.536 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:24:54.545 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 13:24:54.854 [info] > git status -z -uall [314ms] (cancelled)
+2025-03-20 13:25:53.082 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [4ms]
+2025-03-20 13:25:53.082 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2F.vscode%2Fsettings.json%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:25:53.083 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [2ms]
+2025-03-20 13:25:53.083 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2F.vscode%2Fsettings.json%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:25:58.946 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css [8ms]
+2025-03-20 13:25:58.947 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2F.vscode%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:25:58.948 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css [4ms]
+2025-03-20 13:25:58.949 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2F.vscode%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:27:54.857 [info] > git fetch [3ms]
+2025-03-20 13:27:54.867 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:27:54.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 13:27:54.868 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:27:54.868 [info] > git config --get commit.template [7ms]
+2025-03-20 13:27:54.876 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 13:27:55.175 [info] > git status -z -uall [304ms] (cancelled)
+2025-03-20 13:28:17.721 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-20 13:28:28.165 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 13:28:28.166 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 13:28:28.168 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:28:28.169 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:28:28.449 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-20 13:28:40.537 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [8ms]
+2025-03-20 13:28:40.537 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [1ms]
+2025-03-20 13:28:40.538 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:28:40.539 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:29:35.224 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [5ms]
+2025-03-20 13:29:35.225 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 13:29:35.227 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:29:35.229 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:30:12.603 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css [3ms]
+2025-03-20 13:30:12.604 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2F.vscode%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:30:12.604 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css [2ms]
+2025-03-20 13:30:12.605 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2F.vscode%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:30:39.779 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [7ms]
+2025-03-20 13:30:39.780 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:30:39.780 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [1ms]
+2025-03-20 13:30:39.781 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:30:55.190 [info] > git fetch [8ms]
+2025-03-20 13:30:55.201 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:30:55.204 [info] > git config --get commit.template [3ms]
+2025-03-20 13:30:55.215 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 13:30:55.215 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:30:55.241 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-03-20 13:30:55.555 [info] > git status -z -uall [333ms] (cancelled)
+2025-03-20 13:31:06.407 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [12ms]
+2025-03-20 13:31:06.410 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:31:06.413 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [7ms]
+2025-03-20 13:31:06.414 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:31:17.867 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [9ms]
+2025-03-20 13:31:17.871 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:31:17.874 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [9ms]
+2025-03-20 13:31:17.876 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:31:21.446 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [14ms]
+2025-03-20 13:31:21.448 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 13:31:21.450 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:31:21.452 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:33:55.584 [info] > git fetch [19ms]
+2025-03-20 13:33:55.593 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:33:55.594 [info] > git config --get commit.template [5ms]
+2025-03-20 13:33:55.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 13:33:55.595 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:33:55.603 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 13:33:57.816 [info] > git status -z -uall [2217ms] (cancelled)
+2025-03-20 13:36:57.905 [info] > git fetch [39ms]
+2025-03-20 13:36:57.913 [info] > git config --get commit.template [1ms]
+2025-03-20 13:36:57.916 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:36:57.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 13:36:57.917 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:36:57.928 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 13:37:00.297 [info] > git status -z -uall [2377ms] (cancelled)
+2025-03-20 13:40:00.332 [info] > git fetch [24ms]
+2025-03-20 13:40:00.340 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:40:00.340 [info] > git config --get commit.template [3ms]
+2025-03-20 13:40:00.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 13:40:00.342 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:40:00.351 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 13:40:02.549 [info] > git status -z -uall [2204ms] (cancelled)
+2025-03-20 13:45:30.508 [info] > git fetch [26ms]
+2025-03-20 13:45:30.520 [info] > git config --get commit.template [5ms]
+2025-03-20 13:45:30.524 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:45:30.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 13:45:30.525 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:45:30.536 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 13:45:33.092 [info] > git status -z -uall [2565ms] (cancelled)
+2025-03-20 13:48:33.133 [info] > git fetch [35ms]
+2025-03-20 13:48:33.147 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:48:33.148 [info] > git config --get commit.template [5ms]
+2025-03-20 13:48:33.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 13:48:33.149 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:48:33.162 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 13:48:35.826 [info] > git status -z -uall [2674ms] (cancelled)
+2025-03-20 13:50:26.954 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [9ms]
+2025-03-20 13:50:26.957 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:50:26.961 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [9ms]
+2025-03-20 13:50:26.964 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:51:51.457 [info] > git fetch [36ms]
+2025-03-20 13:51:51.469 [info] > git config --get commit.template [3ms]
+2025-03-20 13:51:51.469 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:51:51.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 13:51:51.470 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:51:51.477 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 13:51:53.936 [info] > git status -z -uall [2463ms] (cancelled)
+2025-03-20 13:53:26.471 [info] > git check-ignore -v -z --stdin [8ms]
+2025-03-20 13:54:53.960 [info] > git fetch [17ms]
+2025-03-20 13:54:53.966 [info] > git config --get commit.template [0ms]
+2025-03-20 13:54:53.969 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:54:53.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 13:54:53.970 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:54:53.977 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 13:54:56.949 [info] > git status -z -uall [2977ms] (cancelled)
+2025-03-20 13:55:11.925 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [11ms]
+2025-03-20 13:55:11.925 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [9ms]
+2025-03-20 13:55:11.926 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:55:11.926 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:55:35.526 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [11ms]
+2025-03-20 13:55:35.528 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:55:35.532 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 13:55:35.534 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:55:49.012 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [8ms]
+2025-03-20 13:55:49.012 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [0ms]
+2025-03-20 13:55:49.013 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:55:49.013 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 13:58:08.177 [info] > git fetch [10ms]
+2025-03-20 13:58:08.188 [info] > git config --get commit.template [1ms]
+2025-03-20 13:58:08.193 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 13:58:08.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 13:58:08.195 [warning] [Git][getBranch] No such branch: master
+2025-03-20 13:58:08.205 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-03-20 13:58:08.524 [info] > git status -z -uall [324ms] (cancelled)
+2025-03-20 14:00:37.749 [info] > git check-ignore -v -z --stdin [18ms]
+2025-03-20 14:00:38.358 [info] > git check-ignore -v -z --stdin [5ms]
+2025-03-20 14:00:38.938 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-20 14:00:52.612 [info] > git check-ignore -v -z --stdin [4ms]
+2025-03-20 14:00:58.524 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-20 14:01:05.462 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-20 14:01:08.535 [info] > git fetch [6ms]
+2025-03-20 14:01:08.544 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:01:08.544 [info] > git config --get commit.template [4ms]
+2025-03-20 14:01:08.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 14:01:08.545 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:01:08.553 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:01:08.832 [info] > git status -z -uall [285ms] (cancelled)
+2025-03-20 14:01:16.978 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-20 14:05:58.413 [info] > git fetch [15ms]
+2025-03-20 14:05:58.428 [info] > git config --get commit.template [10ms]
+2025-03-20 14:05:58.429 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:05:58.431 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 14:05:58.431 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:05:58.444 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 14:06:01.097 [info] > git status -z -uall [2663ms] (cancelled)
+2025-03-20 14:10:09.531 [info] > git fetch [35ms]
+2025-03-20 14:10:09.539 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:10:09.540 [info] > git config --get commit.template [4ms]
+2025-03-20 14:10:09.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 14:10:09.542 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:10:09.553 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 14:10:13.407 [info] > git status -z -uall [3859ms] (cancelled)
+2025-03-20 14:14:25.179 [info] > git fetch [49ms]
+2025-03-20 14:14:25.191 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:14:25.191 [info] > git config --get commit.template [3ms]
+2025-03-20 14:14:25.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 14:14:25.192 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:14:25.205 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:14:27.771 [info] > git status -z -uall [2577ms] (cancelled)
+2025-03-20 14:17:27.804 [info] > git fetch [23ms]
+2025-03-20 14:17:27.811 [info] > git config --get commit.template [0ms]
+2025-03-20 14:17:27.815 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:17:27.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 14:17:27.816 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:17:27.827 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 14:17:30.523 [info] > git status -z -uall [2703ms] (cancelled)
+2025-03-20 14:19:43.270 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [10ms]
+2025-03-20 14:19:43.271 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 14:19:43.274 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:19:43.275 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:21:00.243 [info] > git fetch [7ms]
+2025-03-20 14:21:00.254 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:21:00.260 [info] > git config --get commit.template [7ms]
+2025-03-20 14:21:00.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 14:21:00.261 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:21:00.273 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:21:00.615 [info] > git status -z -uall [348ms] (cancelled)
+2025-03-20 14:21:52.966 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 14:21:52.968 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:21:52.968 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 14:21:52.969 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:22:02.694 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 14:22:02.695 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 14:22:02.697 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:22:02.700 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:24:04.387 [info] > git fetch [8ms]
+2025-03-20 14:24:04.397 [info] > git config --get commit.template [2ms]
+2025-03-20 14:24:04.397 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:24:04.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 14:24:04.403 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:24:04.414 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 14:24:04.502 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [5ms]
+2025-03-20 14:24:04.503 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:24:04.505 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 14:24:04.505 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:24:04.797 [info] > git status -z -uall [389ms] (cancelled)
+2025-03-20 14:24:18.443 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [8ms]
+2025-03-20 14:24:18.444 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [1ms]
+2025-03-20 14:24:18.445 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:24:18.448 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:26:17.553 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [14ms]
+2025-03-20 14:26:17.554 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [11ms]
+2025-03-20 14:26:17.556 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:26:17.557 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:28:10.456 [info] > git fetch [25ms]
+2025-03-20 14:28:10.466 [info] > git config --get commit.template [0ms]
+2025-03-20 14:28:10.469 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:28:10.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 14:28:10.471 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:28:10.485 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:28:12.920 [info] > git status -z -uall [2442ms] (cancelled)
+2025-03-20 14:29:28.130 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [31ms]
+2025-03-20 14:29:28.133 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [22ms]
+2025-03-20 14:29:28.135 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:29:28.142 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:31:12.933 [info] > git fetch [10ms]
+2025-03-20 14:31:12.941 [info] > git config --get commit.template [1ms]
+2025-03-20 14:31:12.944 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:31:12.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 14:31:12.947 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:31:12.956 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:31:15.271 [info] > git status -z -uall [2318ms] (cancelled)
+2025-03-20 14:34:15.283 [info] > git fetch [7ms]
+2025-03-20 14:34:15.296 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:34:15.297 [info] > git config --get commit.template [4ms]
+2025-03-20 14:34:15.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 14:34:15.297 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:34:15.304 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:34:15.580 [info] > git status -z -uall [280ms] (cancelled)
+2025-03-20 14:37:52.410 [info] > git fetch [8ms]
+2025-03-20 14:37:52.425 [info] > git config --get commit.template [3ms]
+2025-03-20 14:37:52.434 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:37:52.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 14:37:52.435 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:37:52.459 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-03-20 14:37:52.624 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 14:37:52.625 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-20 14:37:52.626 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:37:52.626 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:37:52.858 [info] > git status -z -uall [414ms] (cancelled)
+2025-03-20 14:41:14.662 [info] > git fetch [8ms]
+2025-03-20 14:41:14.673 [info] > git config --get commit.template [1ms]
+2025-03-20 14:41:14.679 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:41:14.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 14:41:14.681 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:41:14.699 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:41:14.775 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [9ms]
+2025-03-20 14:41:14.776 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:41:14.776 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 14:41:14.777 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:41:15.045 [info] > git status -z -uall [357ms] (cancelled)
+2025-03-20 14:42:43.895 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 14:42:43.897 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:42:43.898 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 14:42:43.899 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:44:15.053 [info] > git fetch [5ms]
+2025-03-20 14:44:15.059 [info] > git config --get commit.template [0ms]
+2025-03-20 14:44:15.062 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:44:15.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-03-20 14:44:15.063 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:44:15.068 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:44:15.331 [info] > git status -z -uall [266ms] (cancelled)
+2025-03-20 14:47:15.362 [info] > git fetch [21ms]
+2025-03-20 14:47:15.368 [info] > git config --get commit.template [1ms]
+2025-03-20 14:47:15.371 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:47:15.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 14:47:15.373 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:47:15.378 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 14:47:17.678 [info] > git status -z -uall [2303ms] (cancelled)
+2025-03-20 14:47:23.766 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [4ms]
+2025-03-20 14:47:23.768 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:47:23.770 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [4ms]
+2025-03-20 14:47:23.771 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:50:17.688 [info] > git fetch [6ms]
+2025-03-20 14:50:17.702 [info] > git config --get commit.template [5ms]
+2025-03-20 14:50:17.709 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:50:17.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 14:50:17.710 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:50:17.721 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 14:50:18.094 [info] > git status -z -uall [379ms] (cancelled)
+2025-03-20 14:56:01.667 [info] > git fetch [12ms]
+2025-03-20 14:56:01.677 [info] > git config --get commit.template [0ms]
+2025-03-20 14:56:01.682 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 14:56:01.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 14:56:01.683 [warning] [Git][getBranch] No such branch: master
+2025-03-20 14:56:01.699 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 14:56:01.786 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 14:56:01.786 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [2ms]
+2025-03-20 14:56:01.787 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:56:01.787 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:56:02.050 [info] > git status -z -uall [362ms] (cancelled)
+2025-03-20 14:58:17.089 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [24ms]
+2025-03-20 14:58:17.095 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 14:58:17.096 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [42ms]
+2025-03-20 14:58:17.097 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:01:27.577 [info] > git fetch [31ms]
+2025-03-20 15:01:27.586 [info] > git config --get commit.template [1ms]
+2025-03-20 15:01:27.593 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:01:27.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 15:01:27.596 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:01:27.613 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 15:01:29.947 [info] > git status -z -uall [2344ms] (cancelled)
+2025-03-20 15:16:37.356 [info] > git fetch [38ms]
+2025-03-20 15:16:37.363 [info] > git config --get commit.template [0ms]
+2025-03-20 15:16:37.370 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:16:37.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-03-20 15:16:37.373 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:16:37.382 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:16:40.193 [info] > git status -z -uall [2817ms] (cancelled)
+2025-03-20 15:16:59.150 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [6ms]
+2025-03-20 15:16:59.152 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:16:59.154 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [5ms]
+2025-03-20 15:16:59.157 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:01.284 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 15:17:01.284 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [2ms]
+2025-03-20 15:17:01.285 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:01.286 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:10.202 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [7ms]
+2025-03-20 15:17:10.204 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [5ms]
+2025-03-20 15:17:10.209 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:10.221 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:12.092 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [12ms]
+2025-03-20 15:17:12.099 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:12.102 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [11ms]
+2025-03-20 15:17:12.103 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:49.050 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [14ms]
+2025-03-20 15:17:49.051 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:49.052 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [25ms]
+2025-03-20 15:17:49.053 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:56.204 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [8ms]
+2025-03-20 15:17:56.204 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [1ms]
+2025-03-20 15:17:56.205 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:17:56.205 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:19:40.209 [info] > git fetch [12ms]
+2025-03-20 15:19:40.216 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:19:40.217 [info] > git config --get commit.template [4ms]
+2025-03-20 15:19:40.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 15:19:40.218 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:19:40.225 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:19:42.649 [info] > git status -z -uall [2428ms] (cancelled)
+2025-03-20 15:22:46.544 [info] > git fetch [32ms]
+2025-03-20 15:22:46.560 [info] > git config --get commit.template [5ms]
+2025-03-20 15:22:46.575 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:22:46.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-03-20 15:22:46.581 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:22:46.605 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-03-20 15:22:46.713 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [10ms]
+2025-03-20 15:22:46.713 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 15:22:46.715 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:22:46.717 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:22:49.205 [info] > git status -z -uall [2615ms] (cancelled)
+2025-03-20 15:25:49.245 [info] > git fetch [29ms]
+2025-03-20 15:25:49.251 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:25:49.252 [info] > git config --get commit.template [3ms]
+2025-03-20 15:25:49.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:25:49.253 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:25:49.258 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:25:51.494 [info] > git status -z -uall [2239ms] (cancelled)
+2025-03-20 15:26:32.463 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [7ms]
+2025-03-20 15:26:32.464 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:26:32.465 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 15:26:32.466 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:28:51.504 [info] > git fetch [5ms]
+2025-03-20 15:28:51.512 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:28:51.513 [info] > git config --get commit.template [3ms]
+2025-03-20 15:28:51.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 15:28:51.515 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:28:51.526 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:28:51.828 [info] > git status -z -uall [304ms] (cancelled)
+2025-03-20 15:32:07.482 [info] > git fetch [7ms]
+2025-03-20 15:32:07.492 [info] > git config --get commit.template [1ms]
+2025-03-20 15:32:07.495 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:32:07.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:32:07.496 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:32:07.505 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 15:32:07.605 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [5ms]
+2025-03-20 15:32:07.605 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [1ms]
+2025-03-20 15:32:07.606 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:32:07.607 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:32:07.833 [info] > git status -z -uall [334ms] (cancelled)
+2025-03-20 15:32:24.630 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [10ms]
+2025-03-20 15:32:24.632 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 15:32:24.633 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:32:24.634 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:32:29.300 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [8ms]
+2025-03-20 15:32:29.300 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:32:29.301 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [2ms]
+2025-03-20 15:32:29.301 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:33:04.771 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [5ms]
+2025-03-20 15:33:04.771 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:33:04.773 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 15:33:04.774 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:34:34.603 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [18ms]
+2025-03-20 15:34:34.604 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 15:34:34.607 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:34:34.612 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:34:40.507 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [12ms]
+2025-03-20 15:34:40.509 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:34:40.510 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [9ms]
+2025-03-20 15:34:40.512 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:35:07.848 [info] > git fetch [8ms]
+2025-03-20 15:35:07.858 [info] > git config --get commit.template [1ms]
+2025-03-20 15:35:07.863 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:35:07.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:35:07.864 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:35:07.874 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:35:08.252 [info] > git status -z -uall [384ms] (cancelled)
+2025-03-20 15:35:45.116 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 15:35:45.117 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:35:45.117 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-20 15:35:45.118 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:38:08.262 [info] > git fetch [8ms]
+2025-03-20 15:38:08.271 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:38:08.272 [info] > git config --get commit.template [4ms]
+2025-03-20 15:38:08.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:38:08.272 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:38:08.277 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:38:08.564 [info] > git status -z -uall [290ms] (cancelled)
+2025-03-20 15:41:08.618 [info] > git fetch [44ms]
+2025-03-20 15:41:08.629 [info] > git config --get commit.template [2ms]
+2025-03-20 15:41:08.635 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:41:08.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 15:41:08.639 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:41:08.648 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:41:11.084 [info] > git status -z -uall [2442ms] (cancelled)
+2025-03-20 15:42:06.863 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [9ms]
+2025-03-20 15:42:06.863 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 15:42:06.864 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:42:06.866 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:44:11.127 [info] > git fetch [33ms]
+2025-03-20 15:44:11.131 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:44:11.133 [info] > git config --get commit.template [2ms]
+2025-03-20 15:44:11.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:44:11.135 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:44:11.140 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:44:13.726 [info] > git status -z -uall [2590ms] (cancelled)
+2025-03-20 15:47:13.733 [info] > git fetch [5ms]
+2025-03-20 15:47:13.742 [info] > git config --get commit.template [3ms]
+2025-03-20 15:47:13.742 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:47:13.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:47:13.742 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:47:13.748 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-03-20 15:47:14.039 [info] > git status -z -uall [294ms] (cancelled)
+2025-03-20 15:50:14.056 [info] > git fetch [10ms]
+2025-03-20 15:50:14.067 [info] > git config --get commit.template [1ms]
+2025-03-20 15:50:14.072 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:50:14.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:50:14.074 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:50:14.085 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 15:50:14.475 [info] > git status -z -uall [397ms] (cancelled)
+2025-03-20 15:53:14.470 [info] > git fetch [4ms]
+2025-03-20 15:53:14.483 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:53:14.484 [info] > git config --get commit.template [8ms]
+2025-03-20 15:53:14.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 15:53:14.485 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:53:14.499 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:53:14.820 [info] > git status -z -uall [330ms] (cancelled)
+2025-03-20 15:56:14.809 [info] > git fetch [6ms]
+2025-03-20 15:56:14.821 [info] > git config --get commit.template [3ms]
+2025-03-20 15:56:14.826 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:56:14.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:56:14.827 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:56:14.837 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 15:56:15.157 [info] > git status -z -uall [326ms] (cancelled)
+2025-03-20 15:57:44.799 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [21ms]
+2025-03-20 15:57:44.800 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [5ms]
+2025-03-20 15:57:44.802 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:57:44.803 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:58:46.181 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [7ms]
+2025-03-20 15:58:46.182 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 15:58:46.183 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:58:46.185 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:59:15.167 [info] > git fetch [6ms]
+2025-03-20 15:59:15.179 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 15:59:15.180 [info] > git config --get commit.template [6ms]
+2025-03-20 15:59:15.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 15:59:15.180 [warning] [Git][getBranch] No such branch: master
+2025-03-20 15:59:15.191 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 15:59:15.490 [info] > git status -z -uall [306ms] (cancelled)
+2025-03-20 15:59:23.123 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 15:59:23.123 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:59:23.124 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [1ms]
+2025-03-20 15:59:23.124 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:59:41.942 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [5ms]
+2025-03-20 15:59:41.944 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 15:59:41.946 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 15:59:41.947 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:02:15.506 [info] > git fetch [10ms]
+2025-03-20 16:02:15.520 [info] > git config --get commit.template [2ms]
+2025-03-20 16:02:15.525 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:02:15.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-03-20 16:02:15.526 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:02:15.539 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 16:02:15.878 [info] > git status -z -uall [349ms] (cancelled)
+2025-03-20 16:03:06.452 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [7ms]
+2025-03-20 16:03:06.454 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:03:06.454 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 16:03:06.455 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:03:37.823 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [8ms]
+2025-03-20 16:03:37.823 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 16:03:37.824 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:03:37.827 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:05:15.913 [info] > git fetch [28ms]
+2025-03-20 16:05:15.926 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:05:15.928 [info] > git config --get commit.template [7ms]
+2025-03-20 16:05:15.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 16:05:15.929 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:05:15.936 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 16:05:17.891 [info] > git status -z -uall [1958ms] (cancelled)
+2025-03-20 16:08:17.956 [info] > git fetch [51ms]
+2025-03-20 16:08:17.970 [info] > git config --get commit.template [3ms]
+2025-03-20 16:08:17.975 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:08:17.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 16:08:17.978 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:08:17.991 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 16:08:20.295 [info] > git status -z -uall [2311ms] (cancelled)
+2025-03-20 16:11:48.261 [info] > git fetch [28ms]
+2025-03-20 16:11:48.268 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:11:48.269 [info] > git config --get commit.template [3ms]
+2025-03-20 16:11:48.270 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 16:11:48.270 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:11:48.281 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 16:11:50.379 [info] > git status -z -uall [2106ms] (cancelled)
+2025-03-20 16:12:31.140 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [11ms]
+2025-03-20 16:12:31.142 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:12:31.143 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [4ms]
+2025-03-20 16:12:31.144 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:12:36.183 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [6ms]
+2025-03-20 16:12:36.184 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 16:12:36.184 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:12:36.184 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:13:00.480 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [12ms]
+2025-03-20 16:13:00.482 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 16:13:00.483 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:13:00.487 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:14:26.823 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [21ms]
+2025-03-20 16:14:26.824 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [14ms]
+2025-03-20 16:14:26.824 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:14:26.825 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:14:50.407 [info] > git fetch [21ms]
+2025-03-20 16:14:50.417 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:14:50.417 [info] > git config --get commit.template [5ms]
+2025-03-20 16:14:50.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 16:14:50.418 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:14:50.426 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 16:14:52.631 [info] > git status -z -uall [2209ms] (cancelled)
+2025-03-20 16:15:36.485 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [10ms]
+2025-03-20 16:15:36.486 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [3ms]
+2025-03-20 16:15:36.486 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:15:36.487 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:16:48.228 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [28ms]
+2025-03-20 16:16:48.234 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:16:48.235 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [28ms]
+2025-03-20 16:16:48.235 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:17:52.686 [info] > git fetch [47ms]
+2025-03-20 16:17:52.701 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:17:52.702 [info] > git config --get commit.template [7ms]
+2025-03-20 16:17:52.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 16:17:52.703 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:17:52.712 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 16:17:54.748 [info] > git status -z -uall [2041ms] (cancelled)
+2025-03-20 16:18:53.595 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [12ms]
+2025-03-20 16:18:53.597 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:18:53.597 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [16ms]
+2025-03-20 16:18:53.599 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:20:54.776 [info] > git fetch [21ms]
+2025-03-20 16:20:54.789 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:20:54.790 [info] > git config --get commit.template [9ms]
+2025-03-20 16:20:54.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 16:20:54.791 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:20:54.799 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 16:20:57.096 [info] > git status -z -uall [2302ms] (cancelled)
+2025-03-20 16:21:56.173 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [6ms]
+2025-03-20 16:21:56.174 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:21:56.175 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 16:21:56.175 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:23:57.133 [info] > git fetch [31ms]
+2025-03-20 16:23:57.139 [info] > git config --get commit.template [1ms]
+2025-03-20 16:23:57.142 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:23:57.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 16:23:57.143 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:23:57.149 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 16:23:59.269 [info] > git status -z -uall [2124ms] (cancelled)
+2025-03-20 16:27:34.606 [info] > git fetch [34ms]
+2025-03-20 16:27:34.618 [info] > git config --get commit.template [2ms]
+2025-03-20 16:27:34.623 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:27:34.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 16:27:34.624 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:27:34.637 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 16:27:37.118 [info] > git status -z -uall [2489ms] (cancelled)
+2025-03-20 16:28:36.363 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 16:28:36.364 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:28:36.366 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 16:28:36.367 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 16:30:37.153 [info] > git fetch [25ms]
+2025-03-20 16:30:37.163 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:30:37.164 [info] > git config --get commit.template [6ms]
+2025-03-20 16:30:37.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 16:30:37.166 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:30:37.177 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 16:30:39.429 [info] > git status -z -uall [2258ms] (cancelled)
+2025-03-20 16:33:39.481 [info] > git fetch [41ms]
+2025-03-20 16:33:39.490 [info] > git config --get commit.template [1ms]
+2025-03-20 16:33:39.497 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:33:39.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 16:33:39.500 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:33:39.511 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 16:33:42.034 [info] > git status -z -uall [2530ms] (cancelled)
+2025-03-20 16:36:42.083 [info] > git fetch [42ms]
+2025-03-20 16:36:42.095 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:36:42.096 [info] > git config --get commit.template [6ms]
+2025-03-20 16:36:42.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 16:36:42.097 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:36:42.108 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 16:36:44.806 [info] > git status -z -uall [2704ms] (cancelled)
+2025-03-20 16:39:44.844 [info] > git fetch [29ms]
+2025-03-20 16:39:44.853 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:39:44.858 [info] > git config --get commit.template [5ms]
+2025-03-20 16:39:44.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 16:39:44.859 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:39:44.866 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 16:39:47.246 [info] > git status -z -uall [2384ms] (cancelled)
+2025-03-20 16:42:47.290 [info] > git fetch [37ms]
+2025-03-20 16:42:47.300 [info] > git config --get commit.template [1ms]
+2025-03-20 16:42:47.305 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:42:47.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 16:42:47.309 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:42:47.320 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 16:42:50.462 [info] > git status -z -uall [3149ms] (cancelled)
+2025-03-20 16:45:50.491 [info] > git fetch [29ms]
+2025-03-20 16:45:50.502 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 16:45:50.503 [info] > git config --get commit.template [5ms]
+2025-03-20 16:45:50.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 16:45:50.504 [warning] [Git][getBranch] No such branch: master
+2025-03-20 16:45:50.514 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 16:45:54.117 [info] > git status -z -uall [3609ms] (cancelled)
+2025-03-20 17:36:18.354 [info] > git fetch [68ms]
+2025-03-20 17:36:18.386 [info] > git config --get commit.template [7ms]
+2025-03-20 17:36:18.391 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 17:36:18.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 17:36:18.400 [warning] [Git][getBranch] No such branch: master
+2025-03-20 17:36:18.417 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 17:36:18.446 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [7ms]
+2025-03-20 17:36:18.446 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [4ms]
+2025-03-20 17:36:18.446 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:36:18.447 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:36:21.596 [info] > git status -z -uall [3187ms] (cancelled)
+2025-03-20 17:39:58.807 [info] > git fetch [41ms]
+2025-03-20 17:39:58.819 [info] > git config --get commit.template [3ms]
+2025-03-20 17:39:58.825 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 17:39:58.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 17:39:58.828 [warning] [Git][getBranch] No such branch: master
+2025-03-20 17:39:58.843 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-03-20 17:39:58.969 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 17:39:58.969 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-20 17:39:58.971 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:39:58.975 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:40:01.103 [info] > git status -z -uall [2270ms] (cancelled)
+2025-03-20 17:42:28.915 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [13ms]
+2025-03-20 17:42:28.920 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:42:28.921 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [24ms]
+2025-03-20 17:42:28.922 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:42:45.179 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [4ms]
+2025-03-20 17:42:45.180 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:42:45.180 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [2ms]
+2025-03-20 17:42:45.181 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:44:34.495 [info] > git fetch [25ms]
+2025-03-20 17:44:34.506 [info] > git config --get commit.template [1ms]
+2025-03-20 17:44:34.515 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 17:44:34.518 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 17:44:34.519 [warning] [Git][getBranch] No such branch: master
+2025-03-20 17:44:34.560 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-03-20 17:44:34.671 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [7ms]
+2025-03-20 17:44:34.672 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:44:34.673 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [4ms]
+2025-03-20 17:44:34.673 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:44:36.885 [info] > git status -z -uall [2351ms] (cancelled)
+2025-03-20 17:49:57.893 [info] > git fetch [40ms]
+2025-03-20 17:49:57.900 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 17:49:57.907 [info] > git config --get commit.template [9ms]
+2025-03-20 17:49:57.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 17:49:57.908 [warning] [Git][getBranch] No such branch: master
+2025-03-20 17:49:57.921 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-03-20 17:50:00.372 [info] > git status -z -uall [2461ms] (cancelled)
+2025-03-20 17:52:05.027 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [10ms]
+2025-03-20 17:52:05.031 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:52:05.032 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [19ms]
+2025-03-20 17:52:05.033 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:53:26.310 [info] > git fetch [29ms]
+2025-03-20 17:53:26.317 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 17:53:26.318 [info] > git config --get commit.template [4ms]
+2025-03-20 17:53:26.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 17:53:26.321 [warning] [Git][getBranch] No such branch: master
+2025-03-20 17:53:26.329 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 17:53:28.967 [info] > git status -z -uall [2642ms] (cancelled)
+2025-03-20 17:53:30.496 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 17:53:30.496 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:53:30.497 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 17:53:30.497 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:56:29.016 [info] > git fetch [38ms]
+2025-03-20 17:56:29.028 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 17:56:29.029 [info] > git config --get commit.template [5ms]
+2025-03-20 17:56:29.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 17:56:29.030 [warning] [Git][getBranch] No such branch: master
+2025-03-20 17:56:29.039 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 17:56:31.739 [info] > git status -z -uall [2705ms] (cancelled)
+2025-03-20 17:58:53.082 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [26ms]
+2025-03-20 17:58:53.085 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [20ms]
+2025-03-20 17:58:53.086 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:58:53.088 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 17:59:38.795 [info] > git fetch [22ms]
+2025-03-20 17:59:38.809 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 17:59:38.810 [info] > git config --get commit.template [8ms]
+2025-03-20 17:59:38.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 17:59:38.810 [warning] [Git][getBranch] No such branch: master
+2025-03-20 17:59:38.819 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 17:59:41.165 [info] > git status -z -uall [2352ms] (cancelled)
+2025-03-20 18:00:39.990 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [5ms]
+2025-03-20 18:00:39.991 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:00:39.992 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [13ms]
+2025-03-20 18:00:39.992 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.js.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:07:19.858 [info] > git fetch [25ms]
+2025-03-20 18:07:19.875 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:07:19.878 [info] > git config --get commit.template [11ms]
+2025-03-20 18:07:19.879 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-03-20 18:07:19.880 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:07:19.900 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-03-20 18:07:20.005 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [4ms]
+2025-03-20 18:07:20.005 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:07:20.006 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [2ms]
+2025-03-20 18:07:20.006 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:07:22.193 [info] > git status -z -uall [2306ms] (cancelled)
+2025-03-20 18:26:16.306 [info] > git fetch [51ms]
+2025-03-20 18:26:16.327 [info] > git config --get commit.template [7ms]
+2025-03-20 18:26:16.328 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:26:16.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 18:26:16.340 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:26:16.362 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-03-20 18:26:16.449 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [7ms]
+2025-03-20 18:26:16.450 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:26:16.450 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 18:26:16.451 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:26:18.785 [info] > git status -z -uall [2438ms] (cancelled)
+2025-03-20 18:27:00.130 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [28ms]
+2025-03-20 18:27:00.131 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [24ms]
+2025-03-20 18:27:00.132 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:27:00.132 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/index.html.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Findex.html%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:27:28.966 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 18:27:28.967 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [0ms]
+2025-03-20 18:27:28.967 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:27:28.967 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22%22%7D
+2025-03-20 18:29:18.825 [info] > git fetch [30ms]
+2025-03-20 18:29:18.836 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:29:18.837 [info] > git config --get commit.template [5ms]
+2025-03-20 18:29:18.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 18:29:18.838 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:29:18.848 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 18:29:21.192 [info] > git status -z -uall [2350ms] (cancelled)
+2025-03-20 18:32:21.233 [info] > git fetch [32ms]
+2025-03-20 18:32:21.246 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:32:21.249 [info] > git config --get commit.template [8ms]
+2025-03-20 18:32:21.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 18:32:21.249 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:32:21.260 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 18:32:23.763 [info] > git status -z -uall [2509ms] (cancelled)
+2025-03-20 18:35:23.797 [info] > git fetch [30ms]
+2025-03-20 18:35:23.809 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:35:23.810 [info] > git config --get commit.template [5ms]
+2025-03-20 18:35:23.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 18:35:23.810 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:35:23.818 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 18:35:25.941 [info] > git status -z -uall [2128ms] (cancelled)
+2025-03-20 18:38:26.000 [info] > git fetch [48ms]
+2025-03-20 18:38:26.015 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:38:26.016 [info] > git config --get commit.template [6ms]
+2025-03-20 18:38:26.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 18:38:26.018 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:38:26.029 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 18:38:28.194 [info] > git status -z -uall [2171ms] (cancelled)
+2025-03-20 18:41:28.211 [info] > git fetch [19ms]
+2025-03-20 18:41:28.216 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:41:28.217 [info] > git config --get commit.template [0ms]
+2025-03-20 18:41:28.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 18:41:28.222 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:41:28.229 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 18:41:30.574 [info] > git status -z -uall [2350ms] (cancelled)
+2025-03-20 18:44:30.624 [info] > git fetch [20ms]
+2025-03-20 18:44:30.629 [info] > git config --get commit.template [1ms]
+2025-03-20 18:44:30.633 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:44:30.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 18:44:30.635 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:44:30.654 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-03-20 18:44:32.839 [info] > git status -z -uall [2197ms] (cancelled)
+2025-03-20 18:48:38.512 [info] > git fetch [32ms]
+2025-03-20 18:48:38.524 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:48:38.525 [info] > git config --get commit.template [4ms]
+2025-03-20 18:48:38.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 18:48:38.526 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:48:38.540 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 18:48:40.895 [info] > git status -z -uall [2362ms] (cancelled)
+2025-03-20 18:54:42.568 [info] > git fetch [34ms]
+2025-03-20 18:54:42.581 [info] > git config --get commit.template [4ms]
+2025-03-20 18:54:42.586 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:54:42.588 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 18:54:42.588 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:54:42.602 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 18:54:44.776 [info] > git status -z -uall [2185ms] (cancelled)
+2025-03-20 18:57:44.851 [info] > git fetch [62ms]
+2025-03-20 18:57:44.862 [info] > git config --get commit.template [1ms]
+2025-03-20 18:57:44.868 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 18:57:44.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 18:57:44.871 [warning] [Git][getBranch] No such branch: master
+2025-03-20 18:57:44.880 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 18:57:47.490 [info] > git status -z -uall [2615ms] (cancelled)
+2025-03-20 19:00:47.543 [info] > git fetch [44ms]
+2025-03-20 19:00:47.557 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:00:47.558 [info] > git config --get commit.template [5ms]
+2025-03-20 19:00:47.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-20 19:00:47.559 [warning] [Git][getBranch] No such branch: master
+2025-03-20 19:00:47.570 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 19:00:50.308 [info] > git status -z -uall [2745ms] (cancelled)
+2025-03-20 19:03:50.332 [info] > git fetch [21ms]
+2025-03-20 19:03:50.337 [info] > git config --get commit.template [1ms]
+2025-03-20 19:03:50.340 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:03:50.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:03:50.340 [warning] [Git][getBranch] No such branch: master
+2025-03-20 19:03:50.346 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:03:52.424 [info] > git status -z -uall [2081ms] (cancelled)
+2025-03-20 19:06:52.447 [info] > git fetch [18ms]
+2025-03-20 19:06:52.455 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:06:52.455 [info] > git config --get commit.template [3ms]
+2025-03-20 19:06:52.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 19:06:52.456 [warning] [Git][getBranch] No such branch: master
+2025-03-20 19:06:52.466 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 19:06:55.095 [info] > git status -z -uall [2634ms] (cancelled)
+2025-03-20 19:09:55.132 [info] > git fetch [27ms]
+2025-03-20 19:09:55.139 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:09:55.140 [info] > git config --get commit.template [4ms]
+2025-03-20 19:09:55.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:09:55.140 [warning] [Git][getBranch] No such branch: master
+2025-03-20 19:09:55.148 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:09:57.570 [info] > git status -z -uall [2426ms] (cancelled)
+2025-03-20 19:10:31.363 [info] > git config --get commit.template [1ms]
+2025-03-20 19:10:31.366 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:10:31.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-03-20 19:10:31.367 [warning] [Git][getBranch] No such branch: master
+2025-03-20 19:10:31.373 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 19:10:31.653 [info] > git status -z -uall [285ms] (cancelled)
+2025-03-20 19:10:32.637 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [9ms]
+2025-03-20 19:10:32.637 [info] > git show --textconv HEAD:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [6ms]
+2025-03-20 19:10:32.638 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 19:10:32.641 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-03-20 19:10:32.642 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [1ms]
+2025-03-20 19:10:32.643 [info] > git ls-tree -l HEAD -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [7ms]
+2025-03-20 19:10:32.644 [info] fatal: Not a valid object name HEAD
+2025-03-20 19:10:32.644 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fmkadi%2Ftest%2Fassignments%2Fcode-challanges%2Framen-rating-app%2Fcss%2Fstyle.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-03-20 19:10:56.664 [info] > git config --get commit.template [1ms]
+2025-03-20 19:10:56.671 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:10:56.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:10:56.671 [warning] [Git][getBranch] No such branch: master
+2025-03-20 19:10:56.679 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 19:10:56.947 [info] > git status -z -uall [274ms] (cancelled)
+2025-03-20 19:11:51.240 [info] > git config --get commit.template [1ms]
+2025-03-20 19:11:51.245 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:11:51.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 19:11:51.259 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:11:52.496 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-20 19:11:52.499 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [1ms]
+2025-03-20 19:11:52.505 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [0ms]
+2025-03-20 19:11:53.326 [info] > git status -z -uall [2076ms] (cancelled)
+2025-03-20 19:11:53.328 [info] > git config --get --local branch.master.github-pr-owner-number [4ms]
+2025-03-20 19:11:53.328 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 19:11:53.335 [info] > git config --get --local branch.master.remote [2ms]
+2025-03-20 19:11:53.335 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 19:11:53.345 [info] > git config --get --local branch.master.merge [4ms]
+2025-03-20 19:11:53.345 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 19:11:53.989 [info] > git blame --root --incremental d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [16ms]
+2025-03-20 19:13:11.317 [info] > git fetch [42ms]
+2025-03-20 19:13:11.328 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:13:11.329 [info] > git config --get commit.template [7ms]
+2025-03-20 19:13:11.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:13:11.335 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:13:12.576 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-20 19:13:12.580 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [1ms]
+2025-03-20 19:13:12.589 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-20 19:13:13.474 [info] > git status -z -uall [2142ms] (cancelled)
+2025-03-20 19:17:59.193 [info] > git fetch [23ms]
+2025-03-20 19:17:59.201 [info] > git config --get commit.template [1ms]
+2025-03-20 19:17:59.205 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:17:59.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:17:59.214 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:18:00.515 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [85ms]
+2025-03-20 19:18:00.524 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-20 19:18:00.529 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [1ms]
+2025-03-20 19:18:00.603 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 19:18:01.024 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-20 19:18:01.637 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-20 19:18:01.647 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [4ms]
+2025-03-20 19:18:01.670 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 19:18:02.152 [info] > git status -z -uall [2944ms] (cancelled)
+2025-03-20 19:18:03.870 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [53ms]
+2025-03-20 19:18:27.956 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-20 19:18:33.601 [info] > git check-ignore -v -z --stdin [0ms]
+2025-03-20 19:18:39.140 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-20 19:18:44.253 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-20 19:18:58.815 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [48ms]
+2025-03-20 19:19:01.340 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 [5ms]
+2025-03-20 19:19:01.427 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [61ms]
+2025-03-20 19:19:01.427 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [55ms]
+2025-03-20 19:19:01.427 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/images/Easy Japanese Ramen Recipe (1).jpeg [52ms]
+2025-03-20 19:19:01.427 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/images/Easy Japanese Ramen Recipe.jpeg [47ms]
+2025-03-20 19:19:01.427 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/images/Veggie Ramen Soup Recipe - Peas and Crayons Blog.jpeg [44ms]
+2025-03-20 19:19:01.427 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [31ms]
+2025-03-20 19:19:01.427 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [28ms]
+2025-03-20 19:19:01.427 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 19:19:01.429 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [8ms]
+2025-03-20 19:19:01.429 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/images/michele-blackwell-rAyCBQTH7ws-unsplash.jpg [10ms]
+2025-03-20 19:19:01.429 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/images/diego-lozano-mE6kjov4rTg-unsplash.jpg [12ms]
+2025-03-20 19:19:01.430 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/images/bon-vivant-qom5MPOER-I-unsplash.jpg [14ms]
+2025-03-20 19:19:01.430 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/images/Veggie Ramen Soup Recipe - Peas and Crayons Blog.jpeg [17ms]
+2025-03-20 19:19:01.430 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/images/Easy Japanese Ramen Recipe.jpeg [20ms]
+2025-03-20 19:19:01.430 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/images/Easy Japanese Ramen Recipe (1).jpeg [23ms]
+2025-03-20 19:19:01.431 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [28ms]
+2025-03-20 19:19:01.432 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [31ms]
+2025-03-20 19:19:01.449 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/images/bon-vivant-qom5MPOER-I-unsplash.jpg [63ms]
+2025-03-20 19:19:01.449 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/images/michele-blackwell-rAyCBQTH7ws-unsplash.jpg [56ms]
+2025-03-20 19:19:01.549 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/images/diego-lozano-mE6kjov4rTg-unsplash.jpg [159ms]
+2025-03-20 19:19:01.932 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-20 19:19:04.821 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 [2ms]
+2025-03-20 19:19:07.684 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 [1ms]
+2025-03-20 19:19:23.885 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [31ms]
+2025-03-20 19:21:02.179 [info] > git fetch [21ms]
+2025-03-20 19:21:02.186 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:21:02.187 [info] > git config --get commit.template [4ms]
+2025-03-20 19:21:02.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:21:02.194 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:21:03.445 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [2ms]
+2025-03-20 19:21:03.446 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [7ms]
+2025-03-20 19:21:03.447 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [11ms]
+2025-03-20 19:21:03.449 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [6ms]
+2025-03-20 19:21:03.464 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [10ms]
+2025-03-20 19:21:03.464 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [6ms]
+2025-03-20 19:21:03.464 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [4ms]
+2025-03-20 19:21:03.467 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [4ms]
+2025-03-20 19:21:04.265 [info] > git status -z -uall [2075ms] (cancelled)
+2025-03-20 19:21:22.028 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [9ms]
+2025-03-20 19:21:22.029 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 19:21:22.038 [info] > git cat-file -s 759b45bc9c8d4d7aabd1efe3c09f2e56f002f0a3 [2ms]
+2025-03-20 19:21:22.060 [info] > git blame --root --incremental d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [1ms]
+2025-03-20 19:22:26.386 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [24ms]
+2025-03-20 19:22:26.389 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [32ms]
+2025-03-20 19:24:51.151 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 19:24:51.152 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [9ms]
+2025-03-20 19:24:51.168 [info] > git fetch [17ms]
+2025-03-20 19:24:51.177 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:24:51.178 [info] > git config --get commit.template [4ms]
+2025-03-20 19:24:51.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:24:51.185 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:24:52.434 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 19:24:52.435 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 19:24:52.435 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 19:24:52.435 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [11ms]
+2025-03-20 19:24:52.436 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 19:24:52.441 [info] > git cat-file -s 759b45bc9c8d4d7aabd1efe3c09f2e56f002f0a3 [1ms]
+2025-03-20 19:24:52.456 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [11ms]
+2025-03-20 19:24:52.456 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [8ms]
+2025-03-20 19:24:52.456 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [5ms]
+2025-03-20 19:24:52.456 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [4ms]
+2025-03-20 19:24:52.456 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [0ms]
+2025-03-20 19:24:54.140 [info] > git status -z -uall [2959ms] (cancelled)
+2025-03-20 19:25:45.812 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [22ms]
+2025-03-20 19:25:45.813 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [30ms]
+2025-03-20 19:25:50.083 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [11ms]
+2025-03-20 19:25:50.090 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [10ms]
+2025-03-20 19:26:19.892 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [9ms]
+2025-03-20 19:26:19.893 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-20 19:28:25.547 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [9ms]
+2025-03-20 19:28:25.548 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [18ms]
+2025-03-20 19:28:25.566 [info] > git fetch [25ms]
+2025-03-20 19:28:25.570 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:28:25.573 [info] > git config --get commit.template [3ms]
+2025-03-20 19:28:25.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:28:25.588 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 19:28:26.115 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [9ms]
+2025-03-20 19:28:26.116 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [5ms]
+2025-03-20 19:28:26.127 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [3ms]
+2025-03-20 19:28:27.108 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [0ms]
+2025-03-20 19:28:27.111 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [7ms]
+2025-03-20 19:28:27.112 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [12ms]
+2025-03-20 19:28:27.112 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [20ms]
+2025-03-20 19:28:27.112 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [24ms]
+2025-03-20 19:28:27.114 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [3ms]
+2025-03-20 19:28:27.135 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [15ms]
+2025-03-20 19:28:27.135 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [12ms]
+2025-03-20 19:28:27.135 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [7ms]
+2025-03-20 19:28:27.135 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [3ms]
+2025-03-20 19:28:27.136 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-20 19:28:28.779 [info] > git status -z -uall [3202ms] (cancelled)
+2025-03-20 19:29:03.774 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [3ms]
+2025-03-20 19:29:03.776 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 19:32:21.586 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-20 19:32:43.487 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [11ms]
+2025-03-20 19:32:43.488 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [24ms]
+2025-03-20 19:32:43.499 [info] > git fetch [14ms]
+2025-03-20 19:32:43.507 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:32:43.508 [info] > git config --get commit.template [4ms]
+2025-03-20 19:32:43.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:32:43.518 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 19:32:44.773 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [2ms]
+2025-03-20 19:32:44.774 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 19:32:44.774 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 19:32:44.775 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [12ms]
+2025-03-20 19:32:44.775 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-20 19:32:44.779 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [1ms]
+2025-03-20 19:32:44.796 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [11ms]
+2025-03-20 19:32:44.797 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [9ms]
+2025-03-20 19:32:44.797 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [6ms]
+2025-03-20 19:32:44.797 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [4ms]
+2025-03-20 19:32:44.799 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 19:32:45.790 [info] > git status -z -uall [2278ms] (cancelled)
+2025-03-20 19:37:59.486 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [27ms]
+2025-03-20 19:37:59.489 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [26ms]
+2025-03-20 19:37:59.496 [info] > git fetch [27ms]
+2025-03-20 19:37:59.503 [info] > git config --get commit.template [2ms]
+2025-03-20 19:37:59.503 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-20 19:37:59.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:37:59.515 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 19:38:00.768 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [3ms]
+2025-03-20 19:38:00.768 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [7ms]
+2025-03-20 19:38:00.769 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [10ms]
+2025-03-20 19:38:00.771 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [15ms]
+2025-03-20 19:38:00.773 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [7ms]
+2025-03-20 19:38:00.791 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [10ms]
+2025-03-20 19:38:00.791 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 19:38:00.791 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [2ms]
+2025-03-20 19:38:00.791 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [14ms]
+2025-03-20 19:38:00.792 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [1ms]
+2025-03-20 19:38:00.801 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-20 19:38:01.919 [info] > git status -z -uall [2409ms] (cancelled)
+2025-03-20 19:38:13.811 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [45ms]
+2025-03-20 19:38:20.410 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [30ms]
+2025-03-20 19:38:46.954 [info] > git remote add origin https://github.com/travinne/travthegr88.git [5ms]
+2025-03-20 19:38:46.961 [info] > git config --get commit.template [3ms]
+2025-03-20 19:38:46.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:38:46.972 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:38:47.321 [info] > git status -z -uall [355ms] (cancelled)
+2025-03-20 19:38:48.305 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [4ms]
+2025-03-20 19:38:48.306 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [8ms]
+2025-03-20 19:38:48.306 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [11ms]
+2025-03-20 19:38:48.306 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [14ms]
+2025-03-20 19:38:48.307 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 19:38:48.311 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [1ms]
+2025-03-20 19:38:48.338 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [19ms]
+2025-03-20 19:38:48.338 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [16ms]
+2025-03-20 19:38:48.338 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [13ms]
+2025-03-20 19:38:48.338 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [9ms]
+2025-03-20 19:38:48.338 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-20 19:38:48.732 [info] > git config --get --local branch.master.github-pr-owner-number [97ms]
+2025-03-20 19:38:48.732 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 19:38:48.737 [info] > git config --get --local branch.master.remote [1ms]
+2025-03-20 19:38:48.737 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 19:38:48.741 [info] > git config --get --local branch.master.merge [1ms]
+2025-03-20 19:38:48.741 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 19:38:59.760 [info] > git push -u origin master [12479ms]
+2025-03-20 19:38:59.760 [info] To https://github.com/travinne/travthegr88.git
+ * [new branch]      master -> master
+2025-03-20 19:38:59.768 [info] > git config --get commit.template [2ms]
+2025-03-20 19:38:59.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:38:59.776 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:39:00.079 [info] > git status -z -uall [307ms] (cancelled)
+2025-03-20 19:39:00.079 [info] > git merge-base refs/heads/master refs/remotes/origin/master [9ms]
+2025-03-20 19:39:00.085 [info] > git diff --name-status -z --diff-filter=ADMR d553ea76a47c68a60b1f5a3798d6024f19c8bbc4...refs/remotes/origin/master [2ms]
+2025-03-20 19:39:00.101 [info] > git config --get --local branch.master.github-pr-owner-number [4ms]
+2025-03-20 19:39:00.102 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 19:39:00.766 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [673ms]
+2025-03-20 19:39:01.144 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [44ms]
+2025-03-20 19:39:01.145 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [48ms]
+2025-03-20 19:39:01.146 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [52ms]
+2025-03-20 19:39:01.146 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [55ms]
+2025-03-20 19:39:01.149 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [46ms]
+2025-03-20 19:39:01.164 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [10ms]
+2025-03-20 19:39:01.164 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [6ms]
+2025-03-20 19:39:01.164 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 19:39:01.164 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [1ms]
+2025-03-20 19:39:01.165 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [14ms]
+2025-03-20 19:39:01.213 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-20 19:39:14.085 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [7ms]
+2025-03-20 19:39:14.086 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 19:39:20.478 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [7ms]
+2025-03-20 19:39:20.481 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [4ms]
+2025-03-20 19:39:56.271 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [10ms]
+2025-03-20 19:39:56.274 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [6ms]
+2025-03-20 19:39:59.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-03-20 19:39:59.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:39:59.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-03-20 19:39:59.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-03-20 19:39:59.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 19:39:59.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [52ms]
+2025-03-20 19:39:59.783 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 [43ms]
+2025-03-20 19:40:00.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 19:40:00.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 19:40:00.059 [info] > git config --get --local branch.master.vscode-merge-base [1ms]
+2025-03-20 19:40:00.059 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-20 19:40:00.070 [info] > git reflog master --grep-reflog=branch: Created from *. [6ms]
+2025-03-20 19:40:00.158 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [84ms]
+2025-03-20 19:40:00.158 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-20 19:40:00.158 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-20 19:40:00.240 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [78ms]
+2025-03-20 19:40:00.271 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 [27ms]
+2025-03-20 19:40:29.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-20 19:40:37.071 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [6ms]
+2025-03-20 19:40:37.072 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [3ms]
+2025-03-20 19:40:54.628 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [39ms]
+2025-03-20 19:40:57.814 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [37ms]
+2025-03-20 19:41:04.846 [info] > git push origin master:master [1338ms]
+2025-03-20 19:41:04.847 [info] Everything up-to-date
+2025-03-20 19:41:04.854 [info] > git config --get commit.template [2ms]
+2025-03-20 19:41:04.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:41:04.863 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 19:41:05.197 [info] > git status -z -uall [340ms] (cancelled)
+2025-03-20 19:41:26.209 [info] > git add -A -- . [12ms]
+2025-03-20 19:41:26.210 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:26.283 [info] > git add -A -- . [5ms]
+2025-03-20 19:41:26.283 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:26.489 [info] > git add -A -- . [2ms]
+2025-03-20 19:41:26.489 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:26.949 [info] > git add -A -- . [3ms]
+2025-03-20 19:41:26.949 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:27.754 [info] > git add -A -- . [2ms]
+2025-03-20 19:41:27.754 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:29.011 [info] > git add -A -- . [3ms]
+2025-03-20 19:41:29.011 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:30.816 [info] > git add -A -- . [2ms]
+2025-03-20 19:41:30.816 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:33.271 [info] > git add -A -- . [2ms]
+2025-03-20 19:41:33.271 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:36.478 [info] > git add -A -- . [1ms]
+2025-03-20 19:41:36.478 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:40.537 [info] > git add -A -- . [3ms]
+2025-03-20 19:41:40.537 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:45.544 [info] > git add -A -- . [1ms]
+2025-03-20 19:41:45.544 [info] fatal: Unable to create '/home/travthegr88/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+2025-03-20 19:41:45.551 [info] > git config --get commit.template [1ms]
+2025-03-20 19:41:45.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-20 19:41:45.569 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-20 19:41:46.110 [info] > git status -z -uall [546ms] (cancelled)
+2025-03-20 19:42:00.081 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [7ms]
+2025-03-20 19:42:00.085 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [6ms]
+2025-03-20 19:42:01.560 [info] > git add -A -- . [84427ms]
+2025-03-20 19:42:01.560 [info] warning: adding embedded git repository: .nvm
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> .nvm
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached .nvm
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: .pyenv
+warning: adding embedded git repository: Travinne/code/example/phase-0-html-link-tag-with-href
+warning: adding embedded git repository: Travinne/desktop/flex2
+warning: adding embedded git repository: Travinne/development/code/phase-0-css-fundamentals-lab
+warning: adding embedded git repository: Travinne/development/code/phase-0-html-riyadh-blog-lab
+warning: adding embedded git repository: Travinne/development/code/phase-0/phase-0-completing-assignments-codegrade
+warning: adding embedded git repository: Travinne/development/code/phase-0/phase-0-css-issue-bot-9000
+warning: adding embedded git repository: Travinne/development/code/phase-0/phase-0-css-kitten-lab
+warning: adding embedded git repository: Travinne/development/code/phase-0/phase-0-html-album-cover-lab
+warning: adding embedded git repository: Travinne/development/code/phase-0/phase-0-html-document-structure-lab
+warning: adding embedded git repository: Travinne/development/code/phase-0/phase-0-html-experiencing-html-lab
+warning: adding embedded git repository: Travinne/development/code/phase-0/phase-0-html-issue-bot-9000-lab
+warning: adding embedded git repository: Travinne/development/code/phase-0/phase-0-html-link-tag-with-href
+warning: adding embedded git repository: Travinne/example
+warning: adding embedded git repository: Travinne/phase-0-css-rainbow-lab
+warning: adding embedded git repository: Travinne/phase-0-html-tables-lab
+warning: adding embedded git repository: Travinne/practice/learn
+warning: adding embedded git repository: code/example/phase-0-html-link-tag-with-href
+warning: adding embedded git repository: code/port
+warning: adding embedded git repository: code/ramen-rating-app
+warning: adding embedded git repository: desktop/flex2
+warning: adding embedded git repository: desktop/portfolio
+warning: adding embedded git repository: dev/learn/Travinne/code/example/phase-0-html-link-tag-with-href
+warning: adding embedded git repository: dev/learn/Travinne/desktop/flex2
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0-css-fundamentals-lab
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0-html-riyadh-blog-lab
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0/phase-0-completing-assignments-codegrade
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0/phase-0-css-issue-bot-9000
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0/phase-0-css-kitten-lab
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0/phase-0-html-album-cover-lab
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0/phase-0-html-document-structure-lab
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0/phase-0-html-experiencing-html-lab
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0/phase-0-html-issue-bot-9000-lab
+warning: adding embedded git repository: dev/learn/Travinne/development/code/phase-0/phase-0-html-link-tag-with-href
+warning: adding embedded git repository: dev/learn/Travinne/example
+warning: adding embedded git repository: dev/learn/Travinne/phase-0-css-rainbow-lab
+warning: adding embedded git repository: dev/learn/Travinne/phase-0-html-tables-lab
+warning: adding embedded git repository: dev/learn/Travinne/practice/learn
+warning: adding embedded git repository: development/code/phase-0-css-fundamentals-lab
+warning: adding embedded git repository: development/code/phase-0-html-riyadh-blog-lab
+error: 'development/code/phase-0/javascript/' does not have a commit checked out
+fatal: adding files failed
+2025-03-20 19:42:01.568 [info] > git config --get commit.template [4ms]
+2025-03-20 19:42:01.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:42:01.579 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-20 19:42:01.889 [info] > git status -z -uall [316ms] (cancelled)
+2025-03-20 19:42:03.102 [info] > git fetch [1217ms]
+2025-03-20 19:42:03.102 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/travinne/travthegr88.git/'
+2025-03-20 19:42:03.107 [info] > git config --get commit.template [1ms]
+2025-03-20 19:42:03.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-20 19:42:03.123 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-20 19:42:03.411 [info] > git status -z -uall [295ms] (cancelled)
+2025-03-20 19:42:04.434 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [6ms]
+2025-03-20 19:42:04.435 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [10ms]
+2025-03-20 19:42:04.435 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [13ms]
+2025-03-20 19:42:04.435 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [16ms]
+2025-03-20 19:42:04.439 [info] > git ls-files --stage -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [8ms]
+2025-03-20 19:42:04.475 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.js [29ms]
+2025-03-20 19:42:04.475 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/index.html [26ms]
+2025-03-20 19:42:04.475 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [24ms]
+2025-03-20 19:42:04.476 [info] > git cat-file -s e4639146dc6efebcb02dd70605e42e998aba8f7c [33ms]
+2025-03-20 19:42:04.477 [info] > git show --textconv d553ea76a47c68a60b1f5a3798d6024f19c8bbc4:mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [3ms]
+2025-03-20 19:42:04.543 [info] > git show --textconv :mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [1ms]
+2025-03-21 00:40:08.597 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/css/style.css [27ms]
+2025-03-21 00:40:08.600 [info] > git ls-tree -l d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- mkadi/test/assignments/code-challanges/ramen-rating-app/.vscode/settings.json [42ms]

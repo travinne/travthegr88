@@ -1,0 +1,60 @@
+2025-03-24 09:01:47.783 [info] [main] Log level: Info
+2025-03-24 09:01:47.783 [info] [main] Validating found git in: "git"
+2025-03-24 09:01:47.783 [info] [main] Using git "2.43.0" from "git"
+2025-03-24 09:01:47.783 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-24 09:01:47.783 [info] > git rev-parse --show-toplevel [278ms]
+2025-03-24 09:01:47.783 [info] > git rev-parse --git-dir --git-common-dir [435ms]
+2025-03-24 09:01:47.783 [info] [Model][openRepository] Opened repository: /home/travthegr88
+2025-03-24 09:01:47.783 [info] > git rev-parse --show-toplevel [174ms]
+2025-03-24 09:01:47.783 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-24 09:01:47.783 [info] > git config --get commit.template [187ms]
+2025-03-24 09:01:47.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [98ms]
+2025-03-24 09:01:47.892 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-24 09:01:47.928 [info] > git rev-parse refs/remotes/origin/master [36ms]
+2025-03-24 09:01:47.942 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-03-24 09:01:48.174 [info] > git show --textconv :development/code/phase-1/json-server/db.json [17ms]
+2025-03-24 09:01:48.175 [info] > git ls-files --stage -- development/code/phase-1/json-server/db.json [15ms]
+2025-03-24 09:01:48.254 [info] > git hash-object -t tree /dev/null [71ms]
+2025-03-24 09:01:48.255 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/development/code/phase-1/json-server/db.json.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fdevelopment%2Fcode%2Fphase-1%2Fjson-server%2Fdb.json%22%2C%22ref%22%3A%22%22%7D
+2025-03-24 09:01:48.257 [info] > git hash-object -t tree /dev/null [79ms]
+2025-03-24 09:01:48.258 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/development/code/phase-1/json-server/db.json.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fdevelopment%2Fcode%2Fphase-1%2Fjson-server%2Fdb.json%22%2C%22ref%22%3A%22%22%7D
+2025-03-24 09:01:48.349 [info] > git check-ignore -v -z --stdin [84ms]
+2025-03-24 09:01:48.431 [info] > git blame --root --incremental d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- development/code/phase-1/json-server/db.json [52ms]
+2025-03-24 09:01:48.431 [info] fatal: no such path development/code/phase-1/json-server/db.json in d553ea76a47c68a60b1f5a3798d6024f19c8bbc4
+2025-03-24 09:01:49.224 [info] > git fetch [1686ms]
+2025-03-24 09:01:49.224 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-03-24 09:01:49.234 [info] > git status -z -uall [1303ms] (cancelled)
+2025-03-24 09:01:49.235 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-03-24 09:01:49.239 [info] > git config --get --local branch.master.vscode-merge-base [2ms]
+2025-03-24 09:01:49.239 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-24 09:01:49.242 [info] > git config --get commit.template [7ms]
+2025-03-24 09:01:49.242 [info] > git config --get commit.template [10ms]
+2025-03-24 09:01:49.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-24 09:01:49.248 [info] > git reflog master --grep-reflog=branch: Created from *. [7ms]
+2025-03-24 09:01:49.252 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-24 09:01:49.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-03-24 09:01:49.254 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-03-24 09:01:49.258 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2025-03-24 09:01:49.258 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-24 09:01:49.258 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-24 09:01:49.263 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-24 09:01:49.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [59ms]
+2025-03-24 09:01:49.321 [info] > git rev-parse refs/remotes/origin/master [58ms]
+2025-03-24 09:01:49.327 [info] > git merge-base refs/heads/master refs/remotes/origin/master [65ms]
+2025-03-24 09:01:49.332 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-03-24 09:01:49.333 [info] > git config --get --local branch.master.vscode-merge-base [14ms]
+2025-03-24 09:01:49.333 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-24 09:01:49.337 [info] > git diff --name-status -z --diff-filter=ADMR d553ea76a47c68a60b1f5a3798d6024f19c8bbc4...refs/remotes/origin/master [7ms]
+2025-03-24 09:01:49.338 [info] > git reflog master --grep-reflog=branch: Created from *. [3ms]
+2025-03-24 09:01:49.341 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-03-24 09:01:49.341 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-24 09:01:49.341 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-24 09:01:49.855 [info] > git config --get --local branch.master.github-pr-owner-number [272ms]
+2025-03-24 09:01:49.855 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-24 09:01:52.853 [info] > git status -z -uall [3529ms] (cancelled)

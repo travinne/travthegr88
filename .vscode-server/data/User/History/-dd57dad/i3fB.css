@@ -1,0 +1,117 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+ 
+ 
+ 
+ *{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.me{background-image: url(../images/Screenshots/myimage.png);
+height:540px;
+padding: 50PX;
+background-repeat: no-repeat;
+text-transform: uppercase;
+font-size: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav a{
+    
+    display:flex;
+    justify-content: space-between;
+    font-size: medium;
+    color: grey;
+    font-weight: 700;
+    background-color: black;
+    padding: 15px;
+    text-decoration: none;
+    overflow: hidden;
+    text-align:center;
+    
+
+}
+
+nav a:hover{
+    color: orange;
+
+}
+nav li{
+    float: left;
+}
+
+
+.container{
+    display: flex;
+    padding: 48px 0px;
+    gap: 32px;
+    width: 85%;
+    margin: auto;
+}
+
+  .box1{
+    height: 540px;
+    width: 540px;
+    padding: 0%;
+    justify-content: flex-start;
+    display: flex;
+    top: 20px;;
+
+ }  
+ 
+ .box2{
+    height: 50px;
+    width: 50px;
+    margin-bottom:  20px; ;
+    justify-content:center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 3px;
+    margin-right: 20px;
+
+ }   
+
+ .box3{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 3px;
+    margin-left: 20px;
+ } 
+ .about{
+    margin: 24px;
+    border: 2px solid;
+    padding: 20px;
+
+ }
+
+ footer h3{
+    text-align: center;
+ }
+ 
+ .foot{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 20px;
+    gap: 2px;
+ }

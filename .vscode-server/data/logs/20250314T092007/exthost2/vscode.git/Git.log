@@ -1,0 +1,37 @@
+2025-03-14 09:20:18.194 [info] [main] Log level: Info
+2025-03-14 09:20:18.194 [info] [main] Validating found git in: "git"
+2025-03-14 09:20:18.194 [info] [main] Using git "2.43.0" from "git"
+2025-03-14 09:20:18.194 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-14 09:20:18.194 [info] > git rev-parse --show-toplevel [1371ms]
+2025-03-14 09:20:18.194 [info] > git rev-parse --git-dir --git-common-dir [132ms]
+2025-03-14 09:20:18.194 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-1/phase-1-destructuring-assignment
+2025-03-14 09:20:18.194 [info] > git rev-parse --show-toplevel [53ms]
+2025-03-14 09:20:18.194 [info] > git config --get commit.template [84ms]
+2025-03-14 09:20:18.266 [info] > git rev-parse --show-toplevel [46ms]
+2025-03-14 09:20:18.294 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [42ms]
+2025-03-14 09:20:18.327 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-destructuring-assignment/.git/refs/remotes/origin/master'
+2025-03-14 09:20:18.368 [info] > git rev-parse --show-toplevel [75ms]
+2025-03-14 09:20:18.373 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-14 09:20:18.401 [info] > git rev-parse refs/remotes/origin/master [75ms]
+2025-03-14 09:20:18.467 [info] > git status -z -uall [57ms]
+2025-03-14 09:20:18.467 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [51ms]
+2025-03-14 09:20:18.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [42ms]
+2025-03-14 09:20:18.575 [info] > git config --get --local branch.master.vscode-merge-base [7ms]
+2025-03-14 09:20:18.585 [info] > git config --get commit.template [27ms]
+2025-03-14 09:20:18.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-14 09:20:18.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [18ms]
+2025-03-14 09:20:18.652 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-destructuring-assignment/.git/refs/remotes/origin/master'
+2025-03-14 09:20:18.661 [info] > git merge-base refs/heads/master refs/remotes/origin/master [33ms]
+2025-03-14 09:20:18.667 [info] > git rev-parse refs/remotes/origin/master [14ms]
+2025-03-14 09:20:18.695 [info] > git status -z -uall [23ms]
+2025-03-14 09:20:18.695 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-03-14 09:20:18.711 [info] > git diff --name-status -z --diff-filter=ADMR ff7f11b6811c05c4c4a16b82389f5b24531e1068...refs/remotes/origin/master [46ms]
+2025-03-14 09:20:18.827 [info] > git merge-base refs/heads/master refs/remotes/origin/master [123ms]
+2025-03-14 09:20:18.842 [info] > git diff --name-status -z --diff-filter=ADMR ff7f11b6811c05c4c4a16b82389f5b24531e1068...refs/remotes/origin/master [6ms]
+2025-03-14 09:20:19.666 [info] > git check-ignore -v -z --stdin [131ms]
+2025-03-14 09:20:20.089 [info] > git show --textconv :test/indexTest.js [45ms]
+2025-03-14 09:20:20.093 [info] > git ls-files --stage -- test/indexTest.js [5ms]
+2025-03-14 09:20:20.111 [info] > git cat-file -s 2a34e939f6629f338c0c093b74c518f36d16b8d7 [3ms]
+2025-03-14 09:20:20.923 [info] > git blame --root --incremental ff7f11b6811c05c4c4a16b82389f5b24531e1068 -- test/indexTest.js [148ms]
+2025-03-14 09:20:22.338 [info] > git config --get --local branch.master.github-pr-owner-number [20ms]
+2025-03-14 09:20:22.339 [warning] [Git][config] git config failed: Failed to execute git

@@ -1,0 +1,54 @@
+2025-03-12 13:00:28.484 [info] [main] Log level: Info
+2025-03-12 13:00:28.484 [info] [main] Validating found git in: "git"
+2025-03-12 13:00:28.484 [info] [main] Using git "2.43.0" from "git"
+2025-03-12 13:00:28.484 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-12 13:00:28.484 [info] > git rev-parse --show-toplevel [293ms]
+2025-03-12 13:00:28.486 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-03-12 13:00:28.512 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-1/phase-1-array-find-method-lab
+2025-03-12 13:00:28.634 [info] > git rev-parse --show-toplevel [110ms]
+2025-03-12 13:00:28.635 [info] > git config --get commit.template [115ms]
+2025-03-12 13:00:28.717 [info] > git rev-parse --show-toplevel [78ms]
+2025-03-12 13:00:28.719 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-12 13:00:28.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2025-03-12 13:00:28.732 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-array-find-method-lab/.git/refs/remotes/origin/master'
+2025-03-12 13:00:28.754 [info] > git rev-parse refs/remotes/origin/master [23ms]
+2025-03-12 13:00:28.768 [info] > git status -z -uall [9ms]
+2025-03-12 13:00:28.768 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-03-12 13:00:28.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-03-12 13:00:28.804 [info] > git config --get commit.template [12ms]
+2025-03-12 13:00:28.805 [info] > git config --get --local branch.master.vscode-merge-base [6ms]
+2025-03-12 13:00:28.824 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [15ms]
+2025-03-12 13:00:28.828 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2025-03-12 13:00:28.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2025-03-12 13:00:28.834 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-array-find-method-lab/.git/refs/remotes/origin/master'
+2025-03-12 13:00:28.834 [info] > git diff --name-status -z --diff-filter=ADMR 43dc808f63afeca5ae53f4d37932147849c31b4c...refs/remotes/origin/master [3ms]
+2025-03-12 13:00:28.838 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-03-12 13:00:28.934 [info] > git status -z -uall [94ms]
+2025-03-12 13:00:28.950 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [106ms]
+2025-03-12 13:00:29.139 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-12 13:00:29.952 [info] > git config --get --local branch.master.github-pr-owner-number [155ms]
+2025-03-12 13:00:29.952 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-12 13:00:30.205 [info] > git show --textconv :index.js [3ms]
+2025-03-12 13:00:30.205 [info] > git ls-files --stage -- index.js [0ms]
+2025-03-12 13:00:30.208 [info] > git cat-file -s c44a932228083b0e4c5847073568688a420e9701 [1ms]
+2025-03-12 13:00:30.292 [info] > git blame --root --incremental 43dc808f63afeca5ae53f4d37932147849c31b4c -- index.js [2ms]
+2025-03-12 23:07:15.428 [info] > git ls-files --stage -- index.js [3ms]
+2025-03-12 23:07:15.435 [info] > git cat-file -s c44a932228083b0e4c5847073568688a420e9701 [2ms]
+2025-03-12 23:07:15.453 [info] > git show --textconv :index.js [4ms]
+2025-03-12 23:07:18.229 [info] > git fetch [4073ms]
+2025-03-12 23:07:18.241 [info] > git config --get commit.template [4ms]
+2025-03-12 23:07:18.241 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-12 23:07:18.245 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-array-find-method-lab/.git/refs/remotes/origin/master'
+2025-03-12 23:07:18.246 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-03-12 23:07:18.253 [info] > git status -z -uall [4ms]
+2025-03-12 23:07:18.255 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-12 23:07:19.141 [info] > git ls-files --stage -- index.js [2ms]
+2025-03-12 23:07:19.147 [info] > git cat-file -s c44a932228083b0e4c5847073568688a420e9701 [1ms]
+2025-03-12 23:07:19.160 [info] > git show --textconv :index.js [2ms]
+2025-03-12 23:10:31.055 [info] > git fetch [4464ms]
+2025-03-12 23:10:31.067 [info] > git config --get commit.template [5ms]
+2025-03-12 23:10:31.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-12 23:10:31.071 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-array-find-method-lab/.git/refs/remotes/origin/master'
+2025-03-12 23:10:31.072 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-03-12 23:10:31.080 [info] > git status -z -uall [5ms]
+2025-03-12 23:10:31.081 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]

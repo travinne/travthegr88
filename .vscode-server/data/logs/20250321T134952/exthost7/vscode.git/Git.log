@@ -1,0 +1,97 @@
+2025-03-22 11:44:10.819 [info] [main] Log level: Info
+2025-03-22 11:44:10.819 [info] [main] Validating found git in: "git"
+2025-03-22 11:44:10.819 [info] [main] Using git "2.43.0" from "git"
+2025-03-22 11:44:10.819 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-22 11:44:10.819 [info] > git rev-parse --show-toplevel [4ms]
+2025-03-22 11:44:10.819 [info] > git rev-parse --git-dir --git-common-dir [151ms]
+2025-03-22 11:44:10.819 [info] [Model][openRepository] Opened repository: /home/travthegr88
+2025-03-22 11:44:10.832 [info] > git rev-parse --show-toplevel [6ms]
+2025-03-22 11:44:10.837 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-22 11:44:10.839 [info] > git config --get commit.template [15ms]
+2025-03-22 11:44:10.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2025-03-22 11:44:10.928 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-22 11:44:10.963 [info] > git rev-parse refs/remotes/origin/master [34ms]
+2025-03-22 11:44:10.977 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-22 11:44:11.197 [info] > git show --textconv :development/code/phase-1/json-server/db.json [9ms]
+2025-03-22 11:44:11.197 [info] > git ls-files --stage -- development/code/phase-1/json-server/db.json [5ms]
+2025-03-22 11:44:11.203 [info] > git hash-object -t tree /dev/null [3ms]
+2025-03-22 11:44:11.204 [warning] [GitFileSystemProvider][stat] File not found - git:/home/travthegr88/development/code/phase-1/json-server/db.json.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fdevelopment%2Fcode%2Fphase-1%2Fjson-server%2Fdb.json%22%2C%22ref%22%3A%22%22%7D
+2025-03-22 11:44:11.207 [info] > git hash-object -t tree /dev/null [5ms]
+2025-03-22 11:44:11.207 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/travthegr88/development/code/phase-1/json-server/db.json.git?%7B%22path%22%3A%22%2Fhome%2Ftravthegr88%2Fdevelopment%2Fcode%2Fphase-1%2Fjson-server%2Fdb.json%22%2C%22ref%22%3A%22%22%7D
+2025-03-22 11:44:11.278 [info] > git blame --root --incremental d553ea76a47c68a60b1f5a3798d6024f19c8bbc4 -- development/code/phase-1/json-server/db.json [2ms]
+2025-03-22 11:44:11.278 [info] fatal: no such path development/code/phase-1/json-server/db.json in d553ea76a47c68a60b1f5a3798d6024f19c8bbc4
+2025-03-22 11:44:11.351 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-22 11:44:11.455 [info] > git config --get --local branch.master.github-pr-owner-number [4ms]
+2025-03-22 11:44:11.455 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-22 11:44:12.929 [info] > git fetch [2115ms]
+2025-03-22 11:44:12.929 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-03-22 11:44:12.975 [info] > git status -z -uall [2007ms] (cancelled)
+2025-03-22 11:44:12.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [41ms]
+2025-03-22 11:44:12.981 [info] > git config --get --local branch.master.vscode-merge-base [3ms]
+2025-03-22 11:44:12.981 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-22 11:44:12.985 [info] > git config --get commit.template [41ms]
+2025-03-22 11:44:12.985 [info] > git config --get commit.template [45ms]
+2025-03-22 11:44:12.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-03-22 11:44:12.995 [info] > git reflog master --grep-reflog=branch: Created from *. [11ms]
+2025-03-22 11:44:12.999 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-22 11:44:13.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-03-22 11:44:13.000 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-03-22 11:44:13.004 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2025-03-22 11:44:13.005 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-22 11:44:13.005 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-22 11:44:13.011 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-22 11:44:13.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [75ms]
+2025-03-22 11:44:13.084 [info] > git config --get --local branch.master.vscode-merge-base [1ms]
+2025-03-22 11:44:13.084 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-22 11:44:13.087 [info] > git rev-parse refs/remotes/origin/master [76ms]
+2025-03-22 11:44:13.093 [info] > git merge-base refs/heads/master refs/remotes/origin/master [86ms]
+2025-03-22 11:44:13.100 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-03-22 11:44:13.101 [info] > git reflog master --grep-reflog=branch: Created from *. [14ms]
+2025-03-22 11:44:13.106 [info] > git diff --name-status -z --diff-filter=ADMR d553ea76a47c68a60b1f5a3798d6024f19c8bbc4...refs/remotes/origin/master [8ms]
+2025-03-22 11:44:13.109 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2025-03-22 11:44:13.109 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-03-22 11:44:13.109 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-03-22 11:44:15.736 [info] > git status -z -uall [2646ms] (cancelled)
+2025-03-22 11:49:28.167 [info] > git fetch [2494ms]
+2025-03-22 11:49:28.167 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-03-22 11:49:28.178 [info] > git config --get commit.template [4ms]
+2025-03-22 11:49:28.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-22 11:49:28.190 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-22 11:49:28.191 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-03-22 11:49:28.200 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-22 11:49:28.664 [info] > git status -z -uall [470ms] (cancelled)
+2025-03-22 12:29:47.787 [info] > git fetch [2440ms]
+2025-03-22 12:29:47.788 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-03-22 12:29:47.801 [info] > git config --get commit.template [1ms]
+2025-03-22 12:29:47.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-22 12:29:47.813 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-22 12:29:47.814 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-03-22 12:29:47.825 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-22 12:29:53.611 [info] > git status -z -uall [5793ms] (cancelled)
+2025-03-23 20:29:29.112 [info] > git fetch [1104ms]
+2025-03-23 20:29:29.114 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2025-03-23 20:29:29.136 [info] > git config --get commit.template [7ms]
+2025-03-23 20:29:29.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-03-23 20:29:29.150 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/.git/refs/remotes/origin/master'
+2025-03-23 20:29:29.150 [info] > git rev-parse refs/remotes/origin/master [0ms]
+2025-03-23 20:29:29.180 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-23 20:29:36.131 [info] > git status -z -uall [6965ms] (cancelled)

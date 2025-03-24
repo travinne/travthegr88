@@ -1,0 +1,39 @@
+2025-03-20 13:21:54.511 [warning] /home/travthegr88/.ssh/config: ENOENT: no such file or directory, open '/home/travthegr88/.ssh/config'
+2025-03-20 13:21:54.511 [info] [Activation] Extension version: 0.106.0
+2025-03-20 13:21:54.723 [info] [Activation] Looking for git repository
+2025-03-20 13:21:54.723 [info] [Activation] Found 0 repositories during activation
+2025-03-20 13:21:54.723 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-03-20 13:21:54.727 [info] [GitAPI] Registering git provider
+2025-03-20 13:21:54.727 [info] [Review+0] Validate state in progress
+2025-03-20 13:21:54.727 [info] [Review+0] Validating state...
+2025-03-20 13:21:54.727 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-20 13:21:54.727 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/travthegr88
+2025-03-20 13:21:54.760 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-20 13:21:54.797 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-03-20 13:21:55.126 [info] [Activation] Repo state for file:///home/travthegr88 changed.
+2025-03-20 13:21:55.126 [info] [Activation] Repo file:///home/travthegr88 has already been setup.
+2025-03-20 19:11:53.311 [info] [Review+0] Validate state in progress
+2025-03-20 19:11:53.311 [info] [Review+0] Validating state...
+2025-03-20 19:11:53.317 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-20 19:11:53.318 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/travthegr88
+2025-03-20 19:11:53.334 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-20 19:11:53.348 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-03-20 19:38:47.268 [info] [Review+0] Validate state in progress
+2025-03-20 19:38:47.270 [info] [Review+0] Validating state...
+2025-03-20 19:38:47.942 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88
+2025-03-20 19:38:48.630 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-03-20 19:38:48.736 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-20 19:38:48.742 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-03-20 19:38:48.864 [info] [FolderRepositoryManager+0] No globalState for assignableUsers.
+2025-03-20 19:39:00.066 [info] [Review+0] Validate state in progress
+2025-03-20 19:39:00.066 [info] [Review+0] Validating state...
+2025-03-20 19:39:00.093 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88
+2025-03-20 19:39:00.094 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-03-20 19:39:00.102 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-20 19:39:01.449 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-03-20 19:40:00.487 [error] [GitHubRepository+0] Unable to compare commits between travinne:main and travinne:master: HttpError: Not Found
+2025-03-20 19:40:00.867 [error] [GitHubRepository+0] Unable to compare commits between travinne:main and travinne:master: HttpError: Not Found
+2025-03-20 19:40:01.039 [error] [GitHubRepository+0.1] Error querying GraphQL API: GraphQL error: Could not resolve to a Repository with the name 'travinne/.github'.. 
+2025-03-20 19:40:01.039 [error] [GitHubRepository+0.1] Error querying GraphQL API: GraphQL error: Could not resolve to a Repository with the name 'travinne/.github'.. 
+2025-03-20 19:40:01.041 [info] [CreatePullRequestViewProvider] Initializing "create" view: {"canModifyBranches":true,"defaultBaseRemote":{"owner":"travinne","repositoryName":"travthegr88"},"defaultBaseBranch":"main","defaultCompareRemote":{"owner":"travinne","repositoryName":"travthegr88"},"defaultCompareBranch":"master","defaultTitle":"ramen challange","defaultDescription":"","defaultMergeMethod":"merge","baseHasMergeQueue":false,"remoteCount":1,"allowAutoMerge":false,"mergeMethodsAvailability":{"merge":true,"squash":true,"rebase":true},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":true,"creating":false,"initializeWithGeneratedTitleAndDescription":false,"preReviewState":0,"reviewing":false}
+2025-03-20 19:40:30.231 [error] [GitHubRepository+0] Unable to create PR: Error: GraphQL error: Head sha can't be blank, Base sha can't be blank, No commits between main and master, Base ref must be a branch

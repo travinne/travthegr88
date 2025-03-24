@@ -1,0 +1,35 @@
+2025-03-12 13:00:27.380 [info] [main] Log level: Info
+2025-03-12 13:00:27.380 [info] [main] Validating found git in: "git"
+2025-03-12 13:00:27.380 [info] [main] Using git "2.43.0" from "git"
+2025-03-12 13:00:27.380 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-12 13:00:27.380 [info] > git rev-parse --show-toplevel [23ms]
+2025-03-12 13:00:27.380 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-03-12 13:00:27.380 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-1/phase-1-destructuring-assignment
+2025-03-12 13:00:27.467 [info] > git rev-parse --show-toplevel [86ms]
+2025-03-12 13:00:27.469 [info] > git config --get commit.template [91ms]
+2025-03-12 13:00:27.483 [info] > git rev-parse --show-toplevel [8ms]
+2025-03-12 13:00:27.487 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-12 13:00:27.491 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-12 13:00:27.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-03-12 13:00:27.495 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-destructuring-assignment/.git/refs/remotes/origin/master'
+2025-03-12 13:00:27.497 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-03-12 13:00:27.508 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-12 13:00:27.509 [info] > git status -z -uall [10ms]
+2025-03-12 13:00:27.530 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-03-12 13:00:27.555 [info] > git config --get commit.template [25ms]
+2025-03-12 13:00:27.555 [info] > git config --get --local branch.master.vscode-merge-base [2ms]
+2025-03-12 13:00:27.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [6ms]
+2025-03-12 13:00:27.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-03-12 13:00:27.576 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-destructuring-assignment/.git/refs/remotes/origin/master'
+2025-03-12 13:00:27.577 [info] > git merge-base refs/heads/master refs/remotes/origin/master [6ms]
+2025-03-12 13:00:27.585 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2025-03-12 13:00:27.597 [info] > git status -z -uall [8ms]
+2025-03-12 13:00:27.598 [info] > git diff --name-status -z --diff-filter=ADMR ff7f11b6811c05c4c4a16b82389f5b24531e1068...refs/remotes/origin/master [14ms]
+2025-03-12 13:00:27.600 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-03-12 13:00:28.035 [info] > git check-ignore -v -z --stdin [43ms]
+2025-03-12 13:00:28.266 [info] > git show --textconv :test/indexTest.js [26ms]
+2025-03-12 13:00:28.271 [info] > git ls-files --stage -- test/indexTest.js [26ms]
+2025-03-12 13:00:28.276 [info] > git cat-file -s 2a34e939f6629f338c0c093b74c518f36d16b8d7 [2ms]
+2025-03-12 13:00:28.442 [info] > git blame --root --incremental ff7f11b6811c05c4c4a16b82389f5b24531e1068 -- test/indexTest.js [3ms]
+2025-03-12 13:00:28.660 [info] > git config --get --local branch.master.github-pr-owner-number [2ms]
+2025-03-12 13:00:28.660 [warning] [Git][config] git config failed: Failed to execute git

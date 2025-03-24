@@ -1,0 +1,9 @@
+[Command:d I] Decorator starting: l
+[Command:d I] Decorator starting: a
+[Command:d E] Command [Open Assignment]: github.classroom.openAssignment Failure: Failed to retrieve access token or sign in. (223ms)
+[Command:d I] Decorator finishing: a. Duration: 221ms (0 + 221)
+[Command:d I] Decorator starting: l
+[Command:d I] Decorator starting: a
+[Command:d I] Decorator finishing: l. Duration: 54543ms (0 + 54543)
+[Command:d E] Command [Open Assignment]: github.classroom.openAssignment Failure: AggregateError (32975ms)
+[Command:d I] Decorator finishing: a. Duration: 5ms (1 + 4)

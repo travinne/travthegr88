@@ -1,0 +1,35 @@
+2025-03-14 09:20:24.831 [info] [main] Log level: Info
+2025-03-14 09:20:24.831 [info] [main] Validating found git in: "git"
+2025-03-14 09:20:24.831 [info] [main] Using git "2.43.0" from "git"
+2025-03-14 09:20:24.831 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-14 09:20:24.831 [info] > git rev-parse --show-toplevel [22ms]
+2025-03-14 09:20:24.831 [info] > git rev-parse --git-dir --git-common-dir [121ms]
+2025-03-14 09:20:24.831 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-1/phase-1-control-flow-lab
+2025-03-14 09:20:24.966 [info] > git rev-parse --show-toplevel [412ms]
+2025-03-14 09:20:24.967 [info] > git config --get commit.template [428ms]
+2025-03-14 09:20:24.990 [info] > git rev-parse --show-toplevel [14ms]
+2025-03-14 09:20:24.993 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-14 09:20:25.013 [info] > git show --textconv :index.js [17ms]
+2025-03-14 09:20:25.014 [info] > git ls-files --stage -- index.js [12ms]
+2025-03-14 09:20:25.022 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [38ms]
+2025-03-14 09:20:25.033 [info] > git cat-file -s 05069490d8ee8c43b5d731738d0e05377e4b4fad [14ms]
+2025-03-14 09:20:25.057 [info] > git status -z -uall [12ms]
+2025-03-14 09:20:25.060 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2025-03-14 09:20:25.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-03-14 09:20:25.102 [info] > git config --get --local branch.master.vscode-merge-base [4ms]
+2025-03-14 09:20:25.108 [info] > git config --get commit.template [24ms]
+2025-03-14 09:20:25.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [9ms]
+2025-03-14 09:20:25.148 [info] > git merge-base refs/heads/master refs/remotes/origin/master [27ms]
+2025-03-14 09:20:25.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2025-03-14 09:20:25.199 [info] > git diff --name-status -z --diff-filter=ADMR 6cfedc5c1cc10615ea0b6c4c671cebe955239a1e...refs/remotes/origin/master [48ms]
+2025-03-14 09:20:25.257 [info] > git blame --root --incremental 6cfedc5c1cc10615ea0b6c4c671cebe955239a1e -- index.js [93ms]
+2025-03-14 09:20:25.280 [info] > git status -z -uall [17ms]
+2025-03-14 09:20:25.281 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-03-14 09:20:25.363 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-14 09:20:27.839 [info] > git config --get --local branch.master.github-pr-owner-number [0ms]
+2025-03-14 09:20:27.839 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-14 10:20:19.745 [info] > git fetch [4055ms]
+2025-03-14 10:20:19.761 [info] > git config --get commit.template [6ms]
+2025-03-14 10:20:19.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-03-14 10:20:19.776 [info] > git status -z -uall [6ms]
+2025-03-14 10:20:19.777 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

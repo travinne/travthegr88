@@ -1,0 +1,42 @@
+2025-03-14 09:20:22.705 [info] [main] Log level: Info
+2025-03-14 09:20:22.705 [info] [main] Validating found git in: "git"
+2025-03-14 09:20:22.705 [info] [main] Using git "2.43.0" from "git"
+2025-03-14 09:20:22.705 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-14 09:20:22.705 [info] > git rev-parse --show-toplevel [188ms]
+2025-03-14 09:20:22.705 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-03-14 09:20:22.705 [info] [Model][openRepository] Opened repository: /home/travthegr88/development/code/phase-1/phase-1-arithmetic-lab
+2025-03-14 09:20:22.705 [info] > git rev-parse --show-toplevel [355ms]
+2025-03-14 09:20:22.705 [info] > git config --get commit.template [449ms]
+2025-03-14 09:20:23.536 [info] > git check-ignore -v -z --stdin [210ms]
+2025-03-14 09:20:23.539 [info] > git rev-parse --show-toplevel [813ms]
+2025-03-14 09:20:23.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [201ms]
+2025-03-14 09:20:23.575 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-arithmetic-lab/.git/refs/remotes/origin/master'
+2025-03-14 09:20:23.630 [info] > git rev-parse --show-toplevel [79ms]
+2025-03-14 09:20:23.643 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-14 09:20:23.726 [info] > git show --textconv :test/indexTest.js [60ms]
+2025-03-14 09:20:23.728 [info] > git rev-parse refs/remotes/origin/master [154ms]
+2025-03-14 09:20:23.867 [info] > git ls-files --stage -- test/indexTest.js [175ms]
+2025-03-14 09:20:23.884 [info] > git status -z -uall [144ms]
+2025-03-14 09:20:23.893 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [147ms]
+2025-03-14 09:20:24.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [232ms]
+2025-03-14 09:20:24.206 [info] > git cat-file -s fa76c0b3a18c6d0dce80f3c64c5673624a49cb8a [333ms]
+2025-03-14 09:20:24.227 [info] > git config --get --local branch.master.vscode-merge-base [22ms]
+2025-03-14 09:20:24.234 [info] > git config --get commit.template [238ms]
+2025-03-14 09:20:24.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [35ms]
+2025-03-14 09:20:24.385 [info] > git merge-base refs/heads/master refs/remotes/origin/master [99ms]
+2025-03-14 09:20:24.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [70ms]
+2025-03-14 09:20:24.406 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-arithmetic-lab/.git/refs/remotes/origin/master'
+2025-03-14 09:20:24.407 [info] > git diff --name-status -z --diff-filter=ADMR ca10c52f30732396016ec0b8e8f3a25c8d696213...refs/remotes/origin/master [16ms]
+2025-03-14 09:20:24.601 [info] > git rev-parse refs/remotes/origin/master [195ms]
+2025-03-14 09:20:24.632 [info] > git status -z -uall [24ms]
+2025-03-14 09:20:24.632 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2025-03-14 09:20:24.675 [info] > git blame --root --incremental ca10c52f30732396016ec0b8e8f3a25c8d696213 -- test/indexTest.js [21ms]
+2025-03-14 09:20:30.303 [info] > git config --get --local branch.master.github-pr-owner-number [232ms]
+2025-03-14 09:20:30.303 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-14 10:20:18.241 [info] > git fetch [4025ms]
+2025-03-14 10:20:18.257 [info] > git config --get commit.template [6ms]
+2025-03-14 10:20:18.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-14 10:20:18.262 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/development/code/phase-1/phase-1-arithmetic-lab/.git/refs/remotes/origin/master'
+2025-03-14 10:20:18.262 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-03-14 10:20:18.268 [info] > git status -z -uall [3ms]
+2025-03-14 10:20:18.270 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]

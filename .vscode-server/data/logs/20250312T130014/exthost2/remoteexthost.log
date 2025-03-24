@@ -1,0 +1,25 @@
+2025-03-12 13:00:19.372 [info] Extension host with pid 1018 started
+2025-03-12 13:00:19.372 [error] Error: EEXIST: file already exists, open '/home/travthegr88/.vscode-server/data/User/workspaceStorage/6364776c719bd5e103ddc3ca5cd55976/vscode.lock'
+2025-03-12 13:00:19.470 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/6364776c719bd5e103ddc3ca5cd55976/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-03-12 13:00:19.493 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-12 13:00:19.505 [info] ExtensionService#_doActivateExtension leizongmin.node-module-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-12 13:00:19.506 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-12 13:00:19.932 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/6364776c719bd5e103ddc3ca5cd55976/vscode.lock': The lock looks stale, waiting for 2s.
+2025-03-12 13:00:20.511 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-12 13:00:20.535 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-03-12 13:00:21.934 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/6364776c719bd5e103ddc3ca5cd55976/vscode.lock': The lock looks stale even after waiting for 2s.
+2025-03-12 13:00:21.934 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/6364776c719bd5e103ddc3ca5cd55976/vscode.lock': Deleting a stale lock.
+2025-03-12 13:00:21.960 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/6364776c719bd5e103ddc3ca5cd55976/vscode.lock': Lock acquired.
+2025-03-12 13:00:22.718 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-12 13:00:22.718 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-12 13:00:23.916 [info] Eager extensions activated
+2025-03-12 13:00:23.918 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:23.918 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:23.931 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:23.932 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:23.933 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:25.144 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-12 13:00:29.067 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-03-12 13:00:29.067 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-03-12 13:00:29.067 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-03-12 15:17:59.058 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'

@@ -1,0 +1,127 @@
+2025-03-18 16:07:32.729 [info] Extension host with pid 1003 started
+2025-03-18 16:07:32.729 [error] Error: EEXIST: file already exists, open '/home/travthegr88/.vscode-server/data/User/workspaceStorage/ddf7bd56f314a0579ef3ad744026a14f/vscode.lock'
+2025-03-18 16:07:32.745 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/ddf7bd56f314a0579ef3ad744026a14f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-03-18 16:07:32.757 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/ddf7bd56f314a0579ef3ad744026a14f/vscode.lock': The pid 151171 appears to be gone.
+2025-03-18 16:07:32.757 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/ddf7bd56f314a0579ef3ad744026a14f/vscode.lock': Deleting a stale lock.
+2025-03-18 16:07:32.765 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/ddf7bd56f314a0579ef3ad744026a14f/vscode.lock': Lock acquired.
+2025-03-18 16:07:32.809 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-03-18 16:07:32.810 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-18 16:07:32.810 [info] ExtensionService#_doActivateExtension leizongmin.node-module-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-18 16:07:32.810 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-18 16:07:33.183 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-18 16:07:33.246 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-18 16:07:33.247 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-18 16:07:33.643 [info] Eager extensions activated
+2025-03-18 16:07:33.644 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 16:07:33.644 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 16:07:33.644 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 16:07:33.645 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 16:07:33.955 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-18 16:07:55.347 [error] HttpError: request to https://api.github.com/user failed, reason: getaddrinfo EAI_AGAIN api.github.com
+	at /home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2188:6563
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kg.execute (/home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2135:18777)
+2025-03-18 16:07:56.348 [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+	at JSON.stringify (<anonymous>)
+	at dE (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:155568)
+	at ti.serializeRequestArguments (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:163551)
+	at qy.U (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:159791)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:157133)
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:117:679
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:96
+	at Array.forEach (<anonymous>)
+	at MP.c (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:84)
+	at MP.onUnexpectedError (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:259)
+	at mt (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:546)
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:190:14329
+2025-03-18 16:08:04.674 [error] HttpError: request to https://api.github.com/repos/travinne/1-challange failed, reason: getaddrinfo EAI_AGAIN api.github.com
+	at /home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2188:6563
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kg.execute (/home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2135:18777)
+2025-03-18 16:08:05.677 [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+	at JSON.stringify (<anonymous>)
+	at dE (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:155568)
+	at ti.serializeRequestArguments (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:163551)
+	at qy.U (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:159791)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:157133)
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:117:679
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:96
+	at Array.forEach (<anonymous>)
+	at MP.c (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:84)
+	at MP.onUnexpectedError (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:259)
+	at mt (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:546)
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:190:14329
+2025-03-18 16:19:57.856 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-03-18 16:23:31.887 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-03-18 16:48:02.459 [error] [vscode.typescript-language-features] provider FAILED
+2025-03-18 16:48:02.461 [error] Error: <semantic> TypeScript Server Error (5.8.2)
+Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at isValidReferencePosition (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172589:25)
+    at getReferencesAtLocation (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172639:10)
+    at getReferencesInContainer (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172631:7)
+    at getReferencesInSourceFile (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172624:12)
+    at searchForName (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172437:7)
+    at getReferencesInContainerOrFiles (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172237:9)
+    at getReferencedSymbolsForSymbol (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172219:7)
+    at Object.getReferencedSymbolsForNode (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:171969:24)
+    at Object.getReferenceEntriesForNode (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:171612:30)
+    at getSemanticDocumentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:142542:59)
+    at Object.getDocumentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:142530:12)
+    at Object.getDocumentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:152334:31)
+    at IpcIOSession.getDocumentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:194433:61)
+    at documentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:193335:43)
+    at /home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/typescript-language-features/dist/extension.js:2:492527)
+	at y.dispatchResponse (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/typescript-language-features/dist/extension.js:2:486497)
+	at y.dispatchMessage (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/typescript-language-features/dist/extension.js:2:485295)
+	at ChildProcess.<anonymous> (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/typescript-language-features/dist/extension.js:2:484788)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:950:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-03-18 16:48:10.491 [error] [vscode.typescript-language-features] provider FAILED
+2025-03-18 16:48:10.491 [error] Error: <semantic> TypeScript Server Error (5.8.2)
+Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at isValidReferencePosition (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172589:25)
+    at getReferencesAtLocation (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172639:10)
+    at getReferencesInContainer (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172631:7)
+    at getReferencesInSourceFile (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172624:12)
+    at searchForName (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172437:7)
+    at getReferencesInContainerOrFiles (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172237:9)
+    at getReferencedSymbolsForSymbol (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:172219:7)
+    at Object.getReferencedSymbolsForNode (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:171969:24)
+    at Object.getReferenceEntriesForNode (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:171612:30)
+    at getSemanticDocumentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:142542:59)
+    at Object.getDocumentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:142530:12)
+    at Object.getDocumentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:152334:31)
+    at IpcIOSession.getDocumentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:194433:61)
+    at documentHighlights (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:193335:43)
+    at /home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/typescript-language-features/dist/extension.js:2:492527)
+	at y.dispatchResponse (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/typescript-language-features/dist/extension.js:2:486497)
+	at y.dispatchMessage (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/typescript-language-features/dist/extension.js:2:485295)
+	at ChildProcess.<anonymous> (/home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/typescript-language-features/dist/extension.js:2:484788)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:950:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

@@ -1,0 +1,580 @@
+2025-03-14 09:20:07.223 [info] 
+
+
+
+
+2025-03-14 09:20:07.244 [info] Extension host agent started.
+2025-03-14 09:20:07.351 [info] [127.0.0.1][9924a2a3][ManagementConnection] New connection established.
+2025-03-14 09:20:07.593 [info] [127.0.0.1][a9c2eca1][ManagementConnection] New connection established.
+2025-03-14 09:20:08.294 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] New connection established.
+2025-03-14 09:20:08.301 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> Launched Extension Host Process.
+2025-03-14 09:20:08.388 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] New connection established.
+2025-03-14 09:20:08.393 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] <1029> Launched Extension Host Process.
+2025-03-14 09:20:08.484 [info] [127.0.0.1][f5fda95f][ManagementConnection] New connection established.
+2025-03-14 09:20:09.390 [info] [127.0.0.1][12816870][ManagementConnection] New connection established.
+2025-03-14 09:20:10.152 [error] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-14 09:20:12.812 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] New connection established.
+2025-03-14 09:20:12.826 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] New connection established.
+2025-03-14 09:20:12.936 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] <1134> Launched Extension Host Process.
+2025-03-14 09:20:12.951 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] <1135> Launched Extension Host Process.
+2025-03-14 09:20:13.635 [info] [127.0.0.1][1da1b0d6][ManagementConnection] New connection established.
+2025-03-14 09:20:13.659 [error] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-03-14 09:20:15.461 [info] [127.0.0.1][de358470][ManagementConnection] New connection established.
+2025-03-14 09:20:17.294 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] New connection established.
+2025-03-14 09:20:17.518 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] <1236> Launched Extension Host Process.
+2025-03-14 09:20:18.117 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] New connection established.
+2025-03-14 09:20:18.278 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] <1329> Launched Extension Host Process.
+2025-03-14 09:35:56.857 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.666 ms - 151[0m
+
+2025-03-14 09:35:56.969 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /favicon.ico [33m404[0m 1.649 ms - 150[0m
+
+2025-03-14 09:36:11.401 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.237 ms - 151[0m
+
+2025-03-14 09:36:12.894 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.709 ms - 151[0m
+
+2025-03-14 09:36:16.843 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.050 ms - 151[0m
+
+2025-03-14 09:36:19.337 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.328 ms - 151[0m
+
+2025-03-14 09:36:21.038 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.394 ms - 151[0m
+
+2025-03-14 09:36:25.271 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.577 ms - 151[0m
+
+2025-03-14 09:36:29.688 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.322 ms - 151[0m
+
+2025-03-14 09:36:33.359 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.486 ms - 151[0m
+
+2025-03-14 09:36:35.959 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.003 ms - 151[0m
+
+2025-03-14 09:36:37.821 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.030 ms - 151[0m
+
+2025-03-14 09:36:50.143 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.844 ms - 151[0m
+
+2025-03-14 09:36:52.584 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.861 ms - 151[0m
+
+2025-03-14 09:36:59.361 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.228 ms - 151[0m
+
+2025-03-14 09:37:01.452 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 3.389 ms - 151[0m
+
+2025-03-14 09:37:05.077 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.617 ms - 151[0m
+
+2025-03-14 09:37:08.062 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.033 ms - 151[0m
+
+2025-03-14 09:37:11.285 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.800 ms - 151[0m
+
+2025-03-14 09:37:12.456 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.131 ms - 151[0m
+
+2025-03-14 09:37:14.776 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.665 ms - 151[0m
+
+2025-03-14 09:37:19.600 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.175 ms - 151[0m
+
+2025-03-14 09:37:25.350 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.548 ms - 151[0m
+
+2025-03-14 09:37:35.285 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.663 ms - 151[0m
+
+2025-03-14 09:37:36.824 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.954 ms - 151[0m
+
+2025-03-14 09:37:39.654 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.419 ms - 151[0m
+
+2025-03-14 09:37:43.417 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.466 ms - 151[0m
+
+2025-03-14 09:37:46.398 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.647 ms - 151[0m
+
+2025-03-14 09:37:47.873 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.583 ms - 151[0m
+
+2025-03-14 09:37:50.653 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.167 ms - 151[0m
+
+2025-03-14 09:37:53.115 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.725 ms - 151[0m
+
+2025-03-14 09:37:57.922 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.801 ms - 151[0m
+
+2025-03-14 09:38:05.318 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.078 ms - 151[0m
+
+2025-03-14 09:38:06.338 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.265 ms - 151[0m
+
+2025-03-14 09:38:11.400 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.228 ms - 151[0m
+
+2025-03-14 09:38:38.668 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.124 ms - 151[0m
+
+2025-03-14 09:38:40.903 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.697 ms - 151[0m
+
+2025-03-14 09:38:43.146 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.842 ms - 151[0m
+
+2025-03-14 09:38:46.562 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.150 ms - 151[0m
+
+2025-03-14 09:38:53.941 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.264 ms - 151[0m
+
+2025-03-14 09:38:56.174 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.167 ms - 151[0m
+
+2025-03-14 09:39:01.538 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.001 ms - 151[0m
+
+2025-03-14 09:39:04.311 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.442 ms - 151[0m
+
+2025-03-14 09:39:07.487 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.121 ms - 151[0m
+
+2025-03-14 09:39:09.801 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.549 ms - 151[0m
+
+2025-03-14 09:39:15.563 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.592 ms - 151[0m
+
+2025-03-14 09:39:17.897 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.956 ms - 151[0m
+
+2025-03-14 09:39:22.077 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.934 ms - 151[0m
+
+2025-03-14 09:39:23.767 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.223 ms - 151[0m
+
+2025-03-14 09:39:24.851 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.935 ms - 151[0m
+
+2025-03-14 09:39:27.306 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.101 ms - 151[0m
+
+2025-03-14 09:39:29.092 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.125 ms - 151[0m
+
+2025-03-14 09:39:33.388 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.994 ms - 151[0m
+
+2025-03-14 09:39:36.756 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.151 ms - 151[0m
+
+2025-03-14 09:39:39.789 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.813 ms - 151[0m
+
+2025-03-14 09:39:45.405 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.938 ms - 151[0m
+
+2025-03-14 09:39:49.327 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.187 ms - 151[0m
+
+2025-03-14 09:39:51.904 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.589 ms - 151[0m
+
+2025-03-14 09:40:00.844 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.669 ms - 151[0m
+
+2025-03-14 09:40:02.402 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.849 ms - 151[0m
+
+2025-03-14 09:40:08.858 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.835 ms - 151[0m
+
+2025-03-14 09:40:12.171 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.252 ms - 151[0m
+
+2025-03-14 09:40:13.713 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.730 ms - 151[0m
+
+2025-03-14 09:40:19.951 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.992 ms - 151[0m
+
+2025-03-14 09:40:19.842 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.086 ms - 151[0m
+
+2025-03-14 09:40:21.421 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.446 ms - 151[0m
+
+2025-03-14 09:40:34.475 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.115 ms - 151[0m
+
+2025-03-14 09:40:36.100 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.211 ms - 151[0m
+
+2025-03-14 09:41:38.883 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.010 ms - 151[0m
+
+2025-03-14 09:42:31.712 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.100 ms - 151[0m
+
+2025-03-14 09:43:07.189 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.810 ms - 151[0m
+
+2025-03-14 09:43:10.450 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 3.102 ms - 151[0m
+
+2025-03-14 09:43:14.902 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.121 ms - 151[0m
+
+2025-03-14 09:43:18.350 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.411 ms - 151[0m
+
+2025-03-14 09:43:23.617 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.852 ms - 151[0m
+
+2025-03-14 09:43:25.651 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.854 ms - 151[0m
+
+2025-03-14 09:43:26.909 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.957 ms - 151[0m
+
+2025-03-14 09:43:29.427 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.100 ms - 151[0m
+
+2025-03-14 09:43:33.543 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.270 ms - 151[0m
+
+2025-03-14 09:43:37.329 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.737 ms - 151[0m
+
+2025-03-14 09:43:40.290 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.990 ms - 151[0m
+
+2025-03-14 09:43:43.639 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.012 ms - 151[0m
+
+2025-03-14 09:43:47.753 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.116 ms - 151[0m
+
+2025-03-14 09:43:50.489 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.064 ms - 151[0m
+
+2025-03-14 09:43:55.494 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.088 ms - 151[0m
+
+2025-03-14 09:43:57.120 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.067 ms - 151[0m
+
+2025-03-14 09:43:58.446 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.800 ms - 151[0m
+
+2025-03-14 09:44:04.878 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.868 ms - 151[0m
+
+2025-03-14 09:44:06.767 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.111 ms - 151[0m
+
+2025-03-14 09:44:10.284 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.251 ms - 151[0m
+
+2025-03-14 09:44:13.206 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.820 ms - 151[0m
+
+2025-03-14 09:44:14.758 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.963 ms - 151[0m
+
+2025-03-14 09:44:18.925 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.215 ms - 151[0m
+
+2025-03-14 09:44:24.616 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.279 ms - 151[0m
+
+2025-03-14 09:44:27.064 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.223 ms - 151[0m
+
+2025-03-14 09:44:31.657 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.992 ms - 151[0m
+
+2025-03-14 09:44:35.440 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.864 ms - 151[0m
+
+2025-03-14 09:44:40.138 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.946 ms - 151[0m
+
+2025-03-14 09:44:43.093 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.746 ms - 151[0m
+
+2025-03-14 09:44:47.212 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.837 ms - 151[0m
+
+2025-03-14 09:44:49.337 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.901 ms - 151[0m
+
+2025-03-14 09:44:52.414 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.700 ms - 151[0m
+
+2025-03-14 09:44:55.380 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.502 ms - 151[0m
+
+2025-03-14 09:45:02.807 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.735 ms - 151[0m
+
+2025-03-14 09:45:06.467 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.008 ms - 151[0m
+
+2025-03-14 09:45:14.776 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.899 ms - 151[0m
+
+2025-03-14 09:45:21.724 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.902 ms - 151[0m
+
+2025-03-14 09:45:25.425 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.087 ms - 151[0m
+
+2025-03-14 09:45:26.918 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 14.823 ms - 151[0m
+
+2025-03-14 09:45:28.069 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.833 ms - 151[0m
+
+2025-03-14 09:45:36.569 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.004 ms - 151[0m
+
+2025-03-14 09:45:43.996 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.288 ms - 151[0m
+
+2025-03-14 09:45:45.572 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.538 ms - 151[0m
+
+2025-03-14 09:45:49.079 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.009 ms - 151[0m
+
+2025-03-14 09:45:51.621 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.572 ms - 151[0m
+
+2025-03-14 09:45:57.867 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.274 ms - 151[0m
+
+2025-03-14 09:46:03.661 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.667 ms - 151[0m
+
+2025-03-14 09:46:06.869 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.787 ms - 151[0m
+
+2025-03-14 09:46:10.970 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.541 ms - 151[0m
+
+2025-03-14 09:46:13.246 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.507 ms - 151[0m
+
+2025-03-14 09:46:21.727 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.806 ms - 151[0m
+
+2025-03-14 09:46:25.001 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.894 ms - 151[0m
+
+2025-03-14 09:46:32.623 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.174 ms - 151[0m
+
+2025-03-14 09:46:35.683 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.132 ms - 151[0m
+
+2025-03-14 09:46:39.359 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.018 ms - 151[0m
+
+2025-03-14 09:46:40.793 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.946 ms - 151[0m
+
+2025-03-14 09:46:42.460 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.862 ms - 151[0m
+
+2025-03-14 09:46:44.910 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.275 ms - 151[0m
+
+2025-03-14 09:46:46.994 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.981 ms - 151[0m
+
+2025-03-14 09:47:24.246 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.752 ms - 151[0m
+
+2025-03-14 09:47:27.699 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.226 ms - 151[0m
+
+2025-03-14 09:47:30.096 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.675 ms - 151[0m
+
+2025-03-14 09:47:50.766 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.106 ms - 151[0m
+
+2025-03-14 09:47:52.199 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.952 ms - 151[0m
+
+2025-03-14 09:49:05.452 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 5.212 ms - 151[0m
+
+2025-03-14 09:49:06.570 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.112 ms - 151[0m
+
+2025-03-14 09:49:07.788 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.020 ms - 151[0m
+
+2025-03-14 09:49:13.399 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.861 ms - 151[0m
+
+2025-03-14 09:49:15.459 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.757 ms - 151[0m
+
+2025-03-14 09:49:17.352 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.771 ms - 151[0m
+
+2025-03-14 09:49:20.664 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.406 ms - 151[0m
+
+2025-03-14 09:49:28.030 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.936 ms - 151[0m
+
+2025-03-14 09:57:44.221 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 3.021 ms - 151[0m
+
+2025-03-14 09:58:14.254 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.851 ms - 151[0m
+
+2025-03-14 09:58:15.851 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.516 ms - 151[0m
+
+2025-03-14 09:58:19.473 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.143 ms - 151[0m
+
+2025-03-14 09:58:22.622 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 4.714 ms - 151[0m
+
+2025-03-14 09:58:24.612 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.212 ms - 151[0m
+
+2025-03-14 09:58:27.999 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.031 ms - 151[0m
+
+2025-03-14 09:58:30.932 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.909 ms - 151[0m
+
+2025-03-14 09:58:33.563 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 2.145 ms - 151[0m
+
+2025-03-14 09:58:44.874 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.222 ms - 151[0m
+
+2025-03-14 09:58:50.414 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.633 ms - 151[0m
+
+2025-03-14 09:58:55.883 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.069 ms - 151[0m
+
+2025-03-14 09:58:59.466 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.821 ms - 151[0m
+
+2025-03-14 09:59:07.763 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.665 ms - 151[0m
+
+2025-03-14 09:59:09.180 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.906 ms - 151[0m
+
+2025-03-14 09:59:14.683 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 0.937 ms - 151[0m
+
+2025-03-14 09:59:15.739 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> [0mGET /js/script.js [33m404[0m 1.096 ms - 151[0m
+
+2025-03-14 10:21:25.301 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:21:25.444 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:21:25.600 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 10:21:25.741 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:21:25.885 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:21:26.042 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:21:26.157 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 10:21:26.275 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 10:21:26.379 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:21:26.490 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 10:21:26.592 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 10:21:26.706 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 10:49:30.599 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:49:30.601 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:49:30.731 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:49:30.890 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:49:31.052 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 10:49:31.231 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:49:31.338 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 10:49:31.950 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 10:49:32.107 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 10:49:32.232 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 10:49:32.867 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 10:49:33.089 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 11:31:19.217 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 11:31:19.310 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 11:31:19.417 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 11:31:19.531 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 11:31:19.634 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 11:31:19.741 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 11:31:19.872 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 11:31:19.997 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 11:31:20.112 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 11:31:20.269 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 11:31:20.378 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 11:31:20.456 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 13:37:44.751 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 13:37:44.859 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 13:37:44.964 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 13:37:45.069 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 13:37:45.178 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 13:37:45.285 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 13:37:45.405 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 13:37:45.509 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 13:37:45.605 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 13:37:45.699 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 13:37:45.805 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 13:37:45.932 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 14:03:26.143 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 14:03:26.183 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 14:03:26.274 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 14:03:26.423 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 14:03:26.600 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 14:03:26.760 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 14:03:26.895 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 14:03:26.999 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 14:03:27.135 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 14:03:27.379 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 14:03:27.461 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 14:03:27.499 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 15:40:31.649 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 15:40:31.775 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 15:40:31.883 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 15:40:31.985 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 15:40:32.145 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 15:40:32.249 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 15:40:32.357 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 15:40:32.464 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 15:40:32.588 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 15:40:32.699 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 15:40:32.806 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 15:40:32.922 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:29:55.174 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:29:55.308 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:29:55.470 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:29:56.088 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:29:56.639 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 18:29:56.850 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:29:57.114 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 18:29:57.352 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 18:29:57.566 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 18:29:58.242 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:29:58.819 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 18:29:59.007 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 18:42:42.383 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:42:42.471 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 18:42:42.573 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 18:42:42.668 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:42:42.772 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 18:42:42.877 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:42:43.006 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 18:42:43.110 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:42:43.203 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 18:42:43.302 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 18:42:43.400 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 18:42:43.509 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 21:52:01.941 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 21:52:02.300 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 21:52:02.476 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 21:52:03.474 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 21:52:03.494 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 21:52:03.606 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 21:52:03.744 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 21:52:03.896 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 21:52:04.055 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 21:52:04.200 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 21:52:04.319 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 21:52:06.828 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:53.180 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:53.334 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:53.454 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 22:44:54.071 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 22:44:54.179 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:54.314 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:54.440 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 22:44:54.558 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-14 22:44:54.694 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 22:44:54.808 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:54.956 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:55.563 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 22:44:59.677 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:59.689 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:44:59.737 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:45:00.117 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-14 22:45:00.127 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-14 22:45:00.136 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:45:00.244 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-14 22:45:00.376 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-14 22:45:00.495 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:45:00.624 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-14 22:45:00.815 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-14 22:45:01.052 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-15 02:47:25.661 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-15 02:47:27.013 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-15 02:47:27.073 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-15 02:47:27.204 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-15 02:47:27.332 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-15 05:12:26.095 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-15 05:12:26.248 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-15 05:12:26.407 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-15 05:12:27.059 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-15 05:12:27.588 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-15 05:12:27.667 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:06:54.415 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-15 11:06:54.484 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-15 11:06:54.654 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-15 11:06:54.896 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-15 11:06:55.073 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:06:55.202 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-15 11:06:55.418 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:06:55.612 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:06:55.897 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-15 11:06:56.096 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:06:56.304 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:06:56.510 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:11:35.356 [info] [127.0.0.1][b484d17e][ManagementConnection] New connection established.
+2025-03-15 11:11:35.599 [info] [127.0.0.1][6bde0963][ExtensionHostConnection] New connection established.
+2025-03-15 11:11:35.605 [info] [127.0.0.1][6bde0963][ExtensionHostConnection] <342445> Launched Extension Host Process.
+2025-03-15 11:19:24.896 [info] [127.0.0.1][6bde0963][ExtensionHostConnection] <342445> [0mGET /favicon.ico [33m404[0m 4.163 ms - 150[0m
+
+2025-03-15 11:43:41.614 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-15 11:43:41.773 [info] [127.0.0.1][b484d17e][ManagementConnection] The client has reconnected.
+2025-03-15 11:43:41.924 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:43:42.047 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:43:42.170 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-15 11:43:42.279 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-15 11:43:42.426 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-15 11:43:42.537 [info] [127.0.0.1][6bde0963][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:43:42.641 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-15 11:43:42.753 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-15 11:43:42.855 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:43:42.950 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:43:43.052 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-15 11:53:28.895 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:07:48.394 [info] [127.0.0.1][b484d17e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-15 13:07:48.776 [info] [127.0.0.1][6bde0963][ExtensionHostConnection] <342445> Extension Host Process exited with code: 0, signal: null.
+2025-03-15 13:08:49.209 [info] [127.0.0.1][fff99c8b][ManagementConnection] New connection established.
+2025-03-15 13:08:49.481 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] New connection established.
+2025-03-15 13:08:49.486 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] <393388> Launched Extension Host Process.
+2025-03-15 13:23:50.099 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] <393388> [0mGET /inde [33m404[0m 7.134 ms - 143[0m
+
+2025-03-15 13:23:51.579 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] <393388> [0mGET /index [33m404[0m 2.487 ms - 144[0m
+
+2025-03-15 13:24:34.272 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] <393388> [0mGET /index [33m404[0m 3.051 ms - 144[0m
+
+2025-03-15 13:25:14.132 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] <393388> [0mGET /inde [33m404[0m 3.400 ms - 143[0m
+
+2025-03-15 13:25:15.172 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] <393388> [0mGET /index [33m404[0m 0.862 ms - 144[0m
+
+2025-03-15 13:31:39.423 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:31:39.630 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:31:39.844 [info] [127.0.0.1][fff99c8b][ManagementConnection] The client has reconnected.
+2025-03-15 13:31:40.312 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-15 13:31:40.552 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:31:40.689 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:31:40.906 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:31:41.064 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:31:41.734 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-15 13:31:41.891 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:31:42.034 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-15 13:31:42.143 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-15 13:31:42.759 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-15 13:31:42.855 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-15 13:32:41.684 [info] [127.0.0.1][fff99c8b][ManagementConnection] The client has reconnected.
+2025-03-15 13:32:41.964 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:32:42.062 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:32:42.156 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:32:42.271 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-15 13:32:42.398 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:32:42.501 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-15 13:32:42.585 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:32:42.681 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-15 13:32:42.764 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-15 13:32:42.851 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:32:42.947 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:32:43.024 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-15 13:32:43.117 [info] [127.0.0.1][fff99c8b][ManagementConnection] The client has reconnected.
+2025-03-15 13:32:45.888 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-15 13:33:48.205 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has reconnected.
+2025-03-15 13:33:48.417 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:33:48.613 [info] [127.0.0.1][fff99c8b][ManagementConnection] The client has reconnected.
+2025-03-15 13:33:48.811 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:33:49.012 [info] [127.0.0.1][ca7f339a][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:33:49.177 [info] [127.0.0.1][75e7dcb9][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:33:49.394 [info] [127.0.0.1][5d65914d][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:33:49.585 [info] [127.0.0.1][12816870][ManagementConnection] The client has reconnected.
+2025-03-15 13:33:49.813 [info] [127.0.0.1][5692cad7][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:33:49.902 [info] [127.0.0.1][1da1b0d6][ManagementConnection] The client has reconnected.
+2025-03-15 13:33:49.994 [info] [127.0.0.1][a9c2eca1][ManagementConnection] The client has reconnected.
+2025-03-15 13:33:50.161 [info] [127.0.0.1][de358470][ManagementConnection] The client has reconnected.
+2025-03-15 13:33:50.258 [info] [127.0.0.1][d8167af3][ExtensionHostConnection] The client has reconnected.
+2025-03-15 13:33:50.367 [info] [127.0.0.1][f5fda95f][ManagementConnection] The client has reconnected.
+2025-03-15 15:27:13.516 [info] [127.0.0.1][fff99c8b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-15 15:27:13.718 [info] [127.0.0.1][e06f304b][ExtensionHostConnection] <393388> Extension Host Process exited with code: 0, signal: null.
+2025-03-15 15:30:05.296 [info] [127.0.0.1][9924a2a3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-15 15:30:05.606 [info] [127.0.0.1][99b254a5][ExtensionHostConnection] <1010> Extension Host Process exited with code: 0, signal: null.

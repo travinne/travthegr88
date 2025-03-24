@@ -1,0 +1,19 @@
+2025-03-14 09:20:22.812 [warning] /home/travthegr88/.ssh/config: ENOENT: no such file or directory, open '/home/travthegr88/.ssh/config'
+2025-03-14 09:20:22.812 [info] [Activation] Extension version: 0.106.0
+2025-03-14 09:20:23.783 [info] [Activation] Looking for git repository
+2025-03-14 09:20:23.783 [info] [Activation] Found 0 repositories during activation
+2025-03-14 09:20:23.783 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-03-14 09:20:23.800 [info] [GitAPI] Registering git provider
+2025-03-14 09:20:23.800 [info] [Review+0] Validate state in progress
+2025-03-14 09:20:23.800 [info] [Review+0] Validating state...
+2025-03-14 09:20:23.864 [info] [Activation] Repo state for file:///home/travthegr88/development/code/phase-1/phase-1-array-find-method-lab changed.
+2025-03-14 09:20:23.864 [info] [Activation] Repo file:///home/travthegr88/development/code/phase-1/phase-1-array-find-method-lab has already been setup.
+2025-03-14 09:20:24.012 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/development/code/phase-1/phase-1-array-find-method-lab
+2025-03-14 09:20:27.239 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-03-14 09:20:27.474 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-14 09:20:27.594 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 2.
+2025-03-14 09:20:27.726 [error] [GitHubRepository+0] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-14 09:20:27.726 [error] [GitHubRepository+0] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-14 09:20:27.776 [error] [GitHubRepository+0] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-14 09:20:27.776 [error] [GitHubRepository+0] Unable to fetch issues with query: Error: Network error: request to https://api.github.com/graphql failed, reason: 
+2025-03-14 09:20:28.834 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master

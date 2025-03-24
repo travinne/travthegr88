@@ -1,0 +1,14 @@
+2025-03-19 09:10:58.671 [warning] /home/travthegr88/.ssh/config: ENOENT: no such file or directory, open '/home/travthegr88/.ssh/config'
+2025-03-19 09:10:58.671 [info] [Activation] Extension version: 0.106.0
+2025-03-19 09:10:58.915 [info] [Activation] Looking for git repository
+2025-03-19 09:10:58.916 [info] [Activation] Found 0 repositories during activation
+2025-03-19 09:10:58.916 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-03-19 09:10:58.924 [info] [GitAPI] Registering git provider
+2025-03-19 09:10:58.924 [info] [Review+0] Validate state in progress
+2025-03-19 09:10:58.924 [info] [Review+0] Validating state...
+2025-03-19 09:10:58.924 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-03-19 09:10:58.924 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/travthegr88
+2025-03-19 09:10:58.934 [info] [Review+0] No matching pull request metadata found locally for current branch master
+2025-03-19 09:10:58.948 [info] [Review+0] No matching pull request metadata found on GitHub for current branch master
+2025-03-19 09:10:59.056 [info] [Activation] Repo state for file:///home/travthegr88 changed.
+2025-03-19 09:10:59.056 [info] [Activation] Repo file:///home/travthegr88 has already been setup.

@@ -1,0 +1,20 @@
+2025-03-21 22:50:03.712 [warning] /home/travthegr88/.ssh/config: ENOENT: no such file or directory, open '/home/travthegr88/.ssh/config'
+2025-03-21 22:50:03.712 [info] [Activation] Extension version: 0.106.0
+2025-03-21 22:50:03.834 [info] [Activation] Looking for git repository
+2025-03-21 22:50:03.834 [info] [Activation] Found 0 repositories during activation
+2025-03-21 22:50:03.834 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-03-21 22:50:03.838 [info] [GitAPI] Registering git provider
+2025-03-21 22:50:03.838 [info] [Review+0] Validate state in progress
+2025-03-21 22:50:03.838 [info] [Review+0] Validating state...
+2025-03-21 22:50:03.867 [info] [Activation] Repo state for file:///home/travthegr88/mkadi/test/interactive_shopping_list changed.
+2025-03-21 22:50:03.867 [info] [Activation] Repo file:///home/travthegr88/mkadi/test/interactive_shopping_list has already been setup.
+2025-03-21 22:50:03.882 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/travthegr88/mkadi/test/interactive_shopping_list
+2025-03-21 22:50:04.199 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/travinne/interactive_shopping_list failed, reason: 
+2025-03-21 22:50:04.199 [warning] Unable to resolve remote: HttpError: request to https://api.github.com/repos/oyieroyier/interactive_shopping_list failed, reason: 
+2025-03-21 22:50:04.200 [info] [FolderRepositoryManager+0] Missing upstream check failed: HttpError: request to https://api.github.com/repos/travinne/interactive_shopping_list failed, reason: 
+2025-03-21 22:50:04.201 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-03-21 22:50:04.205 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-03-21 22:50:04.269 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 2.
+2025-03-21 22:50:04.594 [error] [GitHubRepository+0] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-21 22:50:04.602 [error] [GitHubRepository+0.1] Error querying GraphQL API: Network error: request to https://api.github.com/graphql failed, reason: . 
+2025-03-21 22:52:02.120 [error] [Review+0] Timeout occurred while validating state.

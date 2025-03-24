@@ -1,0 +1,37 @@
+2025-03-17 22:08:29.138 [info] Extension host with pid 150316 started
+2025-03-17 22:08:29.179 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/e4e29c769b05cca0c47de3e4d7089f21/vscode.lock': Lock acquired.
+2025-03-17 22:08:29.188 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-17 22:08:29.189 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-17 22:08:29.189 [info] ExtensionService#_doActivateExtension leizongmin.node-module-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+2025-03-17 22:08:29.576 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-17 22:08:29.612 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-17 22:08:29.612 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-17 22:08:30.014 [info] Eager extensions activated
+2025-03-17 22:08:30.015 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-17 22:08:30.015 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-17 22:08:30.015 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-17 22:08:30.016 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-03-17 22:08:30.353 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-17 22:08:32.547 [error] HttpError: request to https://api.github.com/user failed, reason: 
+	at /home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2188:6563
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kg.execute (/home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2135:18777)
+2025-03-17 22:08:33.552 [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+	at JSON.stringify (<anonymous>)
+	at dE (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:29:155568)
+	at ti.serializeRequestArguments (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:29:163551)
+	at qy.U (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:29:159791)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:29:157133)
+	at file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:117:679
+	at file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:7:96
+	at Array.forEach (<anonymous>)
+	at MP.c (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:7:84)
+	at MP.onUnexpectedError (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:7:259)
+	at mt (file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:7:546)
+	at file:///home/travthegr88/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/out/vs/workbench/api/node/extensionHostProcess.js:190:14329
+2025-03-17 22:09:07.867 [info] Extension host terminating: received terminate message from renderer
+2025-03-17 22:09:07.868 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/e4e29c769b05cca0c47de3e4d7089f21/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-03-17 22:09:08.090 [info] Extension host with pid 150316 exiting with code 0

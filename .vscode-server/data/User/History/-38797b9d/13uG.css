@@ -1,0 +1,61 @@
+* {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   
+   
+}
+
+h1 {
+   background:wheat;
+   color:black;
+   padding: 70px;
+}
+
+#ramen-menu {
+   display: flex;
+   justify-content: baselining;
+   gap: 15px;
+   padding: 10px;
+   border-bottom: 2px ;
+   
+}
+
+#ramen-image{
+    height:200px;
+    width: 200px;
+}
+
+form {
+       background:whitesmoke;
+       padding: 60px;
+       width: 50%;
+       margin: 20px ;
+       border-radius: 30px;
+    
+   }
+   
+input {
+       width: 50%;
+       padding: 20px;
+       margin: 5px;
+       border: 5px; ;
+       border-radius: 15px;
+       background-color: black;
+
+
+
+
+      }
+      
+button {
+          background-color:black;
+          color: wheat;
+          padding: 20px;
+          cursor: pointer;
+          border-radius: 30px;
+          width: 50%;
+}
+      
+button:hover {
+          background-color:orangered;
+      }   

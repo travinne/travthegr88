@@ -1,0 +1,73 @@
+2025-03-22 12:33:54.304 [info] Extension host with pid 655907 started
+2025-03-22 12:33:54.327 [info] Lock '/home/travthegr88/.vscode-server/data/User/workspaceStorage/a71d848c48069cfed27bcfa62da311f5/vscode.lock': Lock acquired.
+2025-03-22 12:33:54.375 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-22 12:33:54.408 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-22 12:33:54.409 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-22 12:33:54.677 [info] Eager extensions activated
+2025-03-22 12:33:54.677 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-22 12:33:54.678 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-22 12:33:54.678 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-22 12:33:54.678 [info] ExtensionService#_doActivateExtension github.classroom, startup: false, activationEvent: 'onStartupFinished'
+2025-03-22 12:33:54.678 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-03-22 12:33:54.892 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-22 12:33:54.971 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2025-03-22 12:33:55.386 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-22 12:33:57.152 [error] HttpError: request to https://api.github.com/user failed, reason: 
+	at /home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2188:6563
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kg.execute (/home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2135:18777)
+2025-03-22 12:33:57.413 [error] HttpError: request to https://api.github.com/repos/SDF-FT13/week-2-code-challenge-flatter-cutie-travinne failed, reason: 
+	at /home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2188:6563
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async kg.execute (/home/travthegr88/.vscode-server/extensions/github.vscode-pull-request-github-0.106.0/dist/extension.js:2135:18777)
+2025-03-22 12:33:57.652 [error] Error: AggregateError
+	at /home/travthegr88/.vscode-server/extensions/github.classroom-0.0.4/extension-node.js:2:36311
+	at Generator.next (<anonymous>)
+	at /home/travthegr88/.vscode-server/extensions/github.classroom-0.0.4/extension-node.js:2:36028
+	at new Promise (<anonymous>)
+	at r (/home/travthegr88/.vscode-server/extensions/github.classroom-0.0.4/extension-node.js:2:35773)
+	at /home/travthegr88/.vscode-server/extensions/github.classroom-0.0.4/extension-node.js:2:36253
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-03-22 12:33:58.158 [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+	at JSON.stringify (<anonymous>)
+	at dE (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:155568)
+	at ti.serializeRequestArguments (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:163551)
+	at qy.U (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:159791)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:157133)
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:117:679
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:96
+	at Array.forEach (<anonymous>)
+	at MP.c (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:84)
+	at MP.onUnexpectedError (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:259)
+	at mt (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:546)
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:190:14329
+2025-03-22 12:33:58.416 [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+	at JSON.stringify (<anonymous>)
+	at dE (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:155568)
+	at ti.serializeRequestArguments (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:163551)
+	at qy.U (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:159791)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:29:157133)
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:117:679
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:96
+	at Array.forEach (<anonymous>)
+	at MP.c (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:84)
+	at MP.onUnexpectedError (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:259)
+	at mt (file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:7:546)
+	at file:///home/travthegr88/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/out/vs/workbench/api/node/extensionHostProcess.js:190:14329
+2025-03-22 12:33:59.353 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-03-22 12:33:59.353 [info] ExtensionService#_doActivateExtension leizongmin.node-module-intellisense, startup: false, activationEvent: 'onLanguage:html'
+2025-03-22 12:47:14.858 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-03-22 12:47:14.862 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-03-22 12:47:15.763 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-03-22 12:53:20.080 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-03-22 22:18:02.154 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-03-22 22:18:02.160 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-03-22 22:18:11.262 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-03-22 22:26:55.777 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-03-22 23:06:42.554 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'

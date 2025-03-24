@@ -1,0 +1,42 @@
+2025-03-14 09:20:22.057 [info] [main] Log level: Info
+2025-03-14 09:20:22.057 [info] [main] Validating found git in: "git"
+2025-03-14 09:20:22.057 [info] [main] Using git "2.43.0" from "git"
+2025-03-14 09:20:22.057 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-14 09:20:22.057 [info] > git rev-parse --show-toplevel [833ms]
+2025-03-14 09:20:22.058 [info] > git rev-parse --git-dir --git-common-dir [1180ms]
+2025-03-14 09:20:22.058 [info] [Model][openRepository] Opened repository: /home/travthegr88/mkadi/test/intro-to-js
+2025-03-14 09:20:22.061 [info] > git rev-parse --show-toplevel [10ms]
+2025-03-14 09:20:22.073 [info] > git config --get commit.template [37ms]
+2025-03-14 09:20:22.179 [info] > git rev-parse --show-toplevel [69ms]
+2025-03-14 09:20:22.253 [info] > git rev-parse --show-toplevel [20ms]
+2025-03-14 09:20:22.285 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-14 09:20:22.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [112ms]
+2025-03-14 09:20:22.349 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/mkadi/test/intro-to-js/.git/refs/remotes/origin/main'
+2025-03-14 09:20:22.435 [info] > git rev-parse refs/remotes/origin/main [85ms]
+2025-03-14 09:20:22.733 [info] > git status -z -uall [269ms]
+2025-03-14 09:20:22.734 [info] > git show --textconv :js/control-flow.js [211ms]
+2025-03-14 09:20:22.734 [info] > git ls-files --stage -- js/control-flow.js [201ms]
+2025-03-14 09:20:22.759 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [268ms]
+2025-03-14 09:20:22.941 [info] > git check-ignore -v -z --stdin [211ms]
+2025-03-14 09:20:22.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [87ms]
+2025-03-14 09:20:22.950 [info] > git cat-file -s 250be1671dde5b7224f0bbe197d6de0de749a136 [193ms]
+2025-03-14 09:20:22.958 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-03-14 09:20:22.983 [info] > git config --get commit.template [49ms]
+2025-03-14 09:20:23.417 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [437ms]
+2025-03-14 09:20:23.657 [info] > git merge-base refs/heads/main refs/remotes/origin/main [234ms]
+2025-03-14 09:20:23.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [290ms]
+2025-03-14 09:20:23.843 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/mkadi/test/intro-to-js/.git/refs/remotes/origin/main'
+2025-03-14 09:20:23.894 [info] > git diff --name-status -z --diff-filter=ADMR 356980ff643c338fd2f02b40d32f4ec9a3fe343b...refs/remotes/origin/main [221ms]
+2025-03-14 09:20:24.114 [info] > git rev-parse refs/remotes/origin/main [271ms]
+2025-03-14 09:20:24.135 [info] > git status -z -uall [19ms]
+2025-03-14 09:20:24.135 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-03-14 09:20:24.184 [info] > git blame --root --incremental 356980ff643c338fd2f02b40d32f4ec9a3fe343b -- js/control-flow.js [21ms]
+2025-03-14 09:20:27.166 [info] > git config --get --local branch.main.github-pr-owner-number [322ms]
+2025-03-14 09:20:27.166 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-14 10:20:17.554 [info] > git fetch [4170ms]
+2025-03-14 10:20:17.564 [info] > git config --get commit.template [5ms]
+2025-03-14 10:20:17.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-14 10:20:17.569 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/travthegr88/mkadi/test/intro-to-js/.git/refs/remotes/origin/main'
+2025-03-14 10:20:17.570 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-03-14 10:20:17.579 [info] > git status -z -uall [6ms]
+2025-03-14 10:20:17.580 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

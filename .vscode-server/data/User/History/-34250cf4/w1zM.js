@@ -1,0 +1,1 @@
+const ramen = document.getElementById('tastyRamen')
