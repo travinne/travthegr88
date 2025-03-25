@@ -5,30 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAME STOP</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="index.js"></script>
+    
 </head>
 <body>
     <main>
-        <section>
+        <section id="gamelog">
             <header>
                 <h1 id="title"></h1>
+                <button id="login">login</button>
                 <nav >
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+                    <a href="#">home</a>
+                    <a href="#">about</a>
+                    <a href="#">products</a>
+                    <a href="#">tornaments</a>
+                    <a href="#">shop</a>
+                    <a href="#">help</a>
                 </nav>
             </header>
+            <section>
+                <h4>EVOLVE YOUR GAMING</h4>
+                <h5>push beyond the limits!</h5>
+            </section>
+        </section>  
+        <section id="playplus">
+            <h2>choose your plan</h2>
+            <div class="basic" onclick="selectPlan('basic')">
+                <h3>basic</h3>
+                <p>increase your online gaming experience plus offers</p>
+                <p>price: $10.00/monthly</p>
+            </div>
+            <div class="premium" onclick="selectPlan('premium')">
+                <h3>premium</h3>
+                <p>free monthly games plus storage increase</p>
+                <p>price: $20.00/monthly</p>
+            </div>
         </section>
-        <section>
-            <h4>EVOLVE YOUR GAMING</h4>
-            <h5>push beyond the limits!</h5>
+       
+        <section id="gamelibrary">
+            <h2>available games</h2>
+            <div id="container">
+            </div>
         </section>
-        <section>
-            
-        </section>
+        <script src="index.js"></script>
     </main>
     
 </body>
