@@ -1,1 +1,174 @@
- 
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Spider-Man",
+      "image": "images/download (5).jpeg",
+      "description": "playstation 5,playstation 4",
+      "price": "ksh6,500"
+    },
+    {
+      "id": 2,
+      "title": "FIFA 25",
+      "image": "images/image.png",
+      "description": "playstation 4,X-box 1,playstation 5",
+      "price": "ksh7,500"
+    },
+    {
+      "id": 3,
+      "title": "God of War",
+      "image": "images/GOD OF WAR RAGNARÖK.jpeg",
+      "description": "playstation 5,playstation 4",
+      "price": "ksh6,500"
+    },
+    {
+      "id": 4,
+      "title": "Horizon Zero Dawn",
+      "image": "images/download (2).jpeg",
+      "description": "playstation 5,playstation 4",
+      "price": "ksh4,000"
+    },
+    {
+      "id": 5,
+      "title": "Spider-Man 2",
+      "image": "images/download (4).jpeg",
+      "description": "playstation 5,playstation 4",
+      "price": "ksh7,500"
+    },
+    {
+      "id": 6,
+      "title": "Spider-Man miles morales",
+      "image": "images/download (3).jpeg",
+      "description": "playstation 5,playstation 4",
+      "price": "ksh5,000"
+    },
+    {
+      "id": 7,
+      "title": "GTA V",
+      "image": "images/Portada Oficial de GTA V.jpeg",
+      "description": "playstation 5,X-box 1",
+      "price": "ksh2,500"
+    },
+    {
+      "id": 8,
+      "title": "call of duty modern warfare",
+      "image": "images/Call Of Duty_Modern Warfare.jpeg",
+      "description": "playstation 4",
+      "price": "ksh3,000"
+    },
+    {
+      "id": 9,
+      "title": "mortal combat 1",
+      "image": "images/Mortal kombat 1 (1).jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh5,000"
+    },
+    {
+      "id": 10,
+      "title": "need for speed unbound",
+      "image": "images/Дрифт.jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh7,500"
+    },
+    {
+      "id": 11,
+      "title": "ghost of tsushima",
+      "image": "images/11c5640e-1c84-47c4-9048-5391ddecaf23.jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh5,000"
+    },
+    {
+      "id": 12,
+      "title": "mortal combat 11",
+      "image": "images/Mortal Kombat 11 Review_ Gameplay Impressions, Features and Esports Impact.jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh5,000"
+    },
+    {
+      "id": 13,
+      "title": "F1",
+      "image": "images/Watch the Reveal Trailer for the New F1 23 EA Sports Video Game.jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh5,000"
+    },
+    {
+      "id": 14,
+      "title": "ghost recon",
+      "image": "images/Ghost Recon Wildlands.jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh5,000"
+    },
+    {
+      "id": 15,
+      "title": "the last of us part II",
+      "image": "images/The Last of Us_ Part II (2020).jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh3,500"
+    },
+    {
+      "id": 16,
+      "title": "ghost of yotei",
+      "image": "images/Ghost of Yotei.jpeg",
+      "description": "playstation 5,",
+      "price": "ksh9,000"
+    },
+    {
+      "id": 17,
+      "title": "GTA VI",
+      "image": "images/Experiencat e GTA 6 visuals their best with Trailer 1 Artwork, High-Resolution Wallpapers, and the O.jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh15,000"
+    },
+    {
+      "id": 18,
+      "title": "need for speed mostwanted",
+      "image": "images/Need For Speed Most Wanted Black Edition (Alternative Icon).jpeg",
+      "description": "playstation 5,X-box 1,playstation 4",
+      "price": "ksh4,500"
+    },
+    {
+      "id": 19,
+      "title": "red ded redemtion II",
+      "image": "images/ef35bab8-9c54-4a50-85e0-0c0fb237d7a3.jpeg",
+      "description": "playstation 5,",
+      "price": "ksh3,500"
+    },
+    {
+      "id": 20,
+      "title": "GRAND TURISMO 7",
+      "image": "images/Race.jpeg",
+      "description": "playstation 5,",
+      "price": "ksh4,500"
+    },
+    {
+      "id": 21,
+      "title": "BATMAN ARKHAM NIGHT",
+      "image": "images/Batman Arkham Knight Key Art Poster.jpeg",
+      "description": "playstation 5,",
+      "price": "ksh2,500"
+    },
+    {
+      "id": 22,
+      "title": "assassins creed valhalla",
+      "image": "images/Assassin's Creed_ Valhalla - Gaming Poster -US $10_99.jpeg",
+      "description": "playstation 5,",
+      "price": "ksh3,000"
+    },
+    {
+      "id": 23,
+      "title": "jedi survivor",
+      "image": "images/287d22c2-267b-4a24-8572-884b5967c420.jpeg",
+      "description": "playstation 5,",
+      "price": "ksh7,500"
+    },
+    {
+      "id": 24,
+      "title": "the witcher",
+      "image": "images/The Witcher 3_ Wild Hunt Headlines PlayStation Now’s June Lineup.jpeg",
+      "description": "playstation 5,",
+      "price": "ksh3,000"
+    }
+   
+  ]
+}
+  
