@@ -1,4 +1,4 @@
-let base_url =` http://localhost:3000/games`
+let base_url =`https://phase-1-project-olive.vercel.app/games`
 
 document .addEventListener("DOMContentLoaded",() => {
     fetchGames();
