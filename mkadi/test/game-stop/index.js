@@ -1,16 +1,15 @@
 let base_url =` http://localhost:3000/games`
-
-function displayGames(games){
-    let gameLibrary = document.getElementById('gamelibrary')
+function myGames(games){
+    let gameLibrary = document.getElementById('gameinventory')
     gameLibrary.innerHTML = ""
     games.forEach(game =>{  let html = `
-        <div id="single-game">
-            <h6>${game.title}</h6>
+        <div id="single-game" data-id="${game.id}">
             <img src="${game.image}" alt="${game.title}">
             <div>${game.description}</div>
             <div>${game.price}</div>
             <div>
-            <button class="buy">buy<button>
+            <button class="delete" onclick="deleteGame(${game.id})">remove<button>
+            <button class="buy" onclick="postgame(${game.id})">download<button>
             </div>
         </div>   
         `
@@ -22,16 +21,15 @@ fetch(base_url)
 .then(res =>res.json())
 .then(data => {
      console.log(data);
-     displayGames(data);})
+     myGames(data);})
 .catch(err => console.log( "error occured in fetching game",err))
-
 
 document.getElementById('gameForm').addEventListener('submit',function(event){
     event.preventDefault();
     let gameTitle = document.getElementById('title').value;
     let gameImage = document.getElementById('image').value;
     let gameDescription = document.getElementById('description').value;
-    let gamePrice = parseFloat(document.getElementById('title').value);
+    let gamePrice = parseFloat(document.getElementById('price').value);
 
     let gameObject = {
         title: gameTitle,
@@ -56,15 +54,15 @@ fetch(base_url,{
 })
 
 function deleteGame(id){
-    fetch(`${base_url}/${id}`,{
+        fetch(`${base_url}/${id}`,{
         method: "DELETE"})
-        .then(res => res.json)
+        .then(res => res.json())
         .then(() => {console.log(`you have successfuly deleted ${id}`)
-      fetch(base_url)
-    .then(res => res.json())
-    .then(updatedData => displayGames(updatedData));
+        fetch(base_url)
+        .then(res => res.json())
+        .then(updatedData => myGames(updatedData));
 })
-        .catch(err => console.log(err));
+        .catch(err => console.error("an error occured while deleting the game",err));
 }
 
 

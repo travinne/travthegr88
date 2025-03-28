@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color:black;
-    color:purple;
+    background-color: black;
+    color:whitesmoke;
 
 }
 body{
@@ -32,10 +32,8 @@ body{
 }
 
 header{
+   
     padding: 15%;
-    justify-content: end;
-    display: flex;
-    justify-content: center;
     width: 200px
 
 }
@@ -113,6 +111,19 @@ h5{
     color: #ccc;
 }
 
+#gameinventory{
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#gameinventory h2 {
+    font-size: 26px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
 #gamelibrary{
     padding: 40px;
     border-radius: 10px;
@@ -131,31 +142,40 @@ h5{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 3px solid goldenrod;
+    border: 5px solid goldenrod;
     padding: 20px;
     margin-bottom: 2rem;
-    width: 250px;
+    width: 300px;
     height: 500px;
-    box-shadow: 10px 10px goldenrod;
     margin: 10px;
     font-size: 24px;
+    box-shadow:10px 5px  goldenrod;
 
 
 
 } 
 #single-game img{
     width: 200px;
-    height: 400px;
+    height: 600px;
 
 }
 
 .buy{
-    background-color: #ffcc00;
+    background-color: goldenrod;
     color: black;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     padding: 8px;
-    width: 60px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.delete{background-color:purple;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px;
+    width: 80px;
     margin-top: 10px;
 }
 
@@ -196,7 +216,7 @@ display: flex;
 
 .more h2{
     font-size: 56px;
-    color: purple;
+    color: black;
 }
 
 .more p {
