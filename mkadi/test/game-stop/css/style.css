@@ -2,77 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    background-color: black;
-    color:whitesmoke;
-
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+    color: whitesmoke;
 }
+
 body{
-    padding: 20px;
+    line-height: 1.6;
+}
+
+header{background: linear-gradient(to right, #1e1e1e, #292929);
+color: white;
+text-align: center;
+padding: 20px 0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
+header{
+    height: 800px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: firebrick;
+    margin-top: 5px;
+    
 }
 
 #heading{
-    font-family: cursive;
-    font-style: oblique;
-    font-size: 40px;
-    text-align: center;
-    top: 1%;
-    background-color: #ffcc00;
-}
-
-#gamelog{
-    background-image:url(../images/ak47ghost.jpeg);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    gap: 20px;
-}
-
-header{
-   
-    padding: 15%;
-    width: 200px
-
+   font-size: 3rem;
+   margin: 20px;
+   color: #ff4500;
+   text-transform: uppercase;
+   font-weight: bold;
 }
 
 nav{
-    background-color: gold;
-    padding: 15px 0;
-    justify-content: end;
-    position: absolute;
-    top: 15%;
-    left: 72%;
-    background: rgba(0,0,0,0.7);
-    padding: 5px;
-    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
-    align-items: center;
+    padding: 10px;
+    background: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-
-#evolve{
-  padding: 20px;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: end;
+nav li{
+    display: inline;
+}
  
-}
-
-#max{
-    color: purple;
-    font-size: 50px;
-    top: 80%;
-    left: 20%;
-}
-
 nav  ul{
     list-style: none;
     display: flex;
@@ -81,28 +61,35 @@ nav  ul{
   
 }
 
-
-
 a{
+    transition: o.3s ease;
     text-decoration: none;
-    color: goldenrod;
+    color: #ff4500;
     font-size: 18px;
     padding: 10px;
+    font-weight: 600px;
 
 }
 
 nav  li a:hover{
-    color: purple;
+    color: #ffcc00;
     border-radius: 5px;
 }
- 
 
-
+#gamelog{
+    background:url(../images/wolf.jpeg)  center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2vh 0;
+    gap: 20px;
+}
 
 h4{
     font-size: 24px;
     font-weight: bold;
-    color: #ffcc00;
+    color: #ff4500;
     margin-bottom: 10px;
 }
 
@@ -111,17 +98,74 @@ h5{
     color: #ccc;
 }
 
-#gameinventory{
-    padding: 40px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+h2 {
+    font-size: 2rem;
+    color: #ff4500;
+    margin: 20px 0;
 }
-#gameinventory h2 {
-    font-size: 26px;
-    color: #ffcc00;
-    margin-bottom: 20px;
+
+
+h2{
+    font-size: 40PX;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #121212;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.more:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.more img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.more h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.more p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #bbb;
+    max-width: 90%;
+}
+
+
+#gameinventory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
 }
 
 #gamelibrary{
@@ -133,111 +177,66 @@ h5{
 }
 #gamelibrary h2 {
     font-size: 26px;
-    color: #ffcc00;
+    color: #ff4500;
     margin-bottom: 20px;
 }
 
 #single-game{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 5px solid goldenrod;
+    background: #222;
     padding: 20px;
-    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(255, 85, 0, 0.3);
     width: 300px;
-    height: 500px;
-    margin: 10px;
-    font-size: 24px;
-    box-shadow:10px 5px  goldenrod;
+    height: auto;
+    transition: transform 0.3s ease;
+}
 
+#single-game:hover {
+    transform: scale(1.05);
+}
 
-
-} 
 #single-game img{
-    width: 200px;
-    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .buy{
-    background-color: goldenrod;
-    color: black;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 8px;
-    width: 80px;
-    margin-top: 10px;
+    background :goldenrod
+
 }
-
-.delete{background-color:purple;
-    color: black;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 8px;
-    width: 80px;
-    margin-top: 10px;
-}
-
-.info{
-    padding: 30px;
-    border-radius: 10px;
-    display: inline-block;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
-
+.buy:hover{
+    background: #ffcc00;
 
 }
 
-.info img{
-    height: 300px;
-    width: 300px;
+.delete{
+   background: crimson;
+   color: #ccc;
 }
 
-.more{
-display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 3px solid purple;
-    padding: 150px;
-    margin-bottom: 2rem;
-    width: 250px;
-    height: 500px;
-    box-shadow: 10px 10px purple;
-    margin: 10px;
-    font-size: 24px;
-
-}
-
-
-.more h2{
-    font-size: 56px;
-    color: black;
-}
-
-.more p {
-    font-size: 20px;
-    color: #ffcc00;
-
-}
-
-h2{
-    font-size: 40PX;
-    font-style: italic;
-    font-family: cursive;
+.delete:hover{
+    background: red;
 }
 
 #gameForm{
     display: flex;
+    background-color: #333;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
     width: 300px;
     gap: 20px;
-    justify-content: center;
-    text-align: center;
     padding: 20px;
     margin: 20px;
     width: 50%;
@@ -251,22 +250,29 @@ h2{
 
 }
 #gameForm input{
-    padding: 8px;
-    border: 1px solid purple;
+    padding: 10px;
+    border: none;
     border-radius: 5px;
     background-color: black;
     color: white;
+    width: 80%;
 
 }
 
 #gameForm button{
     padding: 10px;
-    background-color: #ffcc00;
+    background-color: #ff4500;
     border-radius: 15px;
     color: #222;
     font-weight:bold ;
+    font-size: 1.5rem;
     cursor: pointer;
     border: none;
+    width: 60%;
+}
+
+#gameForm button:hover{
+  background-color: #ff5733;
 }
 
 #subscriptionPlans{
@@ -276,23 +282,36 @@ h2{
 }
 
 #playplus{
-    cursor: pointer;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    font-size: 20px;
-    width: 100%;
-    gap: 10px;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
 
+.basic, .premium{
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.basic, .premium:hover{
+    background-color: #444;
 }
 
 #footer{
-    justify-content: center;
-    text-align: center;
-    padding-top: 20px;
+    background-color: #222;
+    margin-top: 20px;
 
 }
-#footer div{
+#footer i{
     cursor: pointer;
+    margin: 5px;
+    font-size: 24px;
+
+}
+
+#footer i:hover{
+    color: #ff4500;
 }
